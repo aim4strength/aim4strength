@@ -1,0 +1,18 @@
+{% if page.auto-page %}
+<p class="uk-h2 mono uk-margin-remove">Filed Under</p>
+<!-- <hr class="uk-divider-small uk-text-center"> -->
+<p class="uk-h1 uk-margin-top">{{page.autopages.display_name}}</p>
+<!-- <hr class="double-bar"> -->
+{% endif %}
+<ul class="uk-list all-posts">
+  {% for post in paginator.posts %}
+    <li>
+      <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">
+        <img src="{{ post.image }}">
+        <h2 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom">{{ post.title | escape }}</h2>
+        <span class="date">&ndash; {{ post.date | date: "%B %-d, %Y" }} &ndash;</span>
+        <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}&emsp;<span class="mono">More &rarr;</span></p>
+        </a>
+    </li>
+  {% endfor %}
+</ul>

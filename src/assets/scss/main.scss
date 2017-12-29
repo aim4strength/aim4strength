@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'schola-regular';
+    src: url('../fonts/texgyreschola-regular-webfont.eot');
+    src: url('../fonts/texgyreschola-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/texgyreschola-regular-webfont.woff2') format('woff2'),
+         url('../fonts/texgyreschola-regular-webfont.woff') format('woff'),
+         url('../fonts/texgyreschola-regular-webfont.ttf') format('truetype'),
+         url('../fonts/texgyreschola-regular-webfont.svg#tex_gyre_scholaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+// Our variables
+$base-font-family: 'schola-regular', serif;
+$base-font-family: 'georgia', serif;
+// $base-font-family: "Fira Sans", sans;
+
+$sans-serif: 'Libre Franklin', sans-serif;
+// $sans-serif: 'Fira Sans Extra Condensed', sans-serif;
+$base-font-size:   26px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.55;
+
+$spacing-unit:     30px;
+
+$text-color:       #111111;
+$background-color: #fffff8;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}

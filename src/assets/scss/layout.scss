@@ -1,0 +1,10 @@
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: $white;
+  border-bottom: 1px solid $black;
+}
+
+
+@media (min-width: 1200px) {}
+.logo-list {
+    margin-left: 0;
+}

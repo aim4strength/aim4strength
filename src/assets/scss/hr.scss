@@ -1,0 +1,29 @@
+// .uk-divider-icon {
+//  position:relative;
+//  height: 25px;
+//  background-image:url("../images/cherries.svg");
+//  background-repeat:no-repeat;
+//  background-position:50% 50%;
+// }
+.lead hr {
+  border: 1px dashed $dark-pink;
+}
+
+.double-bar {
+  border-top: 6px double $black;
+  // margin-bottom: 1.414em;
+}
+
+.double-bar-post-top {
+  border-top: 6px double $black;
+  margin-bottom: 1.414em;
+}
+
+.double-bar-light {
+  border-top: 6px double $silver;
+  // margin-bottom: 1.414em;
+}
+
+// hr, [class*=uk-divider] {
+//   margin-bottom: 22px;
+// }

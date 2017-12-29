@@ -1,0 +1,9 @@
+<p class="uk-text-center uk-margin-small small"><i class="fa fa-folder-open-o" aria-hidden="true"></i>&ensp;Categories:</p>
+<ul class="uk-subnav categories uk-margin-remove" uk-margin>
+  {% assign categories = site.categories | sort %}
+  {% for category in categories %}
+      <li><a href="/category/{{ category | first | slugify }}/">
+              {{ category[0] | replace:'-', ' ' }}
+      </a></li>
+  {% endfor %}
+</ul>

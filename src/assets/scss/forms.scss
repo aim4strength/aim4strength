@@ -1,0 +1,10 @@
+.uk-input, .uk-select, .uk-textarea {
+  background: $white;
+  font-family: $mono;
+}
+
+.uk-input:focus, .uk-select:focus, .uk-textarea:focus {
+  border-color: $dark-pink;
+  background: $white;
+  color: $black;
+}

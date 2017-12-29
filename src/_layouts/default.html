@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <a href="top"></a> {% include hero.html %} {% include header.html %} {% include nav.html %}
+
+  <div class="uk-container uk-container-expand">
+    <div class="uk-child-width-expand@s uk-grid-large" uk-grid>
+      <div class="uk-width-1-5@m uk-visible@xl">
+        <div class="sidebar" style="z-index: 980;" uk-sticky="offset: 150">
+          {% include social-share.html %}
+          <hr> {% include side-lead.html %}
+        </div>
+      </div>
+      <div class="uk-width-2-5@xl uk-width-1-2@l uk-margin-medium-top">
+        <div class="algolia__initial-content js-algolia__initial-content">
+          {% if page.homepage %}
+          {% include top-lead.html %}
+          {% endif %}
+          {% if page.homepage or page.auto-page %}
+          {% include list-of-all-posts.html %}
+          {% else %}
+          {{ content }}
+          {% endif %}
+        </div>
+        <div class="algolia__search-content js-algolia__search-content">
+          <h1 class="page-title">Search</h1>
+          <ul class="uk-list uk-list-divider algolia__results"></ul>
+          <div class="uk-text-center uk-margin-medium-bottom">
+          <a href="https://www.algolia.com"><img class="mini-image" src="{{ site.url }}/assets/images/search-by-algolia.svg"></a>
+        </div>
+        <hr class="uk-margin-medium-bottom">
+        </div>
+        {% if page.no-bottom-lead %}
+        {% else %}
+        {% include end-lead.html %}
+        {% endif %}
+      </div>
+      {% include aside.html %}
+    </div>
+    {% include footer.html %}
+  </div>
+  {% if page.homepage %}
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  {% endif %}
+
+  <script>
+    window.ALGOLIA_CONFIG = {
+      'applicationId': '{{ site.algolia.application_id }}',
+      'indexName': '{{ site.algolia.index_name }}',
+      'apiKey': '{{ site.algolia.read_only_api_key }}',
+      'baseurl': '{{ site.baseurl }}'
+    }
+  </script>
+  <script id="algolia__template" type="text/template">
+    {% raw %}
+
+        <li class="uk-margin-medium">
+            <a class="algolia__result-link" href="{{ full_url }}">
+          <div class="uk-grid uk-margin-medium-top" uk-height-match="target: > div">
+            <div class="hit-image uk-width-1-3@m">
+              <img class="mini-image uk-float-left uk-margin-right" src="{{image}}" alt="{{name}}">
+            </div>
+            <div class="uk-width-2-3@m">
+              {{{ _highlightResult.title.value }}} {{#posted_at}}
+              <div class="algolia__result-date">{{ posted_at_readable }}</div>
+              {{/posted_at}}
+              <div class="algolia__result-text">{{{ _highlightResult.text.value }}}&emsp;<span class="mono">More &rarr;</span></div>
+            </div>
+          </div>
+          </a>
+        </li>
+
+    {% endraw %}
+  </script>
+  <script id="algolia__template--no-results" type="text/template">
+    No results found.
+  </script>
+  <script src="//cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/algoliasearch/3.6.0/algoliasearch.min.js"></script>
+  <script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
+  <script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
+  <script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
+
+  <!-- JS -->
+  <!-- inject:js -->
+  <!-- endinject -->
+
+</body>
+
+</html>

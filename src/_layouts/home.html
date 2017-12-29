@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+{% include home-head.html %}
+
+<body>
+  <h1 class="uk-heading-hero">Laura <span class="italic small">Theme</span></h1>
+  {% include header.html %}
+  {% include nav.html %}
+
+  <div class="uk-container uk-container-expand">
+    <div class="uk-child-width-expand@s uk-grid-large" uk-grid>
+      <div class="uk-width-1-5@m">
+        <div class="sidebar" style="z-index: 980;" uk-sticky="offset: 150">
+          {% include social-share.html %}
+          <hr> {% include side-lead.html %}
+        </div>
+      </div>
+      <div class="uk-width-2-5@m uk-margin-medium-top uk-margin-medium-bottom">
+
+        {% include list-of-all-posts.html %}
+        {% include end-lead.html %}
+        {% include pagination.html %}
+
+      </div>
+      {% include aside.html %}
+    </div>
+
+
+    <!-- JS -->
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
+</body>
+
+</html>
