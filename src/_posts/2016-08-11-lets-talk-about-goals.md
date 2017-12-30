@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Let’s Talk about Goals
-date: 2016-08-11 00:43:12+00:00
-image:
+date: 2016-08-11T00:43:12.000Z
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574379/lets-talk-about-goals.jpg
 categories:
-- Exercise
-- Julie's Story
-- Weightloss
+  - Exercise
+  - Julie's Story
+  - Weightloss
 ---
-
-![](http://www.aim4strength.com/wp-content/uploads/2016/08/lets-talk-about-goals-blog-01.jpg) What do American Ninja Warrior, Figure Competing, Powerlifting and marathon running all have in common? They are and have been my goals after losing my weight. These goals are pretty lofty, especially for an overweight, highly non-athletic, clumsy girl that had a hard time even walking to the cafeteria, and that is WITH motivation!
+What do American Ninja Warrior, Figure Competing, Powerlifting and marathon running all have in common? They are and have been my goals after losing my weight. These goals are pretty lofty, especially for an overweight, highly non-athletic, clumsy girl that had a hard time even walking to the cafeteria, and that is WITH motivation!
 
 I knew when I was losing my weight I would have a hell of a time keeping it off. I know in my own mind –  bigger is better, more is better – and that includes food, too. I had to be methodical in my weight loss when doing this contest. I mentioned previously that I started walking, which, by the way, for a large person hurts like hell. I knew, though, that I needed some kind of exercise and I needed to start right away. Once I entered the contest, I also started weight watchers and a walking group.
 

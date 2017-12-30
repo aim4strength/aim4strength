@@ -1,20 +1,18 @@
 ---
 layout: post
 title: Why Women Loathe Themselves
-date: 2017-11-27 03:53:45+00:00
-image:
+date: 2017-11-27T03:53:45.000Z
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574378/woman-exercising.jpg
 categories:
-- Opinion
+  - Opinion
 tags:
-- Enzyte
-- Media
-- Self Loathing
-- Weight loss
-- Women
+  - Enzyte
+  - Media
+  - Self Loathing
+  - Weight loss
+  - Women
 ---
-
-![using failure](http://www.aim4strength.com/wp-content/uploads/2016/12/IMG_8497.jpg)
-
 I was asking my husband what subject I should write about for my blog.  His answer took me by surprise.  “Write about why women hate themselves and men don’t.”  “We don’t hate ourselves,” I said, my voice an octave higher.  “See, you even get defensive over it.  You women hate yourselves.  You will never catch a man getting all emotional with a few lines on his face or a beer gut. We just don’t think like that.”
 
 
