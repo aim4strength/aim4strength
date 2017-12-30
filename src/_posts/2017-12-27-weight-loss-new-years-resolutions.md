@@ -1,19 +1,21 @@
 ---
 layout: post
 title: Weight Loss New Years Resolutions
-date: 2017-12-27 02:51:08+00:00
-image: https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
+start: 2017-12-01T16:00:00-08:00
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
 categories:
-- Exercise
-- Food and Diet
-- Weightloss
+  - Exercise
+  - Food and Diet
+  - Weightloss
 ---
-
 So many diets, so little time….Weight loss new years resolutions.  It's almost a cliche, isn't it? I know, because I used to do them every year, and still look forward to a new start, if I am to be completely honest.
 
 However, with every new start you have done, how many times have you failed?  I know I have failed many New Years Resolutions over the years.  Let me tell you why:
 
 **Because lasting change is hard to do _mic drop_.**
+
+![test](/assets/images/drink.png)
 
 What I mean by this is that we go into a new years resolution with a ton of motivation and many dreams of reaching our goals—which is especially true for weight loss.
 
@@ -23,7 +25,7 @@ Its like you are a freak of nature if you don’t have a New Years resolution ev
 
 So does that mean you should not make any New Years resolutions?  I mean, do you even keep them beyond March?
 
-Well, I say you**_ should_** make New Year’s Resolutions.  I am sure that surprises you, but I am all for getting hyped for a new start and a new year.  I love the way it makes me feel, and I love that I get to start over.
+Well, I say you_** should**_ make New Year’s Resolutions.  I am sure that surprises you, but I am all for getting hyped for a new start and a new year.  I love the way it makes me feel, and I love that I get to start over.
 
 _Caveat: you will have some bumps in the road._
 
