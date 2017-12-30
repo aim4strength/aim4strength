@@ -1,16 +1,14 @@
 ---
 layout: post
-date: 2017-12-27
 title: Weight Loss New Years Resolutions
-image: https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
-categories: [Exercise, Food and Diet, Weightloss]
 ---
-
 So many diets, so little time….Weight loss new years resolutions.  It's almost a cliche, isn't it? I know, because I used to do them every year, and still look forward to a new start, if I am to be completely honest.
+
+![test](/src/assets/images/drink.png)
 
 However, with every new start you have done, how many times have you failed?  I know I have failed many New Years Resolutions over the years.  Let me tell you why:
 
-**Because lasting change is hard to do *mic drop*.**
+**Because lasting change is hard to do _mic drop_.**
 
 What I mean by this is that we go into a new years resolution with a ton of motivation and many dreams of reaching our goals—which is especially true for weight loss.
 
@@ -34,7 +32,7 @@ So you imbibe.  You eat so much, that you look 8 months pregnant.  Now what?
 
 This is where your exit plan comes into play—You ate the chocolate.  Smile about it.  You ate it, I hope you enjoyed it!
 
-Now, you forgive yourself and move on.  You go right back to the plan you were doing.  Thats right, you got it out of your system.** **
+Now, you forgive yourself and move on.  You go right back to the plan you were doing.  Thats right, you got it out of your system.\*\* \*\*
 
 ** Don’t make it weird.**
 
@@ -42,7 +40,7 @@ Move on, get over it, and stop obsessing about how you screwed up.  What is don
 
 **Don’t start something you KNOW you can’t do. **
 
-** **
+\*\* \*\*
 
 We have all seen those people that are 400 pounds go to the gym, practically kill themselves with working out, and in a few days are in so much pain and suffering they feel like dying.
 
