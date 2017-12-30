@@ -66,10 +66,6 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-
-collections:
-- authors
-
 ############################################################
 # Site configuration for the Auto-Pages feature
 # The values here represent the defaults if nothing is set
