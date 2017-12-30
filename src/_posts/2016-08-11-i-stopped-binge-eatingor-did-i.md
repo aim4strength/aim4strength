@@ -1,14 +1,14 @@
 ---
 layout: post
 title: I stopped binge eating…or did I?
-date: 2016-08-11 00:44:06+00:00
-image:
+date: 2016-08-11T00:44:06.000Z
+image: >-
+  http://res.cloudinary.com/aim4strength/image/upload/v1514574378/chocolate-cake.jpg
 categories:
-- Food and Diet
-- Julie's Story
+  - Food and Diet
+  - Julie's Story
 ---
-
-![i-stopped-binge-eating-blog-01](http://www.aim4strength.com.vhost.zerolag.com/wp-content/uploads/2016/08/i-stopped-binge-eating-blog-01-1024x683.jpg)You probably think that since I have lost 160+ pounds that I have the food thing figured out, right? I mean, how can you lose that much weight without exercising your face off and eating all organic, whole foods you can get from your own back yard? In fact, when I go places with friends, they offer me cupcakes (OMG I absolutely LOVE cake) and say “well, since your thin now, you can eat that” or my personal favorite, “don’t be so militant, you only live once!”. WRONG!
+You probably think that since I have lost 160+ pounds that I have the food thing figured out, right? I mean, how can you lose that much weight without exercising your face off and eating all organic, whole foods you can get from your own back yard? In fact, when I go places with friends, they offer me cupcakes (OMG I absolutely LOVE cake) and say “well, since your thin now, you can eat that” or my personal favorite, “don’t be so militant, you only live once!”. WRONG!
 
 
 
