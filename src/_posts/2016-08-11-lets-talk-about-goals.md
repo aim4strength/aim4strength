@@ -2,6 +2,7 @@
 layout: post
 title: Let’s Talk about Goals
 date: 2016-08-11 00:43:12+00:00
+image:
 categories:
 - Exercise
 - Julie's Story

@@ -2,6 +2,7 @@
 layout: post
 title: How To Mitigate the Holiday 15
 date: 2017-12-05 16:19:23+00:00
+image: https://res.cloudinary.com/aim4strength/image/upload/v1514574379/keep-call-you-are-a-badass.png
 categories:
 - Food and Diet
 - Opinion

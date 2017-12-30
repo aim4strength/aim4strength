@@ -2,6 +2,7 @@
 layout: post
 title: Jumping into "American Ninja Warrior"
 date: 2017-12-01 15:53:44+00:00
+image:
 tags:
 - aim4strength fitness
 - American ninja warrior

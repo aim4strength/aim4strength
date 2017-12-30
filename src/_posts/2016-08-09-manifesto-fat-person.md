@@ -2,6 +2,7 @@
 layout: post
 title: Manifesto of a Fat Person
 date: 2016-08-09 17:26:03+00:00
+image:
 categories:
 - Exercise
 - Food and Diet

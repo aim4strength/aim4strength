@@ -2,6 +2,7 @@
 layout: post
 title: I stopped binge eating…or did I?
 date: 2016-08-11 00:44:06+00:00
+image:
 categories:
 - Food and Diet
 - Julie's Story
