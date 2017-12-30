@@ -1,10 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2017-11-27 03:53:45+00:00
 layout: post
 title: Why Women Loathe Themselves
-wordpress_id: 440
+date: 2017-11-27 03:53:45+00:00
 categories:
 - Opinion
 tags:

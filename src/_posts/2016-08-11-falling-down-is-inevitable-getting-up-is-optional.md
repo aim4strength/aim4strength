@@ -1,9 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2016-08-11 00:40:15+00:00
 layout: post
 title: Falling Down Is Inevitable. Getting up is Optional.
+date: 2016-08-11 00:40:15+00:00
 categories:
 - Weightloss
 - Weightloss Setbacks

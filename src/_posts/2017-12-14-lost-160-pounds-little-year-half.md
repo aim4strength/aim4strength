@@ -1,9 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2017-12-14 13:33:59+00:00
 layout: post
 title: How I lost 160 Pounds in a Little Over a Year and a Half
+date: 2017-12-14 13:33:59+00:00
 image: https://res.cloudinary.com/aim4strength/image/upload/v1514574375/how-I-lost-160-lbs.jpg
 categories:
 - Exercise

@@ -1,9 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2016-08-09 17:26:03+00:00
 layout: post
 title: Manifesto of a Fat Person
+date: 2016-08-09 17:26:03+00:00
 categories:
 - Exercise
 - Food and Diet

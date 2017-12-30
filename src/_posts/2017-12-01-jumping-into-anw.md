@@ -1,9 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2017-12-01 15:53:44+00:00
 layout: post
 title: Jumping into "American Ninja Warrior"
+date: 2017-12-01 15:53:44+00:00
 tags:
 - aim4strength fitness
 - American ninja warrior

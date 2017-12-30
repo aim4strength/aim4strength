@@ -1,9 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2017-12-27 02:44:11+00:00
 layout: post
 title: How to Stop Being a Poser
+date: 2017-12-27 02:44:11+00:00
 image: https://res.cloudinary.com/aim4strength/image/upload/v1514574374/dont-be-afraid-of-change.jpg
 categories:
 - Exercise

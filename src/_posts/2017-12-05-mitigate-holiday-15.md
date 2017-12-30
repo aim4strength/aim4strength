@@ -1,9 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2017-12-05 16:19:23+00:00
 layout: post
 title: How To Mitigate the Holiday 15
+date: 2017-12-05 16:19:23+00:00
 categories:
 - Food and Diet
 - Opinion

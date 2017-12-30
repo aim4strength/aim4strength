@@ -1,9 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2016-08-11 00:44:06+00:00
 layout: post
 title: I stopped binge eating…or did I?
+date: 2016-08-11 00:44:06+00:00
 categories:
 - Food and Diet
 - Julie's Story

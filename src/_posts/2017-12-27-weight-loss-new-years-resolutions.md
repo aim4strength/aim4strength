@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weight Loss New Years Resolutions
-start: 2017-12-02T00:00:00.000Z
+dates: 2017-12-02T00:00:00.000Z
 image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
 categories:

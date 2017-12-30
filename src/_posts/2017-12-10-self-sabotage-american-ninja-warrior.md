@@ -1,9 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2017-12-10 14:48:57+00:00
 layout: post
 title: Self Sabotage and American Ninja Warrior
+date: 2017-12-10 14:48:57+00:00
 image: https://res.cloudinary.com/aim4strength/image/upload/v1514574379/american-ninja-warrior.jpg
 categories:
 - Exercise

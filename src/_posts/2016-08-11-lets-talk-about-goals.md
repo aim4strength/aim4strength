@@ -1,10 +1,7 @@
 ---
-author: Julie Smith
-comments: false
-date: 2016-08-11 00:43:12+00:00
 layout: post
 title: Let’s Talk about Goals
-wordpress_id: 195
+date: 2016-08-11 00:43:12+00:00
 categories:
 - Exercise
 - Julie's Story
