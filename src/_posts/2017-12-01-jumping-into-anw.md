@@ -1,20 +1,20 @@
 ---
 layout: post
 title: Jumping into "American Ninja Warrior"
-date: 2017-12-01 15:53:44+00:00
-image:
+date: 2017-12-01T15:53:44.000Z
+image: test
 tags:
-- aim4strength fitness
-- American ninja warrior
-- diet
-- jumping
-- jumping spider
-- jumpingintoamericanninjawarrior
-- ninja
-- obese
-- training
-- warrior
-- workout
+  - aim4strength fitness
+  - American ninja warrior
+  - diet
+  - jumping
+  - jumping spider
+  - jumpingintoamericanninjawarrior
+  - ninja
+  - obese
+  - training
+  - warrior
+  - workout
 ---
 
 ![](http://www.aim4strength.com/wp-content/uploads/2017/12/ANW-logo-american-ninja-warrior-39681258-500-281.jpg)‘Merica….Ninja Warrior, That Is.
