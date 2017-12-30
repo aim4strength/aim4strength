@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Weight Loss New Years Resolutions
+date: 2017-12-27 02:51:08+00:00
+image: https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
+categories:
+- Exercise
+- Food and Diet
+- Weightloss
 ---
-So many diets, so little time….Weight loss new years resolutions.  It's almost a cliche, isn't it? I know, because I used to do them every year, and still look forward to a new start, if I am to be completely honest.
 
-![test](/src/assets/images/drink.png)
+So many diets, so little time….Weight loss new years resolutions.  It's almost a cliche, isn't it? I know, because I used to do them every year, and still look forward to a new start, if I am to be completely honest.
 
 However, with every new start you have done, how many times have you failed?  I know I have failed many New Years Resolutions over the years.  Let me tell you why:
 
