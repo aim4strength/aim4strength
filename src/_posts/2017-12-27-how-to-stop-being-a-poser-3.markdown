@@ -1,12 +1,10 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2017-12-27 02:44:11+00:00
 layout: post
-link: http://www.aim4strength.com/how-to-stop-being-a-poser-3/
-slug: how-to-stop-being-a-poser-3
 title: How to Stop Being a Poser
-wordpress_id: 489
+image: https://res.cloudinary.com/aim4strength/image/upload/v1514574374/dont-be-afraid-of-change.jpg
 categories:
 - Exercise
 - Food and Diet
@@ -51,7 +49,7 @@ So, even though we made new connections, the old ones may still be present.  We
 
 
 
- 	
+
   * Stop listening to that voice.  Like, go deaf to that horrid little naysayer _right this very minute!_
 
 
@@ -63,12 +61,12 @@ music.
 
 
 
- 	
+
   * Make your plan and stick to it.  If you don’t, she will get louder, call you all kinds of names, and try to derail your progress that you have made.  If I don’t write things down, I will likely become paralyzed to the she-devil voice and listen to it.  She loves when I am paralyzed with fear, and she gets louder.  I feel like I am back in 6th grade being tormented by a bully….
 
 
 
- 	
+
   * When you fail, fall off the wagon, screw up, know that it is temporary.  If you are trying to become something better in your life, that voice will get louder, screaming that you are a big fat poser.  You have to remember that she is your insecurity talking.  She is still you, just with a fouler mouth and a ton more fears.  Be kind to her, but firm.  Drown her out kindly.  If you listen to her, don’t get pissed at yourself.  Just take a deep breath and regroup.  Then, shut that biotch down and ignore her.
 
 

@@ -1,12 +1,9 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2016-08-11 00:40:15+00:00
 layout: post
-link: http://www.aim4strength.com/falling-down-is-inevitable-getting-up-is-optional/
-slug: falling-down-is-inevitable-getting-up-is-optional
 title: Falling Down Is Inevitable. Getting up is Optional.
-wordpress_id: 191
 categories:
 - Weightloss
 - Weightloss Setbacks
@@ -28,6 +25,3 @@ His words were ones I will never forget. "So, you’re going to let those women 
 
 
 I learned through this experience that you don't have success without hardships and difficulties. I implore you not to listen to those cackling hens or naysayers. Listen to what your heart is saying. I am so grateful to those four angels-they have made me a tougher person, a person who doesn't quit in difficult times. Don't let others define you. You get to make the rules when it comes to your dreams and desires!
-
-
-

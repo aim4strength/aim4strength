@@ -1,12 +1,9 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2017-12-05 16:19:23+00:00
 layout: post
-link: http://www.aim4strength.com/mitigate-holiday-15/
-slug: mitigate-holiday-15
 title: How To Mitigate the Holiday 15
-wordpress_id: 456
 categories:
 - Food and Diet
 - Opinion
@@ -31,19 +28,19 @@ Here are some tips I use that can mitigate the “holiday 15.”
 
 
 
- 	
+
   1. Make a plan.  I know I wont be too popular with this tip, but its my top tip for mitigating the holiday weight gain.  Make a plan.  Write it down.  Stick to it.  If you fall off that plan, forgive yourself and move on—dont make it a slippery slope.
 
- 	
+
   2. Eat like you normally do.  I know.  You want me to tell you to eat all the cake.  I would like that, too, but its not feasible.  When I say eat normally, I mean eat the way you always do with a slight caveat—if you know you are going to a party that has tons of stuff, eat light that day, and at night try_ everything_.  Don’t gorge yourself, though.  Christmas and parties are only isolated days, so pick like 2 days during that week that you will be participating in eating crap.  Adjust your calories or your macros and guestmate.  Don’t weigh the next day, either.
 
- 	
+
   3. Know that willower is dumb.  _What?_ I don’t believe in willpower.  I am a strong woman who can do anything I set my mind to, but could never lose weight. It means that I just didn’t know how to make my weight loss happen step by step.  Willpower is a word (at least to me) that means only a select few can have it, and the rest of us don’t have what it takes.  Such BS!   I believe that it is habit that creates success, not willpower.
 
- 	
+
   4. Drink a ton.  Not alcohol—I meant water.  Water is totally the bane of my existence, and if I never had to drink it again, I wouldn’t.  I don’t like it.  With that being said, if I get desperate enough in a bad situation, I will drink it because I want to not eat all things cake related.  Well, I do, but I don’t want to feel horrible about myself because I got chocolate wasted the night before.
 
- 	
+
   5. Remember what the holidays are about.  Hint-its not_ all_ about food.  I get that you want to make something special for your family, but it doesn’t have to be crap food. Look online-they have healthy choices for every type of food, and Grandma and Grandpa or Uncle Joe don’t have to know what you’re doing in the kitchen.  Some of that stuff is really good and you can’t taste the difference, and some of it you can.  Experiment.  Laugh about it, have fun doing it.  Get the kids involved in making something different this year.  If you come at it like you are doing it for fun or a challenge, you may have buy in from the fam bam.  If you come at it like, “we are so unhealthy, we are going to make stuff that is healthier and doesn’t taste as good,” you may have a Christmas mutany on your hands.
 
 

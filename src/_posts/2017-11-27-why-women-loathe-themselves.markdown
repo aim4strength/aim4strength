@@ -1,10 +1,8 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2017-11-27 03:53:45+00:00
 layout: post
-link: http://www.aim4strength.com/why-women-loathe-themselves/
-slug: why-women-loathe-themselves
 title: Why Women Loathe Themselves
 wordpress_id: 440
 categories:
@@ -31,19 +29,19 @@ How in the world can we change our way of thinking, then,  to become more satis
 
 
 
- 	
+
   * Stop watching TV.  Yup.  Turn off that boob tube.  If you have to, get it out of the room.  In truth, you are actually being brainwashed.  I know, a little extreme.  But is it?  Marketers know that if you hear an ad the first time, its likely not going to phase you.  The 330th  time you hear it,  though, may compulsively call you to buy their product or service. Everyone is susceptible to that, man or woman.  However, I believe that the bulk of products (well, maybe not Enzyte) are being targeted toward women.
 
- 	
+
   * Delete Instagram and Facebook.  Another crazy, over the top thing to do.  However-I can tell you what I do on instagram.  I look at other girls.  No, not in a sleazy way. I do it to compare myself.  I like this girls butt.  I want to have so-in-so’s legs.  What do they eat in a day?  Why does my life suck compared to theirs?  I really don’t see dudes doing that.  If my husband had all these other good-looking men on his instagram and said “hey, do you think I could look like him if I go to the gym more?”  It would totally creep me out.  I do that to him all the time, though. Now, I am not talking forever.  Just a short time.  Maybe a week, maybe a month.  A break may be needed especially if you take an hour or two out of your day just to see other women doing  duck-lipped selfies and sticking their amazing booties out for all the world to see.
 
- 	
+
   * When you think of a negative comment to say to yourself, stop.  Think about how you are bombarded every day with marketing ads that tell you that you aren’t good enough, pretty enough or smart enough.  Just be kind to yourself.  How about you tell yourself something nice?  Something like, “I have a lovely nose.”  Then_ stop_ there.  Don’t say “I have a lovely nose, its way better than Marthas.”  That is a comparison.  Also, its kind of mean.  So stop comparing and stop being mean, especially to yourself.
 
- 	
+
   * Hang with people that care about you, not what you look like or what you have. Yup. For years I hung out with takers, people who made me feel dirty and crappy about myself. They sucked me dry and made me feel like i wasn’t worth much. This happened especially when I was at my top weight of 300 pounds.  I have to say, the fault was mine.  I felt like I was nothing, so I was ok with being treated like I was nothing.  Had I thought higher of myself, then I certainly wouldn’t have wasted my time on people that didn’t have my best interest at heart.
 
- 	
+
   * Wake up and think of 3 things you are grateful for.  Like,_ every single day.  _Sometimes, it can be hard, especially if you are the “glass half empty” kind of gal.  Its amazing how far this seemingly stupid step can be.
 
 

@@ -1,12 +1,9 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2016-08-09 17:26:03+00:00
 layout: post
-link: http://www.aim4strength.com/manifesto-fat-person/
-slug: manifesto-fat-person
 title: Manifesto of a Fat Person
-wordpress_id: 93
 categories:
 - Exercise
 - Food and Diet
@@ -55,6 +52,3 @@ So in short, be kind. Be good to others. See that our differences are not all th
 
 
 [download full movie Kong: Skull Island 2017](https://moviesbin.com/watch/movie/293167/kong-skull-island-2017.php)[Beauty and the Beast streaming](http://moviesdsa.com/en/watch/501810/Beauty-and-the-Beast-2017.html)
-
-
-

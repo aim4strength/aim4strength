@@ -1,12 +1,10 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2017-12-27 02:51:08+00:00
 layout: post
-link: http://www.aim4strength.com/weight-loss-new-years-resolutions/
-slug: weight-loss-new-years-resolutions
 title: Weight Loss New Years Resolutions
-wordpress_id: 491
+image: https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
 categories:
 - Exercise
 - Food and Diet

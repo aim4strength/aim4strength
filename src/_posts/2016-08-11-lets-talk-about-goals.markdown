@@ -1,10 +1,8 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2016-08-11 00:43:12+00:00
 layout: post
-link: http://www.aim4strength.com/lets-talk-about-goals/
-slug: lets-talk-about-goals
 title: Let’s Talk about Goals
 wordpress_id: 195
 categories:

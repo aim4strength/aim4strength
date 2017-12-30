@@ -1,12 +1,10 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2017-12-10 14:48:57+00:00
 layout: post
-link: http://www.aim4strength.com/self-sabotage-american-ninja-warrior/
-slug: self-sabotage-american-ninja-warrior
 title: Self Sabotage and American Ninja Warrior
-wordpress_id: 461
+image: https://res.cloudinary.com/aim4strength/image/upload/v1514574379/american-ninja-warrior.jpg
 categories:
 - Exercise
 - Julie's Story

@@ -1,12 +1,9 @@
 ---
-author: admin
+author: Julie Smith
 comments: false
 date: 2016-08-11 00:44:06+00:00
 layout: post
-link: http://www.aim4strength.com/i-stopped-binge-eatingor-did-i/
-slug: i-stopped-binge-eatingor-did-i
 title: I stopped binge eating…or did I?
-wordpress_id: 197
 categories:
 - Food and Diet
 - Julie's Story
@@ -38,6 +35,3 @@ So, how do you stop binging? Before losing the weight, every diet plan or every 
 
 
 So, in closing, I hope you realize that fear and self-loathing does nothing but keep you stuck in a vicious circle that keeps you stagnant. You CAN lose weight if you are a binger—it absolutely can be done, but you have to change your mindset and your ideas of what success is.
-
-
-
