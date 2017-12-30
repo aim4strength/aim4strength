@@ -2,7 +2,8 @@
 layout: post
 title: Jumping into "American Ninja Warrior"
 date: 2017-12-01T15:53:44.000Z
-image: test
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574377/american-ninja-warrior-logo.jpg
 tags:
   - aim4strength fitness
   - American ninja warrior
