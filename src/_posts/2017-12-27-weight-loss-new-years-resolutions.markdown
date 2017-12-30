@@ -1,8 +1,6 @@
 ---
-author: Julie Smith
-comments: false
-date: 2017-12-27 02:51:08+00:00
 layout: post
+date: 2017-12-27
 title: Weight Loss New Years Resolutions
 image: https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
 categories:
