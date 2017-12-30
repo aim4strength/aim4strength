@@ -3,10 +3,7 @@ layout: post
 date: 2017-12-27
 title: Weight Loss New Years Resolutions
 image: https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
-categories:
-- Exercise
-- Food and Diet
-- Weightloss
+categories: [Exercise, Food and Diet, Weightloss]
 ---
 
 So many diets, so little time….Weight loss new years resolutions.  It's almost a cliche, isn't it? I know, because I used to do them every year, and still look forward to a new start, if I am to be completely honest.
