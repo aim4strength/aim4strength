@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weight Loss New Years Resolutions
-start: 2017-12-01T16:00:00-08:00
+start: 2017-12-02T00:00:00.000Z
 image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
 categories:
@@ -15,8 +15,6 @@ However, with every new start you have done, how many times have you failed?  I
 
 **Because lasting change is hard to do _mic drop_.**
 
-![test](/assets/images/drink.png)
-
 What I mean by this is that we go into a new years resolution with a ton of motivation and many dreams of reaching our goals—which is especially true for weight loss.
 
 It has become the norm to start a diet on January 1st of every year.
@@ -25,7 +23,7 @@ Its like you are a freak of nature if you don’t have a New Years resolution ev
 
 So does that mean you should not make any New Years resolutions?  I mean, do you even keep them beyond March?
 
-Well, I say you_** should**_ make New Year’s Resolutions.  I am sure that surprises you, but I am all for getting hyped for a new start and a new year.  I love the way it makes me feel, and I love that I get to start over.
+Well, I say you**_ should_** make New Year’s Resolutions.  I am sure that surprises you, but I am all for getting hyped for a new start and a new year.  I love the way it makes me feel, and I love that I get to start over.
 
 _Caveat: you will have some bumps in the road._
 
