@@ -1,14 +1,15 @@
 ---
 layout: post
 title: Falling Down Is Inevitable. Getting up is Optional.
-date: 2016-08-11 00:40:15+00:00
-image:
+date: 2016-08-11T00:40:15.000Z
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574377/falling-down-is-inevitable.jpg
 categories:
-- Weightloss
-- Weightloss Setbacks
+  - Weightloss
+  - Weightloss Setbacks
 ---
 
-![falling-down-is-inevitable-blog-01](http://www.aim4strength.com.vhost.zerolag.com/wp-content/uploads/2016/08/falling-down-is-inevitable-blog-01-1024x683.jpg)Sometimes the things that you think are the worst things to happen to you are actually blessings in disguise. This is what happened to me in late 2009. I was doing last minute Christmas shopping with a friend. I had been losing weight and was down to about 255 from 300 lbs, and I was feeling better than I had in years. We were leaving, and I fell off the curb. Four women rushed to me, and before I could mumble an embarrassed "I'm ok", one of the women started to point and laugh, "look at that big fat pig on the ground!" The others chimed in, and they were laughing and pointing at me [generic antabuse australia](http://biturlz.com/YitfAGH). They started saying things too, and my friend whisked me out of there. I was not only embarrassed, but felt deep shame. I was basically catatonic on the ride home.
+Sometimes the things that you think are the worst things to happen to you are actually blessings in disguise. This is what happened to me in late 2009. I was doing last minute Christmas shopping with a friend. I had been losing weight and was down to about 255 from 300 lbs, and I was feeling better than I had in years. We were leaving, and I fell off the curb. Four women rushed to me, and before I could mumble an embarrassed "I'm ok", one of the women started to point and laugh, "look at that big fat pig on the ground!" The others chimed in, and they were laughing and pointing at me [generic antabuse australia](http://biturlz.com/YitfAGH). They started saying things too, and my friend whisked me out of there. I was not only embarrassed, but felt deep shame. I was basically catatonic on the ride home.
 
 
 
