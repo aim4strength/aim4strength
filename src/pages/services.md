@@ -17,8 +17,6 @@ The people that attend Aim 4 Strength’s Group Classes are there to get serious
 
 If you have ever wanted to be a drummer, this is the class for you. POUND® is an energizing cardio session using weighted drum sticks. In a POUND® class you don’t just hear the music, you actually jam with the music. It is a fun approach to getting excellent exercise and can help you burn up to 450 calories in a single 30-minute session.  Your instructor, Julie Smith, is a POUND PRO® and can help you have fun while getting fit.  Don’t know how to drum, no problem! We will teach you everything you need to know.
 
-
-
 Upcoming Dates / Times at Ford Park:
 
 * ~~Wednesday, December 06 @ 5:30 PM~~
@@ -40,3 +38,5 @@ Upcoming Dates / Times at Ford Park:
 <div id="embedded-map-canvas" style="height: 100%; width: 100%; max-width: 100%;">
 
 <p style="text-align: left;"><iframe style="border: 0px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.268311923807!2d-117.16173428476682!3d34.04235202569861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db56086c8c66e5%3A0x5c9681b009f666a9!2s1355+E+Redlands+Blvd%2C+Redlands%2C+CA+92374!5e1!3m2!1sen!2sus!4v1496431240884" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+</div>
