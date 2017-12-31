@@ -3,38 +3,46 @@ layout: default
 title: Services
 permalink: /services/
 ---
-# Group Fitness Classes
+# About / Services
 
-Group Fitness Classes are a great way to have some fun and get in shape at the same time with a fraction of the cost of an individual personal trainer.
+A4S mission statement maybe isn’t a true mission statement; however, it IS what this company is founded on—bringing strength to others who are in need of it.  I am not talking physical strength per se, but an overall strength of self that comes from having to go through the trials of life which can sometimes leave us  scarred and battered.   A4S wants to bring to others a sense of self love that was not there before through tests of physical strength and also by helping one work through their own unique inner conflicts that keep us unhappy and in a place that we don’t want to be in.  A4S does this by not only challenging each client physically, but by working together with each client to find their  personal strengths AND their weaknesses so that they can work on their individual life path. Each person is a unique individual and as such each client is treated uniquely.  The goals of A4S is to help bring out a clients individual strength, whether it be Spartan racing or getting out of a chair to walk across a room.  One is not better than the other—each is an individual goal that is obtained through hard work and goal setting.
 
-The people that attend Aim 4 Strength’s Group Classes are there to get serious about their workout, but are also there to meet new friends and socialize in a supportive environment. These classes will leave you feeling healthier after just the first 30 minutes. We are all on this road to a stronger life together; so why not have some travel companions along the way?
+Personal In-Home Training
 
-**Don’t wait! Let us know that you will be joining us this weekend for one of our Group Fitness Classes, and you can see the benefits for yourself.**
+Personal In-Home Training is offered by Julie Smith to clients who want to exercise in the comfort and privacy of their own home. Many clients find the gym intimidating and embarrassing. But with Julie at your home you can have train with confidence, knowing you are making strides toward a healthier version of you. Julie pays special attention to your individual goals and benchmarks while helping you find ways to work around any pre-existing injuries or conditions. This is a tailor made workout program designed around you with the accountability and expertise of a coach who will help motivate you.
 
-## **Available Group Fitness Classes**
+Learn about Julie’s weight loss journey and what inspired her to start [in-home fitness training.](/meet-julie/)
 
-**POUND® Fitness Classes**
 
-If you have ever wanted to be a drummer, this is the class for you. POUND® is an energizing cardio session using weighted drum sticks. In a POUND® class you don’t just hear the music, you actually jam with the music. It is a fun approach to getting excellent exercise and can help you burn up to 450 calories in a single 30-minute session.  Your instructor, Julie Smith, is a POUND PRO® and can help you have fun while getting fit.  Don’t know how to drum, no problem! We will teach you everything you need to know.
 
-Upcoming Dates / Times at Ford Park:
+Corporate Training Programs
 
-* ~~Wednesday, December 06 @ 5:30 PM~~
+Julie Smith, and her team at Aim4Strength, can help your organization become energized, focused, and healthier by working out together as a team. Corporate Training programs involve the entire office (from 2 people to 100 people) and allow you to help your employees gain the benefits of a healthier lifestyle. Employers love office training sessions because of the productivity boosts that last days after a workout.
 
-**Boot Camp Classes**
 
-Boot Camp with Julie Smith focuses on functional body weight training. Which means you don’t need any equipment to get fit. Don’t be fooled, just because you are not pumping iron, that does not mean your muscles won’t burn during the session. You will burn fat and build muscle using proven techniques in a fun group setting. Everyone at the class is there for the same reason, and everyone is rooting for you. Beginners to experts welcome.
 
-Upcoming Dates / Times at Ford Park:
+Schools and Universities also benefit from Corporate Training. Whether it is a group of Teachers, Professors, or Students, everyone is healthier and more attentive after a workout session.
 
-* Wednesday, December 06 @ 5:30 PM
 
-## Locations
 
-### Ford Park
+To discuss creating a corporate fitness program for your company, click here to submit an inquiry form.
 
-<div class="google-embed-map">
 
-<div id="embedded-map-canvas" style="height: 100%; width: 100%; max-width: 100%;">
 
-<p style="text-align: left;"><iframe style="border: 0px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.268311923807!2d-117.16173428476682!3d34.04235202569861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db56086c8c66e5%3A0x5c9681b009f666a9!2s1355+E+Redlands+Blvd%2C+Redlands%2C+CA+92374!5e1!3m2!1sen!2sus!4v1496431240884" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p></div></div>
+Group Excercise Classes
+
+Every weekend Group Fitness classes allow you to get fit in fun social environment. Aim4Strength offers Boot Camps and POUND® Fitness classes in the Inland Empire that last 30 minutes and give you a great workout while a good time with friends. Whether you are an expert, or a fitness beginner, Group Fitness Classes offer you the opportunity to exercise in collaborative environment where everyone is rooting for your success.
+
+
+
+Visit our class schedule page to view available group fitness classes.
+
+
+
+1:1 Coaching
+
+Julie Smith offers coaching sessions for individuals from across the country who don’t live in the Southern California area, but want to benefit from a coach who can help them to achieve their fitness goals. As someone who has been through her own weight loss journey, losing over 160 lbs., Julie’s unique insight, consistent motivation, and strong accountability help her coaching clients see results.
+
+
+
+If you need a coach to guide you through your weight loss journey click here to get started.
