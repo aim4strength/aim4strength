@@ -2,6 +2,8 @@
 layout: default
 homepage: true
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Aw6g3swRYOo?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 # Personalized Fitness Training
 
 At Aim4Strength Fitness we offer personalized in-home fitness training for clients who are looking to transform their lives. Our programs are tailored to each client’s specific goals and objectives and workouts are modified to accommodate any existing medical conditions. Aim4Strength’s in-home service allows clients to workout at their specific pace and in the comfort of their home. Aim4Strength works with clients to help them realize their potential to transform their lives physically, mentally and spiritually. A weight loss journey is as much physical as it is mental, and at Aim4Strength we ensure both aspects are given equal attention.
