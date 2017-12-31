@@ -45,7 +45,5 @@ collections: # A list of collections the CMS should be able to edit
         file: "src/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
-          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-          - {label: "Permalink", name: "permalink", widget: "string"}
           - {label: "Homepage", name: "homepage", widget: "hidden", default: "true"}
           - {label: "Body", name: "body", widget: "markdown"}
