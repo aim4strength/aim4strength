@@ -664,7 +664,8 @@ img {
   padding-bottom: 1em; }
 
 .hero {
-  padding: 0; }
+  padding: 0;
+  border-bottom: 5px solid #003399; }
 
 .footer {
   padding-top: .5em;
