@@ -18,8 +18,8 @@
         <div>
           {% if page.homepage %}
           {% include top-lead.html %}
-          {% endif %}  
-          {{ content }}
+          {% endif %}
+          {% include list-of-all-posts.html %}
         </div>
         {% if page.no-bottom-lead %}
         {% else %}

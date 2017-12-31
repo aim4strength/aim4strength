@@ -46,8 +46,3 @@ wish there was. Anyone who says they have all the answers is a liar—don’t fa
 
 
 So in short, be kind. Be good to others. See that our differences are not all that different. Everyone has insecurities-fat OR thin. Don’t make fun of fat people. Try to understand one another. If you are a fat person reading this, there IS hope. You CAN lose weight. Is it easy? HELL NO it is not, but neither is being fat, so either way you have to swim uphill. Will you swim uphill feeling insecure and demeaned by others or swim uphill and control your life circumstances and become healthier? Notice I did not say skinny. I want you to take control of your life and emotions and think about making each day better, not what you hate about yourself, not about negative self-talk. No, the only way you become free is by changing your head—once you do that, then exercise and eating better will come little by little. Don’t be a victim, become victorious!
-
-
-
-
-[download full movie Kong: Skull Island 2017](https://moviesbin.com/watch/movie/293167/kong-skull-island-2017.php)[Beauty and the Beast streaming](http://moviesdsa.com/en/watch/501810/Beauty-and-the-Beast-2017.html)

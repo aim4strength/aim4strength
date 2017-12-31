@@ -19,8 +19,7 @@ I walked into my house, defeated. At that time in my weight loss journey, my hus
 
 
 
-His words were ones I will never forget. "So, you’re going to let those women win, huh?" "What?" I looked up at him incredulously. "That's not the Julie I know. She's stronger than that. So, if you want food, get it yourself." I cried. My tears were happy this time. I went on to lose my weight, and had many other trials that rivaled this one you are reading about.[movie Now You See Me 2 streaming](http://movieclose.com/movie/509782/now-you-see-me-2-2016.html)
-
+His words were ones I will never forget. "So, you’re going to let those women win, huh?" "What?" I looked up at him incredulously. "That's not the Julie I know. She's stronger than that. So, if you want food, get it yourself." I cried. My tears were happy this time. I went on to lose my weight, and had many other trials that rivaled this one you are reading about.
 
 
 
