@@ -392,49 +392,16 @@ template {
 [hidden] {
   display: none; }
 
-@font-face {
-  font-family: 'schola-regular';
-  src: url("../fonts/texgyreschola-regular-webfont.eot");
-  src: url("../fonts/texgyreschola-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/texgyreschola-regular-webfont.woff2") format("woff2"), url("../fonts/texgyreschola-regular-webfont.woff") format("woff"), url("../fonts/texgyreschola-regular-webfont.ttf") format("truetype"), url("../fonts/texgyreschola-regular-webfont.svg#tex_gyre_scholaregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Latin Mono';
-  src: url("../fonts/lmmono10-regular-webfont.eot");
-  src: url("../fonts/lmmono10-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lmmono10-regular-webfont.woff2") format("woff2"), url("../fonts/lmmono10-regular-webfont.woff") format("woff"), url("../fonts/lmmono10-regular-webfont.ttf") format("truetype"), url("../fonts/lmmono10-regular-webfont.svg#latin_modern_mono10_regular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Latin Mono Caps';
-  src: url("../fonts/lmmonocaps10-regular-webfont.eot");
-  src: url("../fonts/lmmonocaps10-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lmmonocaps10-regular-webfont.woff2") format("woff2"), url("../fonts/lmmonocaps10-regular-webfont.woff") format("woff"), url("../fonts/lmmonocaps10-regular-webfont.ttf") format("truetype"), url("../fonts/lmmonocaps10-regular-webfont.svg#latin_modern_mono_caps10Rg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Olympia Script';
-  src: url("../fonts/olympia_script-webfont.woff2") format("woff2"), url("../fonts/olympia_script-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Olympia';
-  src: url("../fonts/olympia_congress-webfont.woff2") format("woff2"), url("../fonts/olympia_congress-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
 html {
   font-size: 1em;
-  background-color: #fbf9f4; }
+  background-color: white; }
 
 body {
   font-weight: 500;
   font-family: "Merriweather", serif;
   color: #111111;
-  font-size: 29px;
-  line-height: 1.55; }
+  font-size: 20px;
+  line-height: 1.75; }
 
 @media all and (max-width: 640px) and (min-width: 320px) {
   body {
@@ -451,8 +418,7 @@ p {
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
   font-family: "Merriweather", serif;
-  letter-spacing: .07em;
-  text-align: center; }
+  letter-spacing: .07em; }
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
   margin: 1.414em 0 0;
@@ -504,10 +470,10 @@ a:link, a:visited, a:hover {
 .content a:link, .content a:visited, .content a:hover {
   text-decoration: none;
   color: #111111;
-  background: linear-gradient(#fbf9f4, #fbf9f4), linear-gradient(#fbf9f4, #fbf9f4), linear-gradient(#111111, #111111);
+  background: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(#111111, #111111);
   background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
   background-repeat: no-repeat, no-repeat, repeat-x;
-  text-shadow: 0.03em 0 #fbf9f4, -0.03em 0 #fbf9f4, 0 0.03em #fbf9f4, 0 -0.03em #fbf9f4, 0.06em 0 #fbf9f4, -0.06em 0 #fbf9f4, 0.09em 0 #fbf9f4, -0.09em 0 #fbf9f4, 0.12em 0 #fbf9f4, -0.12em 0 #fbf9f4, 0.15em 0 #fbf9f4, -0.15em 0 #fbf9f4;
+  text-shadow: 0.03em 0 white, -0.03em 0 white, 0 0.03em white, 0 -0.03em white, 0.06em 0 white, -0.06em 0 white, 0.09em 0 white, -0.09em 0 white, 0.12em 0 white, -0.12em 0 white, 0.15em 0 white, -0.15em 0 white;
   background-position: 0% 93%, 100% 93%, 0% 93%; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -532,7 +498,7 @@ a {
 .all-posts > li > a {
   display: block;
   padding-bottom: .5em;
-  border-bottom: 6px double #fbf9f4;
+  border-bottom: 6px double white;
   transition: .5s;
   color: black; }
 
@@ -642,18 +608,18 @@ img {
   font-size: .8em; }
 
 .uk-input, .uk-select, .uk-textarea {
-  background: #fbf9f4;
+  background: white;
   font-family: "Latin Mono", mono; }
 
 .uk-input:focus, .uk-select:focus, .uk-textarea:focus {
   border-color: #CB5868;
-  background: #fbf9f4;
+  background: white;
   color: #111111; }
 
 .lead {
   font-family: "Merriweather", serif;
   font-weight: 500;
-  border: 6px double #fbf9f4;
+  border: 6px double white;
   padding: 1.5em;
   border-radius: 3px;
   line-height: 1.2em; }
@@ -666,7 +632,7 @@ img {
   font-size: .8em;
   font-weight: 500;
   color: #CB5868;
-  background: #fbf9f4;
+  background: white;
   border-radius: 3px;
   line-height: 1.2em;
   padding: 11px 45px 13px 0; }
@@ -716,7 +682,7 @@ img {
   font-size: 1.75em; }
 
 .uk-container-expand .uk-grid {
-  background: #fbf9f4; }
+  background: white; }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   border-bottom: 6px double #DDD !important; }
@@ -739,7 +705,7 @@ img {
   margin-top: .15em; }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: #fbf9f4;
+  background: white;
   border-bottom: 1px solid #111111; }
 
 .logo-list {

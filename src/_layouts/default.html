@@ -4,16 +4,18 @@
 {% include head.html %}
 
 <body>
-  <a href="top"></a> {% include header.html %} {% include nav.html %} {% include hero.html %}
+  <a href="top"></a>
+  {% include header.html %}
+  {% include nav.html %}
+  {% if page.homepage %}
+  {% include hero.html %}
+  {% endif %}
+
 
   <div class="uk-container uk-container-expand">
     <div class="uk-child-width-expand@s uk-grid-large" uk-grid>
       <div class="uk-width-1-5@m uk-visible@xl">
-        <div class="sidebar" style="z-index: 980;" uk-sticky="offset: 150">
-          <img src="https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png" alt="aim4strength logo"/>
-          {% include social-share.html %}
-          <hr> {% include side-lead.html %}
-        </div>
+        {% include left-aside.html %}
       </div>
       <div class="uk-width-2-5@xl uk-width-1-2@l uk-margin-medium-top">
         <div>
@@ -31,7 +33,7 @@
         {% include end-lead.html %}
         {% endif %}
       </div>
-      {% include aside.html %}
+      {% include right-aside.html %}
     </div>
     {% include footer.html %}
   </div>
