@@ -18,8 +18,12 @@
         <div>
           {% if page.homepage %}
           {% include top-lead.html %}
-          {% endif %}  
+          {% endif %}
+          {% if page.blog or page.auto-page %}
+          {% include list-of-all-posts.html %}
+          {% else %}
           {{ content }}
+          {% endif %}
         </div>
         {% if page.no-bottom-lead %}
         {% else %}

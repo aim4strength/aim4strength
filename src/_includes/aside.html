@@ -2,7 +2,9 @@
   <img class="uk-border-circle headshot" src="">
   <p class="small bio"><a href="{{ site.url }}/about">Learn more.</a></p>
   <hr>
+  {% if page.blog or page.auto-page %}
   {% include list-of-categories.html %}
-
+  {% include list-of-tags.html %}
+  {% endif %}
   <hr>
 </div>
