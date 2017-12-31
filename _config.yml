@@ -63,6 +63,11 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+collections:
+  posts:
+    output: true
+    permalink: blog/:year/:month/:title/
+
 ############################################################
 # Site configuration for the Auto-Pages feature
 # The values here represent the defaults if nothing is set
