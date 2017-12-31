@@ -47,9 +47,6 @@
 <loc>https://aim4strength.netlify.com/404/</loc>
 </url>
 <url>
-<loc>https://aim4strength.netlify.com/blog/</loc>
-</url>
-<url>
 <loc>https://aim4strength.netlify.com/contact/</loc>
 </url>
 <url>
@@ -66,6 +63,9 @@
 </url>
 <url>
 <loc>https://aim4strength.netlify.com/thank-you/</loc>
+</url>
+<url>
+<loc>https://aim4strength.netlify.com/blog/</loc>
 </url>
 <url>
 <loc>https://aim4strength.netlify.com/</loc>
