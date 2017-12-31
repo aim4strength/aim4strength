@@ -431,7 +431,7 @@ html {
 
 body {
   font-weight: 500;
-  font-family: "Lusitana", serif;
+  font-family: "Merriweather", serif;
   color: #111111;
   font-size: 29px;
   line-height: 1.55; }
@@ -450,7 +450,7 @@ p {
   margin: 0 0 1.414em 0; }
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
-  font-family: "Lusitana", serif;
+  font-family: "Merriweather", serif;
   letter-spacing: .07em;
   text-align: center; }
 
@@ -464,7 +464,7 @@ h1, .uk-h1 {
   font-size: 1.999em;
   line-height: 1em;
   letter-spacing: 0;
-  font-family: "Old Standard TT", serif;
+  font-family: "Merriweather Sans", sans-serif;
   text-transform: uppercase; }
 
 h2, .uk-h2 {
@@ -489,7 +489,7 @@ small, .small {
   font-weight: normal; }
 
 .script {
-  font-family: "Olympia Script", serif;
+  font-family: script;
   letter-spacing: -.01em;
   font-size: .5em;
   line-height: 1.7em; }
@@ -651,7 +651,7 @@ img {
   color: #111111; }
 
 .lead {
-  font-family: "Lusitana", serif;
+  font-family: "Merriweather", serif;
   font-weight: 500;
   border: 6px double #fbf9f4;
   padding: 1.5em;
@@ -662,7 +662,7 @@ img {
   margin-bottom: .5em; }
 
 .top-lead {
-  font-family: "Lusitana", serif;
+  font-family: "Merriweather", serif;
   font-size: .8em;
   font-weight: 500;
   color: #CB5868;
@@ -691,11 +691,14 @@ img {
 
 .uk-heading-hero {
   text-transform: none;
-  font-family: "Old Standard TT", serif;
+  font-family: "Merriweather Sans", sans-serif;
   margin-top: 1em;
   letter-spacing: .07em;
   color: #111111;
   padding-bottom: 1em; }
+
+.hero {
+  padding: 0; }
 
 .footer {
   padding-top: .5em;
