@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Class Schedule
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574377/Aim4Strength-Boot-Camp.jpg
 permalink: /class-schedule/
-featured-image:
-right-aside: true
 ---
+
 # Group Fitness Classes
 
 Group Fitness Classes are a great way to have some fun and get in shape at the same time with a fraction of the cost of an individual personal trainer.
