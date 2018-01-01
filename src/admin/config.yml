@@ -48,7 +48,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Homepage", name: "homepage", widget: "hidden", default: "true"}
           - {label: "Body", name: "body", widget: "markdown"}
-    files:
       - label: "Meet Julie"
         name: "Meet Julie"
         file: "src/meet-julie.md"
