@@ -6,8 +6,8 @@ no-bottom-lead: true
 ---
 
 <h1 class="visuallyhidden">{{ page.title }}</h1>
-<h2 class="uk-h3">Terms of Service</h2>
-<ul class="uk-margin-xlarge-bottom" uk-accordion>
+<h2 class="uk-h3 uk-margin-remove">Terms of Service</h2>
+<ul class="uk-margin-medium-bottom" uk-accordion>
 <li>
 <h3 class="uk-accordion-title">1. Terms</h3>
 <div class="uk-accordion-content">

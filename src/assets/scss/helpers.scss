@@ -84,9 +84,13 @@
   font-family: $sans-serif;
 }
 
+.red {
+
+}
 .underline {
   border-bottom: 4px solid $red;
   padding-top: 6px !important;
+  color: $red !important;
 }
 
 .excerpt {
