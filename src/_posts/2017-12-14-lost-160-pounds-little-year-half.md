@@ -1,20 +1,21 @@
 ---
 layout: post
 title: How I lost 160 Pounds in a Little Over a Year and a Half
-date: 2017-12-14 13:33:59+00:00
-image: https://res.cloudinary.com/aim4strength/image/upload/v1514574375/how-I-lost-160-lbs.jpg
+date: 2017-12-14T13:33:59.000Z
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574375/how-I-lost-160-lbs.jpg
 categories:
-- Exercise
-- Food and Diet
-- Weightloss
-- Weightloss Setbacks
+  - Exercise
+  - Food and Diet
+  - Weightloss
+  - Weightloss Setbacks
 tags:
-- diet
-- exercise
-- failure
-- How I lost 160 Pounds in a Little Over a Year
-- lose weight
-- plan
+  - diet
+  - exercise
+  - failure
+  - How I lost 160 Pounds in a Little Over a Year
+  - lose weight
+  - plan
 ---
 
 Yes, folks, it can be done, I am living proof.  You _can_ lose weight over 40.  Hell, you can lose weight at _any age._
@@ -29,7 +30,7 @@ It was not only annoying, but downright embarrassing.  I remember going into th
 
 I wanted to crawl in a hole and never come out.
 
-I really plodded through life_ knowing_ that I would never be a “normal-sized” person.  There was no hoping anymore; I lost that a long time ago.
+I really plodded through life _knowing_ that I would never be a “normal-sized” person.  There was no hoping anymore; I lost that a long time ago.
 
 Until…
 
@@ -57,17 +58,17 @@ Anything else was pretty intimidating because it had me going into a gym where I
 
 I thought long and hard, and felt this was my best option.  I knew I would have to walk first, and that was a lot less intimidating then gym work.
 
-**I started to exercise with a local running group. **The accountability was important to me, because obviously I had issues with it and knew that for the first few months I needed someone to push me.
+**I started to exercise with a local running group.** The accountability was important to me, because obviously I had issues with it and knew that for the first few months I needed someone to push me.
 
 I started walking at first, and let me tell you, (no filter) it was absolutely horrid my first day.  I walked 5 miles and thought I was going to die.  But I didn’t die, and I kept going.
 
 Eventually I did 1 full marathon and more than 25 half-marathons during my running journey.
 
-**Now what? ** Well, the next thing I did was to become the town cryer.  I told everyone about this contest.  I am talking _everyone. _From my hairdresser, to my family to the guy with the lazy eye at the grocery store-I told them all in detail what I had to do.
+**Now what?** Well, the next thing I did was to become the town cryer.  I told everyone about this contest.  I am talking _everyone._ From my hairdresser, to my family to the guy with the lazy eye at the grocery store-I told them all in detail what I had to do.
 
 I didn’t want to, believe me, I wanted to keep it secret, because if I failed, there would be no one staring and me thinking I was a big fat loser.
 
-I am sure you are saying to yourself, ok, thats all well and good, but how did you_ stay _on it?
+I am sure you are saying to yourself, ok, thats all well and good, but how did you _stay_ on it?
 
 Let me tell you, that was the biggest challenge for me and for anyone that has started a diet plan or an exercise plan-how in the hell do you stay on it?
 
@@ -79,7 +80,7 @@ However,  failure is thing for me. Failing made me the way I was and I didn’t
 
 But, I also knew myself well.  I knew that failure was gonna happen.  I mean, come on, its 6 months!  That is a long time to go without cake, if you know what I am saying…
 
-**So, I created the 49/51% rule. **This rule has absolutely, unequivocally saved my live and was the defining factor in _keeping my weight off_. Here is the deal.  I liked that I had accountability in the Weight Watchers group and my running group, but I knew at some point failure would happen.
+**So, I created the 49/51% rule.** This rule has absolutely, unequivocally saved my live and was the defining factor in _keeping my weight off_. Here is the deal.  I liked that I had accountability in the Weight Watchers group and my running group, but I knew at some point failure would happen.
 
 I also knew how I have reacted to failure in the past—I dove head first into a chocolate cake, thats how I reacted.  So, the 49/51 % rule was like a built-in fail-safe.
 
