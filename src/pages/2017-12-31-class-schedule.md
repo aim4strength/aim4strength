@@ -15,7 +15,7 @@ The people that attend Aim 4 Strength’s Group Classes are there to get serious
 
 ## **Available Group Fitness Classes**
 
-* **POUND® Fitness Classes**
+**POUND® Fitness Classes**
 
 If you have ever wanted to be a drummer, this is the class for you. POUND® is an energizing cardio session using weighted drum sticks. In a POUND® class you don’t just hear the music, you actually jam with the music. It is a fun approach to getting excellent exercise and can help you burn up to 450 calories in a single 30-minute session.  Your instructor, Julie Smith, is a POUND PRO® and can help you have fun while getting fit.  Don’t know how to drum, no problem! We will teach you everything you need to know.
 
@@ -25,7 +25,7 @@ Upcoming Dates / Times at [Ford Park:](https://www.google.com/maps/place/Ford+Pa
 
 
 
-* **Boot Camp Classes**
+**Boot Camp Classes**
 
 Boot Camp with Julie Smith focuses on functional body weight training. Which means you don’t need any equipment to get fit. Don’t be fooled, just because you are not pumping iron, that does not mean your muscles won’t burn during the session. You will burn fat and build muscle using proven techniques in a fun group setting. Everyone at the class is there for the same reason, and everyone is rooting for you. Beginners to experts welcome.
 
