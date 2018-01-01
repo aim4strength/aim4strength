@@ -1,5 +1,5 @@
 .uk-navbar-nav>li>a {
-  font-family: $mono;
+  font-family: $sans-serif;
   text-transform: none;
   color: $black;
   //font-weight: 500;
@@ -7,27 +7,38 @@
 
 .uk-navbar-nav>.uk-navbar-item>a {
   font-size: 1.75em;
+  border-right: 2px solid #169fe6;
   // text-transform: none;
 }
-
-.uk-container-expand .uk-grid {
-  background: $white;
-}
-
-.uk-navbar-container:not(.uk-navbar-transparent) {
-    border-bottom: 6px double $silver !important;
-    // border-left: 6px double #DDD !important;
-    // border-right: 6px double #DDD !important;
-    // padding-bottom: 3px;
-    // margin-bottom: 7px;
-}
-
-// .nav-wrap {
+//
+// .uk-container-expand .uk-grid {
 //   background: $white;
 // }
 
+.nav-logo {
+  height: 80px;
+}
+// .nav-wrap {
+//   border-bottom: 5px solid $blue;
+//   height: 50px;
+// }
+.nav {
+  background: #333333;
+  border-bottom: 2px solid #169fe6;
+}
+
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+  padding: 0 20px 0 0;
+  color: $white;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  border-bottom: 0 !important;
+  background: #333333 !important;
+}
+
 .uk-subnav>*>:first-child {
-  font-family: $mono;
+  font-family: $sans-serif;
   font-size: .8em;
   text-transform: none;
 }

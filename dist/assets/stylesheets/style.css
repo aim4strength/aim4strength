@@ -665,7 +665,8 @@ img {
 
 .hero {
   padding: 0;
-  border-bottom: 5px solid #003399; }
+  border-top: 5px solid #003399;
+  border-bottom: 5px solid #b90005; }
 
 .footer {
   padding-top: .5em;
@@ -675,7 +676,7 @@ img {
   margin-top: 0 !important; }
 
 .uk-navbar-nav > li > a {
-  font-family: "Latin Mono", mono;
+  font-family: "Merriweather Sans", sans-serif;
   text-transform: none;
   color: #111111; }
 
@@ -685,11 +686,17 @@ img {
 .uk-container-expand .uk-grid {
   background: white; }
 
+.nav-logo {
+  height: 80px; }
+
+.nav {
+  border-bottom: 5px solid #003399; }
+
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  border-bottom: 6px double #DDD !important; }
+  border-bottom: 0 !important; }
 
 .uk-subnav > * > :first-child {
-  font-family: "Latin Mono", mono;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: .8em;
   text-transform: none; }
 
