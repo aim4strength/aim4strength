@@ -711,6 +711,18 @@ img {
   position: relative;
   top: 4px; }
 
+.uk-navbar .uk-icon {
+  position: relative;
+  top: 3px; }
+
+.call {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1em;
+  color: #111111; }
+
+.nav-logo-mini {
+  height: 40px; }
+
 .nav {
   border-bottom: 3px solid #b90005; }
 
