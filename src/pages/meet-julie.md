@@ -3,7 +3,7 @@ layout: default
 title: Meet Julie
 permalink: /meet-julie/
 ---
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Aw6g3swRYOo?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></div>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/Aw6g3swRYOo?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></div>
 
 Hello, my friends! My name is Julie Smith. If you would have told me that I was going to become a personal trainer, I would have told you that you were crazy! I have been heavy all of my life—I do mean since age 5. At age 18 I was 200 pounds.
 
