@@ -408,10 +408,10 @@ body {
     font-size: 20px; } }
 
 ::-moz-selection {
-  background: #b90005; }
+  background: #F9E79F; }
 
 ::selection {
-  background: #b90005; }
+  background: #F9E79F; }
 
 p {
   margin: 0 0 1.414em 0; }
@@ -692,7 +692,7 @@ img {
 
 .footer {
   padding-top: .5em;
-  border-top: 6px solid #b90005 !important; }
+  border-top: 3px solid #b90005 !important; }
 
 .footer-wrap {
   margin-top: 0 !important; }
