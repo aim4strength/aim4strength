@@ -436,7 +436,8 @@ h1, .uk-h1 {
   line-height: 1em;
   letter-spacing: 0;
   font-family: "Merriweather Sans", sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: .03em; }
 
 h2, .uk-h2 {
   font-size: 1.414em;

@@ -25,6 +25,8 @@
           {% endif %}
           {% if page.blog or page.auto-page %}
           {% include list-of-all-posts.html %}
+          {% elsif page.is-post %}
+          {{ content }}
           {% else %}
           <img class="uk-margin-medium-bottom" src="{{ page.image }}" alt="{{ page.image-alt }}" />
           {{ content }}
