@@ -1,18 +1,19 @@
 ---
 layout: post
 title: How To Mitigate the Holiday 15
-date: 2017-12-05 16:19:23+00:00
-image: https://res.cloudinary.com/aim4strength/image/upload/v1514574379/keep-call-you-are-a-badass.png
+date: 2017-12-05T16:19:23.000Z
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574379/keep-call-you-are-a-badass.png
 categories:
-- Food and Diet
-- Opinion
-- Weightloss
+  - Food and Diet
+  - Opinion
+  - Weightloss
 tags:
-- Christmas
-- dieting tips
-- Holiday weight gain
-- how to mitigate holiday weight gain
-- willpower
+  - Christmas
+  - dieting tips
+  - Holiday weight gain
+  - how to mitigate holiday weight gain
+  - willpower
 ---
 
 Isn’t it funny how media switches from diet advice to “eat all things” during the Holidays?  I find it quite ironic how there is no happy medium between these things; you should be starving yourself with celery during the summertime and then gain at least 15 pounds during the holidays or you aren’t doing it up right.
@@ -40,7 +41,7 @@ Here are some tips I use that can mitigate the “holiday 15.”
   4. Drink a ton.  Not alcohol—I meant water.  Water is totally the bane of my existence, and if I never had to drink it again, I wouldn’t.  I don’t like it.  With that being said, if I get desperate enough in a bad situation, I will drink it because I want to not eat all things cake related.  Well, I do, but I don’t want to feel horrible about myself because I got chocolate wasted the night before.
 
 
-  5. Remember what the holidays are about.  Hint-its not_ all_ about food.  I get that you want to make something special for your family, but it doesn’t have to be crap food. Look online-they have healthy choices for every type of food, and Grandma and Grandpa or Uncle Joe don’t have to know what you’re doing in the kitchen.  Some of that stuff is really good and you can’t taste the difference, and some of it you can.  Experiment.  Laugh about it, have fun doing it.  Get the kids involved in making something different this year.  If you come at it like you are doing it for fun or a challenge, you may have buy in from the fam bam.  If you come at it like, “we are so unhealthy, we are going to make stuff that is healthier and doesn’t taste as good,” you may have a Christmas mutany on your hands.
+  5. Remember what the holidays are about.  Hint-its not _all_ about food.  I get that you want to make something special for your family, but it doesn’t have to be crap food. Look online-they have healthy choices for every type of food, and Grandma and Grandpa or Uncle Joe don’t have to know what you’re doing in the kitchen.  Some of that stuff is really good and you can’t taste the difference, and some of it you can.  Experiment.  Laugh about it, have fun doing it.  Get the kids involved in making something different this year.  If you come at it like you are doing it for fun or a challenge, you may have buy in from the fam bam.  If you come at it like, “we are so unhealthy, we are going to make stuff that is healthier and doesn’t taste as good,” you may have a Christmas mutany on your hands.
 
 
 That is it.  Its hard to do, don’t get me wrong, but it can be done.  Willpower has nothing to do with it.  Planning, preparing and action has _everything_ to do with it, though.  Even then, you may find that you are still having a hard time.
