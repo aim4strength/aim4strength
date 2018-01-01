@@ -27,8 +27,10 @@
           {% include list-of-all-posts.html %}
           {% elsif page.is-post %}
           {{ content }}
-          {% else %}
+          {% elseif page.image %}
           <img class="uk-margin-medium-bottom" src="{{ page.image }}" alt="{{ page.image-alt }}" />
+          {{ content }}
+          {% else %}
           {{ content }}
           {% endif %}
         </div>
