@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weight Loss New Years Resolutions
-date: 2017-12-27T00:00:00-08:00
+date: 2017-12-27T08:00:00.000Z
 image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574377/new-years-resolutions.jpg
 categories:
@@ -23,7 +23,7 @@ Its like you are a freak of nature if you don’t have a New Years resolution ev
 
 So does that mean you should not make any New Years resolutions?  I mean, do you even keep them beyond March?
 
-Well, I say you**_ should_** make New Year’s Resolutions.  I am sure that surprises you, but I am all for getting hyped for a new start and a new year.  I love the way it makes me feel, and I love that I get to start over.
+Well, I say you _**should**_ make New Year’s Resolutions.  I am sure that surprises you, but I am all for getting hyped for a new start and a new year.  I love the way it makes me feel, and I love that I get to start over.
 
 _Caveat: you will have some bumps in the road._
 
@@ -37,15 +37,13 @@ So you imbibe.  You eat so much, that you look 8 months pregnant.  Now what?
 
 This is where your exit plan comes into play—You ate the chocolate.  Smile about it.  You ate it, I hope you enjoyed it!
 
-Now, you forgive yourself and move on.  You go right back to the plan you were doing.  Thats right, you got it out of your system.\*\* \*\*
+Now, you forgive yourself and move on.  You go right back to the plan you were doing.  Thats right, you got it out of your system.
 
 ** Don’t make it weird.**
 
 Move on, get over it, and stop obsessing about how you screwed up.  What is done is done, its in the past. just like Rafiki says…
 
 **Don’t start something you KNOW you can’t do. **
-
-\*\* \*\*
 
 We have all seen those people that are 400 pounds go to the gym, practically kill themselves with working out, and in a few days are in so much pain and suffering they feel like dying.
 
