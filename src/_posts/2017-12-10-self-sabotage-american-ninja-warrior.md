@@ -1,21 +1,22 @@
 ---
 layout: post
 title: Self Sabotage and American Ninja Warrior
-date: 2017-12-10 14:48:57+00:00
-image: https://res.cloudinary.com/aim4strength/image/upload/v1514574379/american-ninja-warrior.jpg
+date: 2017-12-10T14:48:57.000Z
+image: >-
+  https://res.cloudinary.com/aim4strength/image/upload/v1514574379/american-ninja-warrior.jpg
 categories:
-- Exercise
-- Julie's Story
-- Weightloss
-- Weightloss Setbacks
+  - Exercise
+  - Julie's Story
+  - Weightloss
+  - Weightloss Setbacks
 tags:
-- American ninja warrior
-- fear
-- goals
-- plan
-- self aware
-- self sabotage
-- Self sabotage and American Ninja Warrior
+  - American ninja warrior
+  - fear
+  - goals
+  - plan
+  - self aware
+  - self sabotage
+  - Self sabotage and American Ninja Warrior
 ---
 
 Holy cow!  Another week down and another week closer to getting that American Ninja Warrior application in….
@@ -50,4 +51,4 @@ I have been fighting the rising fear ever since I said I was going to tryout for
 
 So, here is where the buck stops.  I am putting my money where my mouth is and writing this to call myself out.  I have written out a plan of things to accomplish so that I can just rely on that and not think too much.
 
-So, for all you failures, self saboteurs and “losers” out there—We have each others back.  We can change anything in our lives we want to, even do things that you may think are beyond your reach if we_ believe.  _We can do all this stuff together, and help each other be the best selves we can be.
+So, for all you failures, self saboteurs and “losers” out there—We have each others back.  We can change anything in our lives we want to, even do things that you may think are beyond your reach if we _believe._ We can do all this stuff together, and help each other be the best selves we can be.
