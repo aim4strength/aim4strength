@@ -2,6 +2,7 @@
 layout: default
 title: Meet Julie
 permalink: /meet-julie/
+right-aside: false
 ---
 <div class='embed-container'><iframe src='https://www.youtube.com/embed/Aw6g3swRYOo?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></div>
 
@@ -11,11 +12,11 @@ After my last child was born, I was 280 pounds.
 
 I continued to gain weight, and even went to a physician to talk about getting a gastric bypass. I was 40 when I went to see about a gastric bypass and had essentially been 300 pounds for many years.
 
-I decided to start the process for bariatric surgery, and what should have been a happy and exciting time just left me even more frustrated and depressed with myself. I knew in my heart that I would continue eating through the surgery because it wouldn’t fix my head. I decided against the surgery and basically made peace with the fact that I was going to be morbidly obese for the rest of my life until we had a biggest loser contest at work. Everyone was putting in money, and they were all thinner than me. I absolutely knew that since I was bigger, I could win; and the caveat was that I gave myself permission to gain it all back, because I really had made peace with being obese for the rest of my life. 
+I decided to start the process for bariatric surgery, and what should have been a happy and exciting time just left me even more frustrated and depressed with myself. I knew in my heart that I would continue eating through the surgery because it wouldn’t fix my head. I decided against the surgery and basically made peace with the fact that I was going to be morbidly obese for the rest of my life until we had a biggest loser contest at work. Everyone was putting in money, and they were all thinner than me. I absolutely knew that since I was bigger, I could win; and the caveat was that I gave myself permission to gain it all back, because I really had made peace with being obese for the rest of my life.
 
-I started a walking group, I started weight watchers and made it my mission to WIN THE MONEY. I knew I would fall off the wagon from time to time, and I was ok with that, because the prize was more important than the weight. After being in the contest for 6 months, I won! I  was happy it was over so I could go back to my old eating habits. But shortly after that, another contest was beginning and again, the money was my motivator. 
+I started a walking group, I started weight watchers and made it my mission to WIN THE MONEY. I knew I would fall off the wagon from time to time, and I was ok with that, because the prize was more important than the weight. After being in the contest for 6 months, I won! I  was happy it was over so I could go back to my old eating habits. But shortly after that, another contest was beginning and again, the money was my motivator.
 
-I won the second contest as well. Now I was 80 pounds down and liked the way I was feeling and I continued my learned habits of exercise and eating better. By this time I had realized that I had a new goal, losing weight! The quickest and most consistent weight loss that I had learned was running, a lot of running, like Forest Gump running. 
+I won the second contest as well. Now I was 80 pounds down and liked the way I was feeling and I continued my learned habits of exercise and eating better. By this time I had realized that I had a new goal, losing weight! The quickest and most consistent weight loss that I had learned was running, a lot of running, like Forest Gump running.
 
 Once I hit my goal weight, I started enjoying my life by doing all the things that I wasn’t able to do because of my former larger size. I jumped out of an airplane, went zip lining, Parasailing. Flew on airplanes comfortably and was able to ride the rides at Disney Land without the fear of not being able to fit into the ride. One of the most satisfying moments was when I could cross my legs when I sat down – it was amazing! I could now wear shorts and tank tops in public for the first time in years.
 
