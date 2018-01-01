@@ -439,10 +439,8 @@ h1, .uk-h1 {
   text-transform: uppercase; }
 
 h2, .uk-h2 {
-  font-size: .8em;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .2em; }
+  font-size: 1.414em;
+  font-weight: 700; }
 
 .content h2, .content .uk-h2 {
   margin: 1.414em 0 1.5em; }
@@ -472,7 +470,7 @@ mark {
 a:link, a:visited, a:hover {
   text-decoration: none; }
 
-a:link, a:visited, a:hover {
+p a:link, p a:visited, p a:hover {
   text-decoration: none;
   color: #111111;
   background: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(#111111, #111111);
@@ -482,18 +480,18 @@ a:link, a:visited, a:hover {
   background-position: 0% 93%, 100% 93%, 0% 93%; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  a:link {
+  p a:link {
     background-position-y: 87%, 87%, 90%; } }
 
-a:link::-moz-selection {
+p a:link::-moz-selection {
   text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
   background: #b4d5fe; }
 
-a:link::selection {
+p a:link::selection {
   text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
   background: #b4d5fe; }
 
-a:link::-moz-selection {
+p a:link::-moz-selection {
   text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
   background: #b4d5fe; }
 
@@ -717,7 +715,7 @@ img {
 
 .uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
   padding: 0;
-  margin-right: .5em; }
+  margin-right: .75em; }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   border-bottom: 0 !important; }
