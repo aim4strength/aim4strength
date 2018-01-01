@@ -84,6 +84,11 @@
   font-family: $mono;
 }
 
+.underline {
+  border-bottom: 4px solid $red;
+  padding-top: 6px !important;
+}
+
 .excerpt {
   margin-top: 1.414em;
 }

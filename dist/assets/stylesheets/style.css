@@ -665,8 +665,22 @@ img {
 
 .hero {
   padding: 0;
-  border-top: 5px solid #003399;
-  border-bottom: 5px solid #b90005; }
+  border-top: 5px solid #b90005; }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 2em; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 .footer {
   padding-top: .5em;
@@ -683,14 +697,18 @@ img {
 .uk-navbar-nav > .uk-navbar-item > a {
   font-size: 1.75em; }
 
-.uk-container-expand .uk-grid {
-  background: white; }
-
 .nav-logo {
-  height: 80px; }
+  height: 70px;
+  position: relative;
+  top: 4px; }
 
 .nav {
-  border-bottom: 5px solid #003399; }
+  border-bottom: 3px solid #b90005;
+  border-top: 5px solid #b90005; }
+
+.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+  padding: 0;
+  margin-right: .5em; }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   border-bottom: 0 !important; }
@@ -710,7 +728,9 @@ img {
   margin-right: .7em; }
 
 .bio {
-  margin-top: .15em; }
+  margin-top: .15em;
+  font-size: .8em;
+  line-height: 1.4em; }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background: white;
@@ -796,6 +816,10 @@ img {
 
 .date {
   font-family: "Latin Mono", mono; }
+
+.underline {
+  border-bottom: 4px solid #b90005;
+  padding-top: 6px !important; }
 
 .excerpt {
   margin-top: 1.414em; }

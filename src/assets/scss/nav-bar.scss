@@ -7,7 +7,6 @@
 
 .uk-navbar-nav>.uk-navbar-item>a {
   font-size: 1.75em;
-  border-right: 2px solid #169fe6;
   // text-transform: none;
 }
 //
@@ -16,25 +15,26 @@
 // }
 
 .nav-logo {
-  height: 80px;
+  height: 70px;
+      position: relative;
+      top: 4px;
 }
 // .nav-wrap {
 //   border-bottom: 5px solid $blue;
 //   height: 50px;
 // }
 .nav {
-  background: #333333;
-  border-bottom: 2px solid #169fe6;
+  border-bottom: 3px solid $red;
+  border-top: 5px solid $red;
 }
 
 .uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
-  padding: 0 20px 0 0;
-  color: $white;
+  padding: 0;
+  margin-right: .5em;
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   border-bottom: 0 !important;
-  background: #333333 !important;
 }
 
 .uk-subnav>*>:first-child {
@@ -46,3 +46,4 @@
 .categories>*>:first-child {
   color: $black;
 }
+//
