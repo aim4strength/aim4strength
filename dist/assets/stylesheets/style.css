@@ -725,7 +725,8 @@ img {
   float: left;
   height: 100px;
   width: 100px;
-  margin-right: .7em; }
+  margin-right: .7em;
+  margin-bottom: 4em; }
 
 .bio {
   margin-top: .15em;
