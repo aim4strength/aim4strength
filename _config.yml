@@ -68,6 +68,13 @@ collections:
     output: true
     permalink: blog/:year/:month/:title/
 
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is-post: true
 ############################################################
 # Site configuration for the Auto-Pages feature
 # The values here represent the defaults if nothing is set
@@ -85,10 +92,10 @@ autopages:
     title: 'Posts in category :cat'
     # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
-    permalink: '/category/:cat'
+    permalink: '/blog/category/:cat'
   # Tag pages
   tags:
     layouts:
       - 'autopage_tag.html'
     title: 'Posts tagged with :tag'
-    permalink: '/tag/:tag'
+    permalink: '/blog/tag/:tag'

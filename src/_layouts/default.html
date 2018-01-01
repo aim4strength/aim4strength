@@ -34,7 +34,8 @@
         {% include end-lead.html %}
         {% endif %}
       </div>
-      {% if page.right-aside %}
+      {% if page.right-aside == false %}
+      {% else %}
       {% include right-aside.html %}
       {% endif %}
     </div>

@@ -450,7 +450,7 @@ small, .small {
   font-style: italic; }
 
 .mono {
-  font-family: "Latin Mono", mono;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: .85em;
   font-weight: normal; }
 
@@ -498,7 +498,7 @@ a {
 .all-posts > li > a {
   display: block;
   padding-bottom: .5em;
-  border-bottom: 6px double white;
+  border-bottom: 3px solid white;
   transition: .5s;
   color: black; }
 
@@ -507,7 +507,7 @@ a {
   margin-bottom: 1.999em; }
 
 .post-link:hover {
-  border-bottom: 6px double #111111;
+  border-bottom: 3px solid #b90005;
   /* ...and now for the proper property */
   transition: .5s; }
 
@@ -516,6 +516,10 @@ img {
 
 .mini-image {
   max-width: 200px; }
+
+.featured-image {
+  display: block;
+  margin: 0 auto; }
 
 .lead hr {
   border: 1px dashed #CB5868; }
@@ -665,7 +669,8 @@ img {
 
 .hero {
   padding: 0;
-  border-top: 5px solid #b90005; }
+  border-top: 5px solid #b90005;
+  border-bottom: 5px solid #b90005; }
 
 .embed-container {
   position: relative;
@@ -703,8 +708,7 @@ img {
   top: 4px; }
 
 .nav {
-  border-bottom: 3px solid #b90005;
-  border-top: 5px solid #b90005; }
+  border-bottom: 3px solid #b90005; }
 
 .uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
   padding: 0;
@@ -816,7 +820,7 @@ img {
   clear: both; }
 
 .date {
-  font-family: "Latin Mono", mono; }
+  font-family: "Merriweather Sans", sans-serif; }
 
 .underline {
   border-bottom: 4px solid #b90005;

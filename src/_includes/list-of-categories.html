@@ -2,7 +2,7 @@
 <ul class="uk-subnav categories uk-margin-remove" uk-margin>
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
-      <li><a href="/category/{{ category | first | slugify }}/">
+      <li><a href="/blog/category/{{ category | first | slugify }}/">
               {{ category[0] | replace:'-', ' ' }}
       </a></li>
   {% endfor %}

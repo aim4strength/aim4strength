@@ -43,7 +43,7 @@ a {
   display: block;
   padding-bottom: .5em;
   // border-top: 6px double $white;
-  border-bottom: 6px double $white;
+  border-bottom: 3px solid $white;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -60,7 +60,7 @@ a {
 // }
 .post-link:hover {
   // border-top: 6px double $black;
-  border-bottom: 6px double $black;
+  border-bottom: 3px solid $red;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;

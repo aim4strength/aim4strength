@@ -10,7 +10,7 @@
       <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">
         <img src="{{ post.image }}">
         <h2 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom">{{ post.title | escape }}</h2>
-        <span class="date">&ndash; {{ post.date | date: "%B %-d, %Y" }} &ndash;</span>
+        <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
         <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}&emsp;<span class="mono">More &rarr;</span></p>
         </a>
     </li>

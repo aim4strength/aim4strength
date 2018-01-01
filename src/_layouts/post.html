@@ -2,13 +2,13 @@
 layout: default
 ---
 <article class="post content" itemscope itemtype="http://schema.org/BlogPosting">
-  <img src="{{ page.image }}">
+  <img class="featured-image" src="{{ page.image }}">
   <header class="post-header uk-text-center">
     <h1 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta"><time class="date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">&ndash; {{ page.date | date: "%b %-d, %Y" }} &ndash;</time>
       {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
-  <hr class="double-bar-post-top">
+  <hr>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>

@@ -1,7 +1,7 @@
 <div class="uk-width-1-4@xl uk-width-1-3@l content">
   <img class="uk-border-circle headshot" src="https://res.cloudinary.com/aim4strength/image/upload/v1514757369/julie-smith.png" alt="Julie Smith headshot">
   <p class="bio">Hello, my friends! My name is Julie Smith. If you would have told me that I was going to become a personal trainer, I would have told you that you were crazy! I have been heavy all of my life—I do mean since age 5. <a href="{{ site.url }}/meet-julie">This is my story.</a></p>
-  {% if page.blog or page.auto-page %}
+  {% if page.blog or page.auto-page or page.is-post %}
   <hr>
   {% include list-of-categories.html %}
   {% endif %}
