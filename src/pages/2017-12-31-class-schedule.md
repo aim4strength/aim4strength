@@ -2,6 +2,7 @@
 layout: default
 title: Class Schedule
 permalink: /class-schedule/
+featured-image:
 right-aside: true
 ---
 # Group Fitness Classes

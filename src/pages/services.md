@@ -2,6 +2,7 @@
 layout: default
 title: Services
 permalink: /services/
+featured-image:
 right-aside: true
 ---
 # About / Services

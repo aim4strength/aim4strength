@@ -5,7 +5,6 @@ permalink: /imprint/
 no-bottom-lead: true
 ---
 
-
 <h1 class="visuallyhidden">{{ page.title }}</h1>
 <h2 class="uk-h3">Terms of Service</h2>
 <ul class="uk-margin-xlarge-bottom" uk-accordion>
@@ -88,3 +87,7 @@ Permission is granted to temporarily download one copy of the materials (informa
 </div>
 </li>
 </ul>
+<hr>
+<p class="content">The Aim4Strength Fitness website is set in <a href="https://fonts.google.com/specimen/Merriweather">Merriweather</a> and <a href="https://fonts.google.com/specimen/Merriweather+Sans">Merriweather Sans</a>. Built with love with <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://getuikit.com/">UIKit</a>, and <a href="https://www.netlify.com/">Netlify.</a><br>
+Copyright © 2017 by Aim 4 Strength Fitness. All rights reserved.
+</p>
