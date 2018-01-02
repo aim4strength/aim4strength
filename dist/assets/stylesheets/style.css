@@ -405,7 +405,7 @@ body {
 
 @media all and (max-width: 640px) and (min-width: 320px) {
   body {
-    font-size: 20px; } }
+    font-size: 17px; } }
 
 ::-moz-selection {
   background: #FCF3CF;
@@ -422,8 +422,7 @@ em {
   color: #111111; }
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
-  font-family: "Merriweather", serif;
-  letter-spacing: .07em; }
+  font-family: "Merriweather", serif; }
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
   margin: 1.414em 0 0;
@@ -609,7 +608,7 @@ img {
   background-color: rgba(143, 85, 54, 0.2); }
 
 .uk-pagination {
-  font-family: "Latin Mono", mono; }
+  font-family: "Merriweather Sans", sans-serif; }
 
 .uk-pagination > * > * {
   color: #111111;
@@ -709,7 +708,7 @@ img {
 .nav-logo {
   height: 70px;
   position: relative;
-  top: 4px; }
+  top: 2px; }
 
 .uk-navbar .uk-icon {
   position: relative;
