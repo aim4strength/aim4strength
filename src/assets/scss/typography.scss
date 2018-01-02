@@ -38,9 +38,10 @@ em {
 }
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
-    font-family: $serif;
+    font-family: $sans-serif;
     // color: #ff5252;
-    // letter-spacing: .07em;
+    text-transform: uppercase;
+    letter-spacing: .07em;
 }
 
 

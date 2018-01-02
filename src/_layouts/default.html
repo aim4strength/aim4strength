@@ -21,9 +21,6 @@
       </div>
       <div class="uk-width-2-5@xl uk-width-1-2@l">
         <div>
-          {% if page.homepage %}
-          {% include top-lead.html %}
-          {% endif %}
           {% if page.blog or page.auto-page %}
           {% include list-of-all-posts.html %}
           {% elsif page.is-post %}
