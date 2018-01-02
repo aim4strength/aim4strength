@@ -6,6 +6,9 @@ right-aside: false
 ---
 <div class='embed-container'><iframe src='https://www.youtube.com/embed/Aw6g3swRYOo?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></div>
 
+
+## Julie's Story
+
 Hello, my friends! My name is Julie Smith. If you would have told me that I was going to become a personal trainer, I would have told you that you were crazy! I have been heavy all of my life—I do mean since age 5. At age 18 I was 200 pounds.
 
 After my last child was born, I was 280 pounds.

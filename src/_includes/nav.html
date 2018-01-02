@@ -2,28 +2,29 @@
   <div class="uk-container uk-container-expand nav">
     <div class="uk-grid uk-grid-large">
       <div class="uk-width-1-5@m uk-visible@m uk-text-right">
-        <a href="{{ site.url }}"><img class="nav-logo"  src="https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png" alt="aim4strength logo"/>
-        </a>
+        <div class="uk-navbar-item logo-wrap">
+          <a href="/"><img class="nav-logo"  src="https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png" alt="aim4strength logo"/>
+          </a>
+        </div>
+
       </div>
       <div class="uk-width-4-5@m uk-width-1-1">
         <nav class="uk-navbar-container uk-margin" uk-navbar>
+          <h1 class="visuallyhidden">Main Navigation</h1>
           <div class="uk-navbar-left">
-            <ul class="uk-navbar-nav uk-visible@s">
+            <ul class="uk-navbar-nav uk-visible@m">
               <li class="uk-navbar-item"><a href="/meet-julie/">Meet Julie</a></li>
               <li class="uk-navbar-item"><a href="/blog/">Blog</a></li>
               <li class="uk-navbar-item"><a href="/services/">Services</a></li>
               <li class="uk-navbar-item"><a href="/class-schedule/">Class Schedule</a></li>
             </ul>
-            <a class="uk-hidden@s" href="{{ site.url }}"><img class="nav-logo-mini"  src="https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png" alt="aim4strength logo"/>
+            <a class="uk-hidden@m" href="{{ site.url }}"><img class="nav-logo-mini"  src="https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png" alt="aim4strength logo"/>
             </a>
           </div>
           <div class="uk-navbar-right">
-
-                          <div class="uk-navbar-item call  uk-visible@s">
-
-                              Get Started Today.
+          <div class="uk-navbar-item call  uk-visible@xl">
+                Get Started Today.
                 Call (909) 289-1065
-
               </div>
               {% include mobile-nav.html %}
           </div>

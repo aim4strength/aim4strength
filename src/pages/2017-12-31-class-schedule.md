@@ -5,7 +5,7 @@ image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574377/Aim4Strength-Boot-Camp.jpg
 permalink: /class-schedule/
 ---
-# Group Fitness Classes
+## Group Fitness Classes
 
 Group Fitness Classes are a great way to have some fun and get in shape at the same time with a fraction of the cost of an individual personal trainer.
 
@@ -13,9 +13,9 @@ The people that attend Aim 4 Strength’s Group Classes are there to get serious
 
 **Don’t wait! Let us know that you will be joining us this weekend for one of our Group Fitness Classes, and you can see the benefits for yourself.**
 
-## **Available Group Fitness Classes**
+### **Available Group Fitness Classes**
 
-**POUND® Fitness Classes**
+#### **POUND® Fitness Classes**
 
 If you have ever wanted to be a drummer, this is the class for you. POUND® is an energizing cardio session using weighted drum sticks. In a POUND® class you don’t just hear the music, you actually jam with the music. It is a fun approach to getting excellent exercise and can help you burn up to 450 calories in a single 30-minute session.  Your instructor, Julie Smith, is a POUND PRO® and can help you have fun while getting fit.  Don’t know how to drum, no problem! We will teach you everything you need to know.
 
@@ -23,7 +23,7 @@ Upcoming Dates / Times at [Ford Park:](https://www.google.com/maps/place/Ford+Pa
 
 * Wednesday, December 06 @ 5:30 PM
 
-**Boot Camp Classes**
+#### **Boot Camp Classes**
 
 Boot Camp with Julie Smith focuses on functional body weight training. Which means you don’t need any equipment to get fit. Don’t be fooled, just because you are not pumping iron, that does not mean your muscles won’t burn during the session. You will burn fat and build muscle using proven techniques in a fun group setting. Everyone at the class is there for the same reason, and everyone is rooting for you. Beginners to experts welcome.
 
@@ -33,7 +33,7 @@ Upcoming Dates / Times at [Ford Park:](https://www.google.com/maps/place/Ford+Pa
 
 ## Locations
 
-### Ford Park
+**Ford Park**
 
 <div class="google-embed-map">
 
