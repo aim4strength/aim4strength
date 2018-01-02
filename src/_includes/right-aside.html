@@ -5,7 +5,9 @@
   <hr>
   {% include list-of-categories.html %}
   {% endif %}
+  {% if page.homepage %}
+  {% else %}
   <hr>
   {% include affiliates.html %}
-
+  {% endif %}
 </div>

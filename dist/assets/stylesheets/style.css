@@ -711,6 +711,9 @@ img {
   position: relative;
   top: 2px; }
 
+.logo-wrap {
+  float: right; }
+
 .uk-navbar .uk-icon {
   position: relative;
   top: 3px; }
