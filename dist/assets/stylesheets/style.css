@@ -422,7 +422,9 @@ em {
   color: #111111; }
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
-  font-family: "Merriweather", serif; }
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .07em; }
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
   margin: 1.414em 0 0;
@@ -616,7 +618,7 @@ img {
 
 .uk-input, .uk-select, .uk-textarea {
   background: white;
-  font-family: "Latin Mono", mono; }
+  font-family: "Merriweather Sans", sans-serif; }
 
 .uk-input:focus, .uk-select:focus, .uk-textarea:focus {
   border-color: #CB5868;
@@ -628,8 +630,7 @@ img {
   font-weight: 500;
   border: 6px double white;
   padding: 1.5em;
-  border-radius: 3px;
-  line-height: 1.2em; }
+  border-radius: 3px; }
 
 .lead p {
   margin-bottom: .5em; }
