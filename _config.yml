@@ -32,6 +32,8 @@ lsi: false
 # Permalink structure and pagination options
 permalink: /:year/:month/:title/
 
+include: _redirects
+
 # Markdown library and options
 markdown: redcarpet
 redcarpet:
@@ -48,10 +50,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-paginate-v2
-
-# Explicitly turn off the old code
-paginate: nil
-paginate_path: nil
 
 # Pagination Settings
 pagination:
