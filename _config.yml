@@ -7,7 +7,7 @@ url: https://aim4strength.com
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist
-include: [_redirects, google0f065b426978137f.html]
+include: [_redirects, google0f065b426978137f.html,BingSiteAuth.xml]
 exclude: ['assets']
 
 # Same as the title etc for your site but can instead be
