@@ -7,6 +7,7 @@ url: https://aim4strength.netlify.com
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist
+include: [_redirects, google0f065b426978137f.html]
 exclude: ['assets']
 
 # Same as the title etc for your site but can instead be
@@ -32,7 +33,7 @@ lsi: false
 # Permalink structure and pagination options
 permalink: /:year/:month/:title/
 
-include: _redirects
+
 
 # Markdown library and options
 markdown: redcarpet
