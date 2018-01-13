@@ -7,6 +7,7 @@ url: https://aim4strength.com
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist
+include: [_redirects, google0f065b426978137f.html,BingSiteAuth.xml]
 exclude: ['assets']
 
 # Same as the title etc for your site but can instead be
@@ -28,6 +29,8 @@ lsi: false
 # Permalink structure and pagination options
 permalink: /:year/:month/:title/
 
+
+
 # Markdown library and options
 markdown: redcarpet
 redcarpet:
@@ -44,10 +47,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-paginate-v2
-
-# Explicitly turn off the old code
-paginate: nil
-paginate_path: nil
 
 # Pagination Settings
 pagination:

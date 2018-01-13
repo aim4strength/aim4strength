@@ -12,7 +12,3 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-redirect-from'
 gem 'jekyll-paginate-v2'
 gem 'jekyll-compose', group: [:jekyll_plugins]
-
-group :jekyll_plugins do
-  gem 'algoliasearch-jekyll', '~> 0.9.0'
-end
