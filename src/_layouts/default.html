@@ -31,6 +31,9 @@
           {% else %}
           {{ content }}
           {% endif %}
+          {% if page.is-post %}
+          {% include related-posts.html %}
+          {% endif %}
         </div>
       </div>
       {% if page.right-aside == false %}
