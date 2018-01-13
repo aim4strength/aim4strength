@@ -5,7 +5,7 @@ layout: default
   <img class="featured-image" src="{{ page.image }}">
   <header class="post-header uk-text-center">
     <h1 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta">By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author.name }}</span></span> on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+    <p class="post-meta">By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author.name }}</span></span> <i>on</i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
       </p>
   </header>
   <hr>
