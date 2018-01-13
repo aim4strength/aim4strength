@@ -19,14 +19,13 @@ title : Atom Feed
   <rights type="text">Copyright © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.</rights>
   {% for post in site.posts limit:10 %}
   <entry>
-    <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
     <title>{{ post.title | xml_escape }}</title>
     <link rel="alternate" type="text/html" href="{{ site.baseurl }}{{ post.url }}/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','' | replace: ' ', '' | xml_escape }}" />
     <published>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>{{ site.baseurl }}{{ post.id }}</id>
-    <content type="html"><![CDATA[ {{ post.content | markdownify }} ]]></content>
-    <media:content url="{{ post.image }}" medium="image"></media:content>
+    <content type="html"> <![CDATA[ {{ post.content | markdownify }} ]]> </content>
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image }}" medium="image"></media:content>
   </entry>
   {% endfor %}
 
