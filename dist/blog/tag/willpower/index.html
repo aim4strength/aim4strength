@@ -26,7 +26,6 @@
 
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
   <!-- jQuery is required -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -130,37 +129,49 @@
     <div class="uk-child-width-expand@s uk-grid-large" uk-grid>
       <div class="uk-width-1-5@m uk-visible@xl">
         <div class="sidebar" style="z-index: 980;" uk-sticky="offset: 150">
-  <p>Join my private email list for fitness training tips.</p>
+  <p class="email-pitch">Get the latest posts delivered to you for free via RSS or Email:</p>
 <!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-  <form class="uk-form-stacked" action="https://aim4strength.us13.list-manage.com/subscribe/post?u=e8ec144fea18639007973900c&amp;id=526fa3ebf5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-    novalidate>
-    <div id="mc_embed_signup_scroll" class="uk-margin">
-      <div class="uk-form-controls">
-        <div class="uk-inline uk-width-1-1">
-          <button id="mc-embedded-subscribe" type="submit" class="uk-button uk-form-icon uk-form-icon-flip" uk-icon="icon: chevron-right"></button>
-          <input  class="uk-input uk-width-1-1 uk-form-large" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-          <span id="email-invalid" style="display:none">
-        Must be a valid email address</span>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e8ec144fea18639007973900c_526fa3ebf5" tabindex="-1" value=""></div>
-        </div>
+
+<div class="uk-grid uk-grid-collapse">
+  <div class="uk-width-auto uk-margin-right">
+    <a href="http://feeds.feedburner.com/Aim4strengthFitness"><i class="fa fa-rss-square fa-lg" aria-hidden="true"></i></a>
+  </div>
+  <div class="uk-width-auto uk-margin-right">
+     <span>or</span>
+  </div>
+  <div class="mc-form">
+    <form action="https://aim4strength.us13.list-manage.com/subscribe/post?u=e8ec144fea18639007973900c&amp;id=526fa3ebf5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+      novalidate>
+      <div class="uk-inline" id="mc_embed_signup_scroll">
+        <a id="mc-embedded-subscribe" type="submit" class="uk-form-icon uk-button-primary uk-form-icon-flip" href="" uk-icon="icon: chevron-right"></a>
+        <input class="uk-input" type="text" id="mce-EMAIL" placeholder="email address" required>
+        <span id="email-invalid" style="display:none">
+          Must be a valid email address</span>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e8ec144fea18639007973900c_526fa3ebf5" tabindex="-1" value=""></div>
       </div>
-    </div>
-</form>
-<!--End mc_embed_signup-->
+    </form>
+  </div>
 </div>
 
-  <hr> <ul class="uk-iconnav uk-text-center uk-margin-bottom">
-  <!-- <li class="uk-margin-bottom"><a data-pin-do="buttonBookmark" data-pin-save="true" data-pin-custom="true" href="https://www.pinterest.com/pin/create/button/"class="uk-icon uk-width-1-5" uk-icon="icon: pinterest; ratio: 1.5"></a></li>
-<li class="uk-margin-bottom"><a href="https://twitter.com/intent/tweet?text=Posts tagged with willpower&url=https://aim4strength.netlify.com/blog/tag/willpower/index.html&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter"class="uk-icon uk-width-1-5" uk-icon="icon: twitter; ratio: 1.5"></a></li>
-<li class="uk-margin-bottom"><a href="https://facebook.com/sharer.php?u=https://aim4strength.netlify.com/blog/tag/willpower/index.html" rel="nofollow" target="_blank" title="Share on Facebook" class="uk-icon uk-width-1-5" uk-icon="icon: facebook; ratio: 1.5"></a></li> -->
+  <hr>
+  
+  <div class="uk-grid uk-grid-collapse">
+  <div class="uk-width-1-3">
+    <p>
+    Follow:
+    </p>
+  </div>
+  <div class="uk-width-2-3">
+    <ul class="uk-iconnav uk-text-center uk-margin-bottom">
+      <li class="uk-width-1-3"><a href="https://www.facebook.com/aim4strength/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+      <li class="uk-width-1-3"><a href="https://www.youtube.com/channel/UCNW6ZMuCwrNfPaup8j_h0bg"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+      <li class="uk-width-1-3"><a href="https://www.instagram.com/aim4strength2540/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</div>
 
-<li class="uk-width-1-4"><a href="https://www.facebook.com/aim4strength/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-<li class="uk-width-1-4"><a href="https://www.youtube.com/channel/UCNW6ZMuCwrNfPaup8j_h0bg" ><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
-<li class="uk-width-1-4"><a href="https://www.instagram.com/aim4strength2540/" ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-</ul>
-
+  
 </div>
 
       </div>
@@ -188,30 +199,7 @@
 
           
         </div>
-        
-        <div class="uk-alert-primary lead uk-margin-large-bottom" uk-alert>
-    <p>Join my private email list for fitness training tips.</p>
-    <div id="mc_embed_signup">
-      <form class="uk-form-stacked" action="https://aim4strength.us13.list-manage.com/subscribe/post?u=e8ec144fea18639007973900c&amp;id=526fa3ebf5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-        novalidate>
-        <div id="mc_embed_signup_scroll" class="uk-margin">
-          <div class="uk-form-controls">
-            <div class="uk-inline uk-width-1-1">
-              <button id="mc-embedded-subscribe" type="submit" class="uk-button uk-form-icon uk-form-icon-flip" uk-icon="icon: chevron-right"></button>
-              <input  class="uk-input uk-width-1-1 uk-form-large" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-              <span id="email-invalid" style="display:none">
-            Must be a valid email address</span>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e8ec144fea18639007973900c_526fa3ebf5" tabindex="-1" value=""></div>
-            </div>
-          </div>
-        </div>
-    </form>
-    <!--End mc_embed_signup-->
-    </div>
-</div>
 
-        
       </div>
       
       <div class="uk-width-1-4@xl uk-width-1-3@l uk-visible@s content">

@@ -8,16 +8,16 @@
   <a href="top"></a>
 
   {% if page.homepage %}
-  {% include hero.html %}
+  {% include header/hero.html %}
   {% endif %}
-  {% include header.html %}
-  {% include nav.html %}
+  {% include header/header.html %}
+  {% include header/nav.html %}
 
 
   <div class="uk-container uk-container-expand">
     <div class="uk-child-width-expand@s uk-grid-large" uk-grid>
       <div class="uk-width-1-5@m uk-visible@xl">
-        {% include left-aside.html %}
+        {% include aside/left-aside.html %}
       </div>
       <div class="uk-width-2-5@xl uk-width-1-2@l">
         <div>
@@ -32,14 +32,11 @@
           {{ content }}
           {% endif %}
         </div>
-        {% if page.no-bottom-lead %}
-        {% else %}
-        {% include end-lead.html %}
-        {% endif %}
+
       </div>
       {% if page.right-aside == false %}
       {% else %}
-      {% include right-aside.html %}
+      {% include aside/right-aside.html %}
       {% endif %}
     </div>
     {% include footer.html %}

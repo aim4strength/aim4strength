@@ -2,7 +2,7 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: Aim4Strength Fitness
 description: Personalized Fitness Training
-url: https://aim4strength.netlify.com
+url: https://aim4strength.com
 #url: http://localhost:3000
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
@@ -13,12 +13,8 @@ exclude: ['assets']
 # called by using 'site.author.name' and so on
 # NOTE: Don't use @ in front of your Twitter username
 author:
-  name:
-  email:
-  uri:
-  bio:
-  twitter:
-  github:
+  name: Julie Smith
+  email: julie@aim4strength.com
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts

@@ -692,8 +692,7 @@ img {
   height: 100%; }
 
 .footer {
-  padding-top: .5em;
-  border-top: 3px solid #b90005 !important; }
+  padding-top: .5em; }
 
 .footer-wrap {
   margin-top: 0 !important; }
@@ -755,6 +754,23 @@ img {
   margin-top: .15em;
   font-size: .8em;
   line-height: 1.4em; }
+
+.subscribe-bar > .uk-navbar-item {
+  margin-right: 1.5em; }
+
+.subscribe-bar .email {
+  margin-right: 0; }
+
+.email-pitch {
+  font-size: .9em;
+  line-height: 1.4em;
+  margin-bottom: .5em; }
+
+.mc-form {
+  width: 211px; }
+
+#mce-EMAIL {
+  font-size: .6em; }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background: white;
