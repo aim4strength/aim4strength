@@ -7,8 +7,10 @@
         <div class="uk-width-1-1 uk-margin-top">
           <ul class="uk-subnav uk-subnav-divider" uk-margin>
             {% include pagination.html %}
-            <li><a href="#top" uk-scroll>&uarr; Top</a></li>
+            <ul class="uk-subnav uk-subnav-divider uk-margin-small-left">
+            <li id="top-wrap"><a href="#top" uk-scroll>&uarr; Top</a></li>
             <li><a href="{{ site.url }}/imprint/">Imprint</a></li>
+          </ul>
           </ul>
         </div>
       </div>
