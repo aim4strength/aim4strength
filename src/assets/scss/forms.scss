@@ -4,7 +4,18 @@
 }
 
 .uk-input:focus, .uk-select:focus, .uk-textarea:focus {
-  border-color: $dark-pink;
+  border-color: $blue;
   background: $white;
   color: $black;
+}
+
+.error-message {
+  font-size: .75em;
+  font-family: $sans-serif;
+  color: $red;
+}
+
+.uk-form-danger, .uk-form-danger:focus {
+    color: $red;
+    border-color: $red;
 }
