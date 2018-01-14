@@ -3,5 +3,9 @@
 }
 .uk-pagination>*>* {
   color: $black;
-  font-size: .8em;
+  font-size: 1rem;
+}
+
+.pagination li {
+  float: left;
 }

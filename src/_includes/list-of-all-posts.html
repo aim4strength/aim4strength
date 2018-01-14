@@ -10,7 +10,8 @@
       <a class="post-link uk-text-center" href="{{ post.url | relative_url }}">
         <img src="{{ post.image }}">
         <h2 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom">{{ post.title | escape }}</h2>
-        <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        <p class="post-meta">By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author.name }}</span></span> <i>on</i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
+          </p>
         <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}&emsp;<span class="mono">More &rarr;</span></p>
         </a>
     </li>
