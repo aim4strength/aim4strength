@@ -27,7 +27,7 @@ title : Atom Feed
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ post.id }}</id>
     <content type="html"> <![CDATA[ {{ post.content | markdownify }} ]]> </content>
-    <media:content xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image }}" medium="image"></media:content>
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://res.cloudinary.com/aim4strength/image/fetch/c_limit,f_auto,q_auto:best,w_640/{{ post.image }}" medium="image"></media:content>
   </entry>
   {% endfor %}
 
