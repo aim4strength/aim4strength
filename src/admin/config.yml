@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
       - {label: "Featured Image", name: "image", widget: "string", required: false}
       - {label: "Categories", name: categories, widget: list, required: false}
-      - {label: "Categories2", name: "categories2", widget: "relation", collection: "site.categories", searchFields: "[CATEGORY]", valueField: "CATEGORY", required: false}
+      - {label: "Categories2", name: "categories2", widget: "relation", collection: "categories", searchFields: "[CATEGORY]", valueField: "CATEGORY", required: false}
       - {label: "Tags", name: tags, widget: list, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
     meta: # Meta data fields. Just like fields, but without any preview element
