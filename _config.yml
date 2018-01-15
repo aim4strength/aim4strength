@@ -28,7 +28,7 @@ lsi: false
 # limit_posts: 10
 
 # Permalink structure and pagination options
-permalink: /:year/:month/:title/
+permalink: blog/:year/:month/:title/
 
 # Markdown library and options
 markdown: redcarpet
@@ -56,10 +56,9 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-collections:
-  posts:
+site.categories:
     output: true
-    permalink: blog/:year/:month/:title/
+    permalink: categories/:category
 
 defaults:
   -
@@ -68,6 +67,12 @@ defaults:
       type: posts   # limit to posts
     values:
       is-post: true
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: categories   # limit to posts
+    values:
+      category: :category
 ############################################################
 # Site configuration for the Auto-Pages feature
 # The values here represent the defaults if nothing is set
