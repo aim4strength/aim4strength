@@ -12,18 +12,6 @@
   line-height: 1.4em;
 }
 
-@media screen and (max-width: 1160px) {
-  .bio {
-      clear:left;
-  }
-  .headshot {
-    display: block;
-    margin: 0 auto .5em;
-    float: none;
-  }
-
-}
-
 .subscribe-bar > .uk-navbar-item {
   margin-right: 1.5em;
 }
@@ -41,16 +29,3 @@
 .mc-form {
   width: 211px;
 }
-
-// #mce-EMAIL {
-//   font-size: .6em;
-// }
-//
-// .affiliates li a {
-//   font-family: $serif !important;
-// }
-
-// .categories {
-//   font-family: $mono;
-//   font-size: .75em;
-// }

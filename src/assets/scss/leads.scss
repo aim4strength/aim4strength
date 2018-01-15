@@ -4,7 +4,7 @@
   font-weight: 500;
   border: 6px double $white;
   padding: 1.5em;
-  // color: $dark-pink;
+  // color: $red;
   // background: rgba(235,174,180,.6);
   border-radius: 3px;
   // line-height: 1.2em;
@@ -23,7 +23,7 @@
   font-weight: 500;
   //border-bottom: 6px double $silver;
   //padding: 1.5em;
-  color: $dark-pink;
+  color: $red;
   background: $white;
   //border: 2px solid $light-pink;
   border-radius: 3px;
@@ -39,7 +39,7 @@
 
 .top-lead .uk-input {
   height: 55px;
-  border-color: $dark-pink;
+  border-color: $red;
 }
 
 .top-lead .uk-alert-close {
@@ -50,17 +50,17 @@
 
 
 .top-lead input::placeholder { /* Chrome/Opera/Safari */
-  color: $dark-pink;
+  color: $red;
 }
 //
 // input.top-lead::-moz-placeholder { /* Firefox 19+ */
-//   color: $dark-pink;
+//   color: $red;
 // }
 // input.top-lead:-ms-input-placeholder { /* IE 10+ */
-//   color: $dark-pink;
+//   color: $red;
 // }
 // input.top-lead:-moz-placeholder { /* Firefox 18- */
-//   color: $dark-pink;
+//   color: $red;
 // }
 
 // .lead.uk-card-primary.uk-card-body {
