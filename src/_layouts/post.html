@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="post content" itemscope itemtype="http://schema.org/BlogPosting">
-  {% cloudinary featured-image {{ page.image }} alt="" %}
+    <img src="https://res.cloudinary.com/aim4strength/image/fetch/c_limit,f_auto,q_auto:best,w_800/{{ post.image }}" srcset="https://res.cloudinary.com/aim4strength/image/fetch/c_limit,f_auto,q_auto:best,w_320/{{ post.image }} 320w, https://res.cloudinary.com/aim4strength/image/fetch/c_limit,f_auto,q_auto:best,w_640/{{ post.image }} 640w, https://res.cloudinary.com/aim4strength/image/fetch/c_limit,f_auto,q_auto:best,w_960/{{ post.image }} 960w, https://res.cloudinary.com/aim4strength/image/fetch/c_limit,f_auto,q_auto:best,w_1100/{{ post.image }} 1100w" sizes="(min-width: 50rem) 50rem, 90vw" class="featured-image" alt="" width="1100" height="732">
   <header class="post-header uk-text-center">
     <h1 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta">By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author.name }}</span></span> <i>on</i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
