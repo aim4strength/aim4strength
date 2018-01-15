@@ -4,6 +4,7 @@ title: Motivation Versus Inspiration
 date: 2018-01-08T22:30:00.000Z
 image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574376/motivation-exercise.jpg
+image-alt: group of happy people exercising in the park
 categories:
   - Weightloss
   - food
