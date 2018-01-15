@@ -10,4 +10,5 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'jekyll-redirect-from'
 gem 'jekyll-paginate-v2'
-gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll-compose'
+gem 'jekyll-cloudinary', group: [:jekyll_plugins]

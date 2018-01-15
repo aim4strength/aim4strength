@@ -46,6 +46,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-paginate-v2
+  - jekyll-cloudinary
 
 # Pagination Settings
 pagination:
@@ -69,6 +70,19 @@ defaults:
       type: posts   # limit to posts
     values:
       is-post: true
+
+cloudinary:
+  cloud_name: aim4strength
+  verbose: true
+  presets:
+    featured-image:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
+      attributes:
+        class: "featured-image"
 ############################################################
 # Site configuration for the Auto-Pages feature
 # The values here represent the defaults if nothing is set
