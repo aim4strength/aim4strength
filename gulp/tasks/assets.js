@@ -53,18 +53,6 @@ gulp.task('scripts', () =>
     .pipe(gulp.dest('.tmp/assets/javascript'))
 );
 
-gulp.task('scripts:vendor', () =>
-    gulp.src([
-      'src/assets/javascript/pinit-05a007ac19.min.js',
-      'src/assets/javascript/pinit-05a007ac19.min.js.gz',
-      'src/assets/javascript/pinit_main-f7141df330.min.js',
-      'src/assets/javascript/pinit_main-f7141df330.min.js.gz',
-
-    ])
-    .pipe(gulp.dest('.tmp/assets/javascript'))
-);
-
-
 // 'gulp styles' -- creates a CSS file from your SASS, adds prefixes and
 // creates a Sourcemap
 // 'gulp styles --prod' -- creates a CSS file from your SASS, adds prefixes and
@@ -95,12 +83,6 @@ gulp.task('styles', () =>
       showFiles: true
     })))
     .pipe(gulp.dest('.tmp/assets/stylesheets'))
-    .pipe(when(!argv.prod, browserSync.stream()))
-);
-
-gulp.task('fonts', () =>
-  gulp.src('src/assets/fonts/*/**')
-    .pipe(gulp.dest('.tmp/assets/fonts'))
     .pipe(when(!argv.prod, browserSync.stream()))
 );
 
