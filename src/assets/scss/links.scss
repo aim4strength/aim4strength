@@ -6,11 +6,6 @@ a:link, a:visited, a:hover {
 
 p, ul.related-posts {
 
-// a:link, a:visited {
-//   color: $black;
-//
-//  }
-
 a:link, a:visited, a:hover {
          text-decoration: none;
          color: $black;
@@ -55,11 +50,8 @@ a {
   margin-top: none !important;
   margin-bottom: 1.999em;
 }
-// .all-posts>:last-child {
-//   margin-bottom: 0 !important;
-// }
+
 .post-link:hover {
-  // border-top: 6px double $black;
   border-bottom: 3px solid $red;
   -o-transition:.5s;
   -ms-transition:.5s;

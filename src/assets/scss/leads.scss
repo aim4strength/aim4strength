@@ -1,15 +1,9 @@
 .lead {
-  // margin: 10px;
   font-family: $serif;
   font-weight: 500;
   border: 6px double $white;
   padding: 1.5em;
-  // color: $red;
-  // background: rgba(235,174,180,.6);
   border-radius: 3px;
-  // line-height: 1.2em;
-  // color: $white;
-  // background: $red;
 }
 
 .lead p {
@@ -17,23 +11,17 @@
 }
 
 .top-lead  {
-  // margin: 10px;
   font-family: $serif;
   font-size: .8em;
   font-weight: 500;
-  //border-bottom: 6px double $silver;
-  //padding: 1.5em;
   color: $red;
   background: $white;
-  //border: 2px solid $light-pink;
   border-radius: 3px;
   line-height: 1.2em;
   padding: 11px 45px 13px 0;
-  //padding: 11px 29px 15px 15px;
 }
 
 .top-lead form {
-  // padding: 15px 29px 16px 7px;
   padding: 0 30px 1px 0;
 }
 
@@ -52,18 +40,3 @@
 .top-lead input::placeholder { /* Chrome/Opera/Safari */
   color: $red;
 }
-//
-// input.top-lead::-moz-placeholder { /* Firefox 19+ */
-//   color: $red;
-// }
-// input.top-lead:-ms-input-placeholder { /* IE 10+ */
-//   color: $red;
-// }
-// input.top-lead:-moz-placeholder { /* Firefox 18- */
-//   color: $red;
-// }
-
-// .lead.uk-card-primary.uk-card-body {
-//   background: $white;
-//   color: $primary;
-// }

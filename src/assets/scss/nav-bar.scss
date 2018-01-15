@@ -2,24 +2,19 @@
   font-family: $sans-serif;
   text-transform: none;
   color: $black;
-  //font-weight: 500;
 }
 
 .uk-navbar-nav>.uk-navbar-item>a {
   font-size: 1.75em;
-  // text-transform: none;
 }
-//
-// .uk-container-expand .uk-grid {
-//   background: $white;
-// }
+
 
 .nav-logo {
   height: 70px;
       position: relative;
       top: 2px;
 }
-//
+
 .logo-wrap {
   float: right;
 }
@@ -38,13 +33,9 @@
 .nav-logo-mini {
   height: 40px;
 }
-// .nav-wrap {
-//   border-bottom: 5px solid $blue;
-//   height: 50px;
-// }
+
 .nav {
   border-bottom: 3px solid $red;
-  // border-top: 5px solid $red;
 }
 
 .uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
@@ -62,6 +53,10 @@
   text-transform: none;
 }
 
+.uk-navbar .uk-icon {
+    top: 8px;
+}
+
 .categories>*>:first-child {
   color: $black;
 }
@@ -71,7 +66,18 @@
     font-size: .65em;
   }
 }
-// .uk-offcanvas-bar {
-//     background: $white;
-//     // color: $black;
-//   }
+
+.uk-offcanvas-bar {
+  background: $white;
+}
+.uk-offcanvas-bar .uk-navbar-item {
+  height: 50px;
+}
+
+.uk-offcanvas-bar .uk-navbar-item a {
+  font-family: $sans-serif;
+  color: $black;
+}
+.uk-offcanvas-bar .uk-close, .uk-offcanvas-bar .uk-close:hover {
+  color: $black;
+}
