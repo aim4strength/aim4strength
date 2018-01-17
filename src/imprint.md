@@ -69,7 +69,7 @@ Permission is granted to temporarily download one copy of the materials (informa
 <li>
 <h3 class="uk-accordion-title">8. Governing Law</h3>
 <div class="uk-accordion-content">
-<p class="content">These terms and conditions are governed by and construed in accordance with the laws of Portland, OR and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
+<p class="content">These terms and conditions are governed by and construed in accordance with the laws of San Bernardino, CA and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
 </div>
 </li>
 <li>
