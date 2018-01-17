@@ -4,8 +4,8 @@
 {% include head.html %}
 
 <body>
-  <h1 class="visuallyhidden">{% if page.title != site.title %}
-  - {{ site.title }} | Personalized Fitness Training</h1>
+  <h1 class="visuallyhidden">{{ page.title }} | {% if page.title != site.title %}
+  {{ site.title }} | {% endif %}  Personalized Fitness Training</h1>
   <a href="top"></a>
 
   {% if page.homepage %}
