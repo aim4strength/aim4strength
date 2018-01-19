@@ -8,6 +8,12 @@
   font-size: 1.75em;
 }
 
+@media screen and (min-width: 1600px) {
+  .uk-navbar-right-short {
+      margin-left: 8em;
+  }
+}
+
 
 .nav-logo {
   height: 70px;
