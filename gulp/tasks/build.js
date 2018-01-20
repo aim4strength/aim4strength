@@ -19,7 +19,7 @@ gulp.task('site', done => {
     shell.exec('jekyll build --incremental');
     done();
   } else if (argv.prod) {
-    shell.exec('jekyll build --incremental --config _config.yml');
+    shell.exec('jekyll build --incremental --config _config.yml,_config.build.yml');
     done();
   }
 });
