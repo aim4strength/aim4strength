@@ -6,6 +6,8 @@ $(function() {
   }
 });
 
+var input = document.createElement('input');
+
 // A Validity State Polyfill
 ;(function (window, document, undefined) {
 
@@ -13,7 +15,6 @@ $(function() {
 
 	// Make sure that ValidityState is supported in full (all features)
 	var supported = function () {
-		var input = document.createElement('input');
 		return ('validity' in input && 'badInput' in input.validity && 'patternMismatch' in input.validity && 'rangeOverflow' in input.validity && 'rangeUnderflow' in input.validity && 'stepMismatch' in input.validity && 'tooLong' in input.validity && 'tooShort' in input.validity && 'typeMismatch' in input.validity && 'valid' in input.validity && 'valueMissing' in input.validity);
 	};
 
