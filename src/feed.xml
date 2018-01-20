@@ -5,8 +5,10 @@ permalink: /blog/feed.xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ site.title | xml_escape }}</title>
-  <link href="{{ site.url }}{{ page.permalink }}"/>
-  <updated>{{ site.time | date_to_rfc822 }}</updated>
+  <id>{{ site.url }}{{ page.permalink }}</id>
+  <link type="application/atom+xml" href="{{ site.url }}{{ page.permalink }}" rel="self"/>
+  <link type="text/html" href="{{ site.url }}" rel="alternate"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
   <generator>Jekyll v{{ jekyll.version }}</generator>
   <author>
     <name>{{ site.author.name }}</name>
@@ -22,11 +24,13 @@ permalink: /blog/feed.xml
       <email>{{ site.author.email }}</email>
       <uri>{{ site.author.url }}</uri>
     </author>
-    <published>{{ post.date | date_to_rfc822 }}</published>
+    <id>{{ post.url | prepend: site.url }}</id>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <published>{{ post.date }}</published>
     <rights type="text">Copyright © {{ site.time | date: "%Y" }} {{ site.author.name }}. All rights reserved.</rights>
     <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://res.cloudinary.com/aim4strength/image/fetch/c_limit,f_auto,q_auto:best,w_640/{{ post.image }}" medium="image"></media:content>
     <link href="{{ post.url | prepend: site.url | append: '@' | remove: '/@'}}?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','' | replace: ' ', '' | xml_escape }}"/>
-    <content>{{ post.content | xml_escape }}</content>
+    <content type="html">{{ post.content | xml_escape }}</content>
     {% for cat in post.categories %}
     <category>{{ cat | xml_escape }}</category>
     {% endfor %}
