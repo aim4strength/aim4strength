@@ -27,6 +27,7 @@ permalink: /blog/feed.xml
     <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://res.cloudinary.com/aim4strength/image/fetch/c_limit,f_auto,q_auto:best,w_640/{{ post.image }}" medium="image"></media:content>
     <link href="{{ post.url | prepend: site.url | append: '@' | remove: '/@'}}?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','' | replace: ' ', '' | xml_escape }}"/>
     <content>{{ post.content | xml_escape }}</content>
+    {% for cat in post.categories %}
     <category>{{ cat | xml_escape }}</category>
     {% endfor %}
     {% for tag in post.tags %}
