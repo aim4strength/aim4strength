@@ -18,7 +18,7 @@ author:
   name: Julie Smith
   email: julie@aim4strength.com
   picture: https://res.cloudinary.com/aim4strength/image/upload/v1514757369/julie-smith.png
-  url: {{ site.url }}/meet-julie/
+  url: https://aim4strength.com/meet-julie/
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts
