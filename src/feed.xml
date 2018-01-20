@@ -33,9 +33,6 @@ permalink: /blog/feed.xml
     {% for cat in post.categories %}
     <category term="{{ tag | xml_escape }}"/>
     {% endfor %}
-    {% for tag in post.tags %}
-    <category term="{{ tag | xml_escape }}"/>
-    {% endfor %}
   </entry>
   {% endfor %}
 </feed>
