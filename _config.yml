@@ -2,8 +2,8 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: Aim4Strength Fitness
 description: Personalized Fitness Training
-url: https://aim4strength.com
-#url: http://localhost:3000
+#url: https://aim4strength.com
+url: http://localhost:3000
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist
