@@ -50,7 +50,7 @@ Until that infomercial
 
 
 
-It was around 11pm and I had eaten a gallon of ice-cream after my husband and children had gone to bed.  I felt fat, awful and desperate.  I hated hating myself all the time. 
+It was around 11pm and I had eaten a gallon of ice-cream after my husband and children had gone to bed.  I felt fat, awful and desperate.  I hated hating myself all the time.
 
 
 
@@ -62,7 +62,7 @@ So, I clicked on the TV to feel better and to numb my feelings.  Thats when I sa
 
 
 
-He was holding a fat older ladies hand and crying.  I rolled my eyes and thought “Lets see how this turns out…” I was hearing her story, which was so similar to mine—fat kid, fat adolescent, fat adult and now depressed fat adult who felt trapped, depressed and somewhat suicidal. 
+He was holding a fat older ladies hand and crying.  I rolled my eyes and thought “Lets see how this turns out…” I was hearing her story, which was so similar to mine—fat kid, fat adolescent, fat adult and now depressed fat adult who felt trapped, depressed and somewhat suicidal.
 
 
 
@@ -74,7 +74,7 @@ He was holding her hand, actively listening to her and not berating her for not 
 
 
 
- He told her he could help her. 
+ He told her he could help her.
 
 
 
@@ -110,7 +110,7 @@ We should all be like Richard Simmons.
 
 
 
-Richard Simmons is kind and genuine-to EVERYONE. He knows what it is like to be taunted and treated like crap.  At one point he was 268 pounds.  So he gets it. His strength is in his kindness to others. 
+Richard Simmons is kind and genuine-to EVERYONE. He knows what it is like to be taunted and treated like crap.  At one point he was 268 pounds.  So he gets it. His strength is in his kindness to others.
 
 Richard Simmons is fun and doesn’t take himself to seriously—and neither should you.  Life is about loving each other, having fun and learning.  Life isn’t about being scared all the time or hating the life that was given to you. He is someone who loves to have fun and loves people.  
 
@@ -120,7 +120,7 @@ Richard Simmons reminds us that we have control over ourselves and our circumsta
 
 
 
-In order for us to be more like him, it is important to have empathy for someone you have difficulty being empathetic to. 
+In order for us to be more like him, it is important to have empathy for someone you have difficulty being empathetic to.
 
 
 
@@ -172,7 +172,7 @@ I always wanted my name to be Jessica…
 
 
 
-So, in closing, whatever your problem is, the way to solve it is to try and help others.  Actively listen.  Be present in another persons life—selflessly. 
+So, in closing, whatever your problem is, the way to solve it is to try and help others.  Actively listen.  Be present in another persons life—selflessly.
 
 
 

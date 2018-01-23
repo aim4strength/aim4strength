@@ -33,10 +33,7 @@ lsi: false
 permalink: blog/:year/:month/:title/
 
 # Markdown library and options
-markdown: redcarpet
-redcarpet:
-  extensions: ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'autolink', 'smart',
-              'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
+markdown: kramdown
 highlighter: rouge
 
 # Extending Jekyll
