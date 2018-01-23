@@ -3,7 +3,7 @@
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
       <li><a href="/blog/category/{{ category | first | slugify }}/">
-              {{ category[0] | replace:'-', ' ' }}
+              {{ category[0] | markdownify | replace:'-', ' ' | replace:'<p>', '' | replace:'</p>', '' }}
       </a></li>
   {% endfor %}
 </ul>
