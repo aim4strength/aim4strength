@@ -12,8 +12,9 @@
         <h2 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom">{{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</h2>
         <p class="post-meta"><i>by</i> <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author.name }}</span></span> <i>on</i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
           </p>
-        <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}&emsp;<span class="mono">More &rarr;</span></p>
+        <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}&ensp;<button class="button-in-text uk-button uk-button-default uk-button-small"uk-icon="icon: arrow-right">More&ensp;</button></p>
         </a>
+        <hr />
     </li>
   {% endfor %}
 </ul>
