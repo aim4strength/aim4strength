@@ -7,8 +7,8 @@ image: >-
 image-alt: group of happy people exercising in the park
 categories:
   - Weightloss
-  - food
-  - diet
+  - Food
+  - Diet
   - Julie's Story
 tags:
   - motivation
