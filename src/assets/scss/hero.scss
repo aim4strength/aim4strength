@@ -13,3 +13,11 @@
   border-top: 5px solid $red;
   border-bottom: 5px solid $red;
 }
+
+.hero-wrap {
+  background: url(https://source.unsplash.com/rCOWMC8qf8A) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
