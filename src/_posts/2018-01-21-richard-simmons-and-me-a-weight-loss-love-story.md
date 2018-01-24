@@ -6,7 +6,7 @@ image: >-
   https://assets.vogue.com/photos/58b7332686e5a103fa8a3d7f/16:9/pass/00-social-richard-simmons-news.jpg
 image-alt: Richard Simmons in red tank top smiling
 categories:
-  - Weight Loss
+  - Weightloss
   - Weight
   - Fat
 tags:
