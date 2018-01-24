@@ -54,6 +54,12 @@ node_modules/
 .tmp
 test/
 
+.tmp/*
+!.tmp/src
+.tmp/src/*
+!.tmp/src/.jekyll-metadata
+
+
 # Sublime
 *.sublime-project
 *.sublime-workspace

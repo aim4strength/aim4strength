@@ -9,3 +9,8 @@
 .pagination li {
   float: left;
 }
+
+.selected a {
+  color: $red;
+  border-bottom: 2px solid $red;
+}
