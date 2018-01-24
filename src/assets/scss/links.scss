@@ -33,15 +33,12 @@ a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.0
 }
 
 a {
-  // font-family: $mono;
   color: $black;
-
 }
 
 .all-posts>li>a {
   display: block;
   padding-bottom: .5em;
-  // border-top: 6px double $white;
   border-bottom: 3px solid $white;
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -61,10 +58,5 @@ a {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
 }
-
-// .affiliate:hover {
-//     color: $red;
-// }
