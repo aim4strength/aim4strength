@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Richard Simmons and Me--A Weight Loss Love Story
-date: 2018-01-21T00:00:00-08:00
+date: 2018-01-21T08:00:00.000Z
 image: >-
   https://assets.vogue.com/photos/58b7332686e5a103fa8a3d7f/16:9/pass/00-social-richard-simmons-news.jpg
 image-alt: Richard Simmons in red tank top smiling
 categories:
   - Weight Loss
-  - weight
-  - fat
-  - ''
+  - Weight
+  - Fat
 tags:
   - Weight loss
   - Richard Simmons
