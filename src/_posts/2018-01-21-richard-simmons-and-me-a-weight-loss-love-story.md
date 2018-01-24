@@ -9,6 +9,7 @@ categories:
   - Weightloss
   - Weight
   - Fat
+  - test
 tags:
   - Weight Loss
   - Richard Simmons
