@@ -49,7 +49,11 @@ a {
 }
 .all-posts>li:nth-child(n+1) {
   margin-top: none !important;
-  // margin-bottom: 1.999em;
+  margin-bottom: 1.999em;
+}
+
+.all-posts>li:last-child {
+  margin-bottom: 0;
 }
 
 .button-in-text {
