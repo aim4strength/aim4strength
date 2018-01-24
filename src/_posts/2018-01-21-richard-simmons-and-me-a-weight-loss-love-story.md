@@ -10,7 +10,7 @@ categories:
   - Weight
   - Fat
 tags:
-  - Weight loss
+  - Weight Loss
   - Richard Simmons
 ---
 Ok, hear me out, people.  I know it sounds crazy, but Richard Simmons is a legend as far as I am concerned. My story started with him and I have been a fan girl ever since.
