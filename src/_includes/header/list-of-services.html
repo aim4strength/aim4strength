@@ -1,0 +1,15 @@
+<div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+  {% for service in site.services %}
+  <div>
+    <div class="uk-card uk-flex uk-card-primary" uk-scrollspy="cls: uk-animation-scale-down; delay:500;">
+      <div class="uk-card-media-left uk-flex uk-flex-middle uk-cover-container">
+        <img class="service-icon" src="{{ service.image }}" alt="{{ service.image-alt-text }}" />
+      </div>
+      <div class="uk-card-body">
+        <h3 class="uk-card-title uk-margin-remove">{{ service.title }}</h3>
+      </div>
+    </div>
+
+  </div>
+  {% endfor %}
+</div>

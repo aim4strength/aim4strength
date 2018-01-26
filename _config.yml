@@ -56,6 +56,17 @@ pagination:
     before: 2 # The number of links before the current page
     after: 2  # The number of links after the current page
 
+collections_dir: my_collections
+
+collections:
+  services:
+    output: false
+  pages:
+    output: true
+    permalink: /:title/
+  testimonials:
+    output: false
+
 defaults:
   -
     scope:

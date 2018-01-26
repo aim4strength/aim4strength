@@ -7,6 +7,19 @@
   padding-bottom: 1em;
 }
 
+.service-icon {
+  width: 150px;
+  // margin: 0 auto;
+  // display: block;
+  // position: relative;
+  // float: left;
+  // margin-right: 2em;
+  // top: 30px;
+}
+
+.uk-card {
+  border-radius: 3px;
+}
 
 .hero {
   padding: 0;
@@ -14,10 +27,23 @@
   border-bottom: 5px solid $red;
 }
 
-.hero-wrap {
-  background: url(https://source.unsplash.com/rCOWMC8qf8A) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.transparent {
+  background: none;
 }
+
+.full-width {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+// .hero-wrap {
+//   background: url(https://res.cloudinary.com/aim4strength/image/fetch/c_scale,q_auto:eco,w_1840/https://res.cloudinary.com/aim4strength/image/upload/v1514574378/julie-header.jpg) no-repeat top left fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   height: 150vh;
+//   display: flex;
+// }
+//
+// https://source.unsplash.com/rCOWMC8qf8A
