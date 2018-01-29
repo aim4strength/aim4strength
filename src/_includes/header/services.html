@@ -1,0 +1,16 @@
+<div class="uk-container uk-container-expand uk-margin-large-bottom">
+  <div class="uk-grid-large" uk-grid>
+    <div class="uk-width-1-5">
+      {% include header/tab-services.html %}
+    </div>
+    <div class="uk-width-2-5">
+      <div class="paper paper-switch">
+        <ul id="component-tab-left" class="uk-switcher">
+          {% for service in site.services %}
+          <li>{{ service.content | markdownify }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

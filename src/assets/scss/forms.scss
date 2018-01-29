@@ -1,11 +1,11 @@
 .uk-input, .uk-select, .uk-textarea {
-  background: $white;
+  background: transparent;
   font-family: $sans-serif;
 }
 
 .uk-input:focus, .uk-select:focus, .uk-textarea:focus {
   border-color: $primary;
-  background: $white;
+  background: transparent;
   color: $black;
 }
 

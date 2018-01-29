@@ -58,7 +58,7 @@ h1, .uk-h1 {
   font-size: 1.999em;
   line-height: 1em;
   letter-spacing: 0;
-  font-family: $heading;
+  font-family: $sans-serif;
   text-transform: uppercase;
   letter-spacing: .03em;
 }
@@ -75,6 +75,14 @@ h2, .uk-h2 {
 small, .small {
   font-size: 0.707em;
   line-height: 1.2em;
+}
+
+.uk-heading {
+  font-size: 2.5em;
+  font-family: $sans-serif;
+  line-height: 1em;
+  text-indent: -0.5em;
+  color: $blue;
 }
 
 .italic {
@@ -102,3 +110,7 @@ u:selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe
 
 u::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
                          background: #b4d5fe; }
+
+.uk-button {
+ font-size: 1rem;
+}

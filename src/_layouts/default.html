@@ -10,21 +10,25 @@
 
   {% if page.homepage %}
   {% include header/hero.html %}
-  {% endif %}
+  {% else %}
   {% include header/nav.html %}
+  {% endif %}
+
 
 
   <div class="uk-container uk-container-expand">
     <div class="uk-child-width-expand@s uk-grid-large" uk-grid>
         {% include aside/left-aside.html %}
-      <div class="uk-width-2-5@xl uk-width-2-3@m uk-width-2-3@l">
-        <div>
+      <main class="uk-width-2-5@xl uk-width-2-3@m uk-width-2-3@l">
+        <div class="paper">
           {% if page.blog or page.auto-page %}
           {% include list-of-all-posts.html %}
           {% elsif page.is-post %}
           {{ content }}
           {% elsif page.image %}
+          <div class="uk-text-center">
           <img class="uk-margin-medium-bottom" src="{{ page.image }}" alt="{{ page.image-alt }}" />
+        </div>
           {{ content }}
           {% else %}
           {{ content }}
@@ -33,11 +37,8 @@
           {% include related-posts.html %}
           {% endif %}
         </div>
-      </div>
-      {% if page.right-aside == false %}
-      {% else %}
+      </main>
       {% include aside/right-aside.html %}
-      {% endif %}
     </div>
     {% include footer.html %}
   </div>

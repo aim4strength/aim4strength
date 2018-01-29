@@ -14,7 +14,10 @@
           </p>
         <p class="excerpt uk-text-left">{{ post.content | strip_html | truncatewords: 50 }}&ensp;<button class="button-in-text uk-button uk-button-default uk-button-small"uk-icon="icon: arrow-right">More&ensp;</button></p>
         </a>
-        <hr />
+        {% if forloop.last == true %}
+  {% else %}
+      <hr />
+  {% endif %}
     </li>
   {% endfor %}
 </ul>

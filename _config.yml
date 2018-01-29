@@ -60,7 +60,8 @@ collections_dir: my_collections
 
 collections:
   services:
-    output: false
+    output: true
+    permalink: /:collection/:title/
   pages:
     output: true
     permalink: /:title/
@@ -70,11 +71,19 @@ collections:
 defaults:
   -
     scope:
+      path: ""
+      type: services
+    values:
+      layout: default
+      right-aside: true
+      right-aside-top: true
+      right-aside-bottom: false
+  -
+    scope:
       path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
       is-post: true
-      shorten: true
   -
     scope:
       path: ""      # empty string for all files

@@ -1,14 +1,43 @@
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: $white;
+  background: transparent;
   border-bottom: 1px solid $black;
 }
 
-.uk-navbar-transparent {
-  background: transparent;
+
+
+.logo-list {
+    margin-left: 0;
+}
+
+body {
+  background-color: #faf0e6;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 
-@media (min-width: 1200px) {}
-.logo-list {
-    margin-left: 0;
+.paper {
+  background: #fffff8;
+    padding: 2em;
+    box-shadow: -1px -1px 34px -13px $black;
+}
+
+@media screen and (max-width: 640px) {
+  .paper {
+    padding: 1em;
+  }
+}
+
+.paper-mail {
+  padding: 1em;
+  position: relative;
+  padding: 1em 1em 0;
+  border-radius: 3px;
+  border: 9px solid transparent;
+  border-image: 9 repeating-linear-gradient(-45deg, $red 0, $red 10.5px, transparent 0, transparent 20.5px,
+                $blue 0, $blue 30.5px, transparent 0, transparent 40.5px);
+}
+
+div {
+  border-radius: 3px;
 }
