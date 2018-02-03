@@ -38,7 +38,7 @@
 
 .call {
   font-family: $sans-serif;
-  font-size: 1em;
+  font-size: 1.25em;
   color: $black;
 }
 
@@ -47,11 +47,17 @@
   width: 82px;
 }
 
+.nav-wrap.uk-sticky-fixed {
+    border-bottom: 2px solid $red;
+}
 .nav {
-  border-bottom: 2px solid $red;
+
+  // background: $white;
+  // box-shadow: -1px -1px 34px -13px $black;
 // box-shadow: 0px 10px 22px -8px rgba(17,17,17,0.24);
 background-color: #faf0e6;
 background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
+
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 

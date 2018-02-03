@@ -10,7 +10,16 @@
 .hero-video {
   // background: #fffff8;
   // padding: .5em;
-  box-shadow: -1px -1px 34px -13px $black;
+  // box-shadow: -1px -1px 34px -13px $black;
+}
+
+.testimonial-image {
+  float: left;
+  margin: 0 1em 6em 0;
+}
+
+.uk-slider-container {
+    box-shadow: -1px -1px 34px -13px $black;
 }
 
 // .hero-container {
@@ -23,32 +32,45 @@
   font-size: 1rem;
 }
 
-.uk-tab-left::before {
-  border-left: 1px solid #999;
-}
+// .uk-tab-left::before {
+//   border-left: 1px solid #999;
+// }
 
-.uk-tab>.uk-active>a {
-    // color: #333;
-    // border-left-width: 1px;
-    border-left-color: white;
+// .uk-tab>.uk-active>a {
+//     // color: #333;
+//     // border-right-width: 2px;
+//     border-color: $red;
+// }
+
+.uk-tab>li>a,.uk-tab>.uk-active>a  {
+  padding-right: 20px;
 }
 
 .uk-tab li {
   // margin-bottom: 2rem;
 }
 
+.testimonials {
+  font-size: 1rem;
+}
+
 .paper-switch {
-  height: 600px;
+  height: 780px;
 }
 .service-icon {
   width: 50px;
-  margin: 0 1em;
+  margin: 0 auto .5em;
+  display: block;
   // margin: 0 auto;
   // display: block;
   // position: relative;
   // float: left;
   // margin-right: 2em;
   // top: 30px;
+}
+
+.uk-tab-left li a {
+  text-align: center;
 }
 
 .uk-card {
@@ -70,14 +92,7 @@
   padding-right: 0;
 }
 
-// .hero-wrap {
-//   background: url(https://res.cloudinary.com/aim4strength/image/fetch/c_scale,q_auto:eco,w_1840/https://res.cloudinary.com/aim4strength/image/upload/v1514574378/julie-header.jpg) no-repeat top left fixed;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   height: 150vh;
-//   display: flex;
-// }
-//
-// https://source.unsplash.com/rCOWMC8qf8A
+.hero-wrap {
+  padding-bottom: 3em !important;
+  // border: 6px solid $primary;
+}

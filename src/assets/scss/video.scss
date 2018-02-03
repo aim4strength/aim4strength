@@ -6,6 +6,7 @@
   max-width: 100%;
   margin-bottom: 2em;
   border-radius: 3px;
+    box-shadow: -1px -1px 34px -13px $black;
 }
 .embed-container iframe, .embed-container object, .embed-container embed {
   position: absolute;

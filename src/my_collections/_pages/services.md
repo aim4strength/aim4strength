@@ -4,6 +4,7 @@ title: Services
 permalink: /services/
 image:
 right-aside: true
+right-aside-bottom: false
 ---
 ## About / Services
 

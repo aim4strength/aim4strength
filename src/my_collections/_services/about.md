@@ -1,5 +1,5 @@
 ---
-title: Our Story
+title: The Aim4Strength Story
 image: https://res.cloudinary.com/aim4strength/image/upload/v1514574379/service-icon-corporate.png
 ---
 
