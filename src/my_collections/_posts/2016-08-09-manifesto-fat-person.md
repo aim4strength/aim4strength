@@ -7,10 +7,10 @@ image: >-
 categories:
   - Exercise
   - Food and Diet
-  - Julie's Story
+  - Julies-Story
   - Opinion
   - Weightloss
-  - Weightloss Setbacks
+  - Weightloss-Setbacks
 ---
 Well, I know a thing or two about being fat. I was 300lbs for, I don’t know, too long to count. This manifesto is a manifesto that is going to change the way we not only view fat people (I know, not politically correct verbiage, but I am pretty politically incorrect, so its ok), but how we help them to discover their awesome, badass-selves. Rule number one: Don’t stare, don’t make fun of, and don’t ostracize the fat person. It isn’t fun to be fat, and being singled out sucks. It’s almost as if fat people are viewed as someone with leprosy. Let me tell you, if a fat person bumps in to you, you can’t “catch” their fatness. I promise. Rule number two: Don’t automatically think fat people are funny. I know, seems acceptable that they should be jolly—I mean, look at Santa, right? It’s like telling a monkey, “dance monkey, dance”. It is annoying that I felt I had to be “on” in order to be heard and not be invisible. Rule number three: Fat people (contrary to popular beliefs of skinny people) don’t revel in their fat—or at least they shouldn’t. I found it offensive that so many people said “well, if you aren’t happy being fat…” Um, last I checked, no one is ever overjoyed looking in a mirror and seeing something they don’t like. It depresses them, and I, as a former fat girl ate when I was depressed. Which compounds the problem.
 

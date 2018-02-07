@@ -6,7 +6,7 @@ image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574379/lets-talk-about-goals.jpg
 categories:
   - Exercise
-  - Julie's Story
+  - Julies-Story
   - Weightloss
 ---
 What do American Ninja Warrior, Figure Competing, Powerlifting and marathon running all have in common? They are and have been my goals after losing my weight. These goals are pretty lofty, especially for an overweight, highly non-athletic, clumsy girl that had a hard time even walking to the cafeteria, and that is WITH motivation!
