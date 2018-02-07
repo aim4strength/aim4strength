@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Imprint
 permalink: /imprint/
 right-aside: true

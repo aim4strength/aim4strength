@@ -81,15 +81,23 @@ defaults:
   -
     scope:
       path: ""      # empty string for all files
+      type: pages   # limit to posts
+    values:
+      layout: default
+  -
+    scope:
+      path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
       is-post: true
+      cta: "Thank you for reading."
   -
     scope:
       path: ""      # empty string for all files
       type: categories   # limit to posts
     values:
       category: :category
+
 ############################################################
 # Site configuration for the Auto-Pages feature
 # The values here represent the defaults if nothing is set
@@ -97,7 +105,6 @@ autopages:
 
   # Site-wide kill switch, disable here and it doesn't run at all
   enabled: true
-
 
   collections:
     layouts:
@@ -107,12 +114,12 @@ autopages:
 
   categories:
     layouts:
-      - 'autopage_category.html'
+      - 'autopage.html'
     title: 'Posts in category :cat'
     permalink: '/blog/category/:cat'
 
   tags:
     layouts:
-      - 'autopage_tag.html'
+      - 'autopage.html'
     title: 'Posts tagged with :tag'
     permalink: '/blog/tag/:tag'

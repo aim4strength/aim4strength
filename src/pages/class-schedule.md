@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Class Schedule
 image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574377/Aim4Strength-Boot-Camp.jpg

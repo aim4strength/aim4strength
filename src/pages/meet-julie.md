@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Meet Julie
 permalink: /meet-julie/
 right-aside: true
