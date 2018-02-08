@@ -9,7 +9,7 @@ categories:
   - Weightloss
   - Food
   - Diet
-  - Julies-Story
+  - Julie's Story
 tags:
   - motivation
   - inspiration

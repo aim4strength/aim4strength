@@ -8,7 +8,7 @@ categories:
   - Exercise
   - Food and Diet
   - Weightloss
-  - Weightloss-Setbacks
+  - Weightloss Setbacks
 tags:
   - lose weight
   - weight

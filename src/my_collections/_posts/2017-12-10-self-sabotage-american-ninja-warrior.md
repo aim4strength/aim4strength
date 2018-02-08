@@ -6,9 +6,9 @@ image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574379/american-ninja-warrior.jpg
 categories:
   - Exercise
-  - Julies-Story
+  - Julie's Story
   - Weightloss
-  - Weightloss-Setbacks
+  - Weightloss Setbacks
 tags:
   - American ninja warrior
   - fear

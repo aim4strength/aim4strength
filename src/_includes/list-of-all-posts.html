@@ -1,6 +1,6 @@
 {% if page.auto-page %}
 <p class="uk-h2 uk-text-center uk-margin-remove small">Filed Under</p>
-<p class="uk-h1 uk-text-center">{{page.autopages.display_name}}</p>
+<p class="uk-h1 uk-text-center">{{page.autopages.display_name | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</p>
 <hr class="uk-margin-bottom"/>
 {% endif %}
 <ul class="uk-list all-posts">

@@ -29,7 +29,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-compose (0.7.0)
       jekyll (~> 3.0)
-    jekyll-paginate-v2 (1.9.4)
+    jekyll-paginate-v2 (1.9.2)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.13.0)
       jekyll (~> 3.3)
