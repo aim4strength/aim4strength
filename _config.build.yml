@@ -1,3 +1,3 @@
 # Run during the 'gulp build' command
 # Overrides these options in _config.yml
-url: https://aim4strength.com
+url: https://aim4strength-v2.netlify.com
