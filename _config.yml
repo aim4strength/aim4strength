@@ -75,7 +75,7 @@ defaults:
       type: services
     values:
       layout: default
-      right-aside: true
+      left-aside: true
       right-aside-top: true
       right-aside-bottom: false
   -
@@ -84,12 +84,18 @@ defaults:
       type: pages   # limit to posts
     values:
       layout: default
+      left-aside: true
+      right-aside-top: true
+      right-aside-bottom: false
   -
     scope:
       path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
       is-post: true
+      left-aside: true
+      right-aside-top: true
+      right-aside-bottom: true
       cta: "Thank you for reading."
   -
     scope:

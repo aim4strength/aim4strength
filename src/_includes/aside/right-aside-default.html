@@ -1,0 +1,14 @@
+{% if page.homepage %}
+other homepage content
+{% else %}
+{% include aside/bio.html %}
+{% endif %}
+{% if page.blog or page.auto-page or page.is-post %}
+<hr>
+{% include aside/list-of-categories.html %}
+{% endif %}
+{% if page.homepage %}
+{% else %}
+<hr>
+{% include aside/affiliates.html %}
+{% endif %}

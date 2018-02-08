@@ -1,8 +1,6 @@
 ---
 title: Imprint
 permalink: /imprint/
-right-aside: true
-right-aside-top: true
 right-aside-bottom: false
 ---
 

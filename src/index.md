@@ -1,7 +1,7 @@
 ---
 layout: default
 homepage: true
-right-aside: true
+left-aside: true
 right-aside-top: true
 right-aside-bottom: true
 ---
