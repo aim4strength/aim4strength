@@ -40,11 +40,6 @@ a {
   display: block;
   padding-bottom: .5em;
   border-bottom: 3px solid $white;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
   color: black;
 }
 .all-posts>li:nth-child(n+1) {
