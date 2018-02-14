@@ -112,5 +112,5 @@ autopages:
   categories:
     layouts:
       - 'autopage.html'
-    title: 'Posts in category :cat'
+    title: 'Posts Filed Under :cat'
     permalink: '/blog/category/:cat'
