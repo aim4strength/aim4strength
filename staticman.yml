@@ -1,0 +1,18 @@
+comments:
+  allowedFields     : ['name', 'email', 'message', 'slug', title ]
+  branch            : "comments"
+  commitMessage     : "New comment."
+  filename          : "comment-{@timestamp}"
+  format            : "yaml"
+  path              : "src/my_collections/_comments"
+  moderation        : false
+  slug              : "{fields.slug}"
+  requiredFields    : ['name', 'email', 'message']
+  transforms:
+    email           : md5
+  generatedFields:
+    date:
+      type          : "date"
+      options:
+        format      : "iso8601"
+    approved        : false

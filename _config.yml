@@ -82,6 +82,7 @@ defaults:
       type: pages   # limit to posts
     values:
       layout: default
+      comments: false
       right-aside-bottom: false
   -
     scope:
@@ -90,6 +91,7 @@ defaults:
     values:
       layout: post
       is-post: true
+      comments: false
       cta: "Thank you for reading."
   -
     scope:
