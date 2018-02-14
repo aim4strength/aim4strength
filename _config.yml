@@ -66,9 +66,6 @@ collections:
   services:
     output: true
     permalink: /:collection/:title/
-  pages:
-    output: true
-    permalink: /:title/
   testimonials:
     output: false
 
@@ -108,7 +105,10 @@ autopages:
 
   # Site-wide kill switch, disable here and it doesn't run at all
   enabled: true
-
+  collections:
+    enabled: false
+  tags:
+    enabled: false
   categories:
     layouts:
       - 'autopage.html'
