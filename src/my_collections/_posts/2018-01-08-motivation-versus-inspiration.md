@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Motivation Versus Inspiration
 date: 2018-01-08T22:30:00.000Z
 image: >-
@@ -20,7 +19,7 @@ Motivation Versus Inspiration
 
 Man, its Monday again, and you are re-starting your diet…again.  I have been on this hamster wheel a time or two, and I would love nothing more than to help you off of it.
 
-You see, I always thought you had to be motivated to lose weight.  I would watch my favorite person in the world, Richard Simmons and get so hyped about losing weight. 
+You see, I always thought you had to be motivated to lose weight.  I would watch my favorite person in the world, Richard Simmons and get so hyped about losing weight.
 
  I would food prep, get ready on the weekend for Monday and swear that this time, this time would be the time I would totally lose my weight.  
 
@@ -48,13 +47,13 @@ Stop. Right. There.
 
 There are times you may not be excited to change.  You may not be…gasp…motivated.  Well, thats A-OK.  
 
-You just have to want something bad enough to change your habits. 
+You just have to want something bad enough to change your habits.
 
 The end.  
 
-Seriously, I didn’t want to stop eating crap.  I cried when I had to change my diet.  I wasn’t hyped at all. 
+Seriously, I didn’t want to stop eating crap.  I cried when I had to change my diet.  I wasn’t hyped at all.
 
-But I had resigned myself to it for the weight-loss contest to do it for 6 months. 
+But I had resigned myself to it for the weight-loss contest to do it for 6 months.
 
 I wanted the money.  I needed the money. I wanted the money so much I was willing to lose weight for it, change my diet and start with an exercise program.
 
@@ -64,7 +63,7 @@ So what if your “want” isn’t what you should want by societies standards? 
 
 Your motivation may come from wanting to wear a total slutty dress at your high school reunion so you can make the football star (the guy who now has a beer gut, no hair with a plumbers crack and yellow teeth), to be ashamed he trash-canned you in high school.  
 
-Maybe you want to lose weight to make your mate jealous.  Maybe you do want to be healthy. 
+Maybe you want to lose weight to make your mate jealous.  Maybe you do want to be healthy.
 
 Your reasons are yours alone, so who gives a crap about what other people think?
 
@@ -78,9 +77,9 @@ Inspiration is something that you feel inside; again, intrinsic in nature.  It m
 
 I think inspiration is a cousin to motivation for sure, but again I feel inspiration is more a creative thing versus motivation which is something that kick starts you to change.  
 
-You know when you get a lightbulb moment? 
+You know when you get a lightbulb moment?
 
-You have been plugging away at a problem by changing your habits and working hard, then all of a sudden an easier more creative way to go about the problem wakes you up in the middle of the night—Blamo! That is inspiration. 
+You have been plugging away at a problem by changing your habits and working hard, then all of a sudden an easier more creative way to go about the problem wakes you up in the middle of the night—Blamo! That is inspiration.
 
 I freaking love inspiration, because it can come at any time and it actually motivates you to be or do something better.  
 

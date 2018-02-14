@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jumping into "American Ninja Warrior"
 date: 2017-12-01T15:53:44.000Z
 image: >-

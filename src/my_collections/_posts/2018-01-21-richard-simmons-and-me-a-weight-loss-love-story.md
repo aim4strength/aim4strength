@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Richard Simmons and Me--A Weight Loss Love Story
 date: 2018-01-21T08:00:00.000Z
 image: >-

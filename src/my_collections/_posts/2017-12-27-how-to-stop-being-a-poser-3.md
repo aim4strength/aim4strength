@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to Stop Being a Poser
 date: 2017-12-27T02:44:11.000Z
 image: >-

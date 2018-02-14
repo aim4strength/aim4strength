@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Self Sabotage and American Ninja Warrior
 date: 2017-12-10T14:48:57.000Z
 image: >-

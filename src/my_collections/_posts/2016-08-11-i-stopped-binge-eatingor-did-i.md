@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I stopped binge eating…or did I?
 date: 2016-08-11T00:44:06.000Z
 image: >-

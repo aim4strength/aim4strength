@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How I lost 160 Pounds in a Little Over a Year and a Half
 date: 2017-12-14T13:33:59.000Z
 image: >-

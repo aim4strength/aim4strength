@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Falling Down Is Inevitable. Getting up is Optional.
 date: 2016-08-11T00:40:15.000Z
 image: >-

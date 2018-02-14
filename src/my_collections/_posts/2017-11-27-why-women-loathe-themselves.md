@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Why Women Loathe Themselves
 date: 2017-11-27T03:53:45.000Z
 image: >-

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Weight Loss New Years Resolutions
 date: 2017-12-27T08:00:00.000Z
 image: >-

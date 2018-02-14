@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How To Mitigate the Holiday 15
 date: 2017-12-05T16:19:23.000Z
 image: >-

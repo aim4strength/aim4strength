@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Manifesto of a Fat Person
 date: 2016-08-09T17:26:03.000Z
 image: >-

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Let’s Talk about Goals
 date: 2016-08-11T00:43:12.000Z
 image: >-

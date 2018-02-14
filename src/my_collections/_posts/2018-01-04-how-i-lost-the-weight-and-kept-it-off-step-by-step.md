@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How I Lost the Weight and Kept it Off Step by Step
 date: 2018-01-04T08:00:00-08:00
 image: >-
