@@ -1,15 +1,18 @@
+{% if page.right-aside-top == false and page.right-aside-bottom == false %}
+{% else %}
 <div class="uk-width-1-3@xl uk-width-1-3@l uk-visible@xl content uk-flex uk-flex-between uk-flex-column">
   {% if page.right-aside-top == false %}
   <div></div>
   {% else %}
   <div class="paper">
-      {% include aside/right-aside-default.html %}
+      {% include aside/content/right-aside-default.html %}
   </div>
   {% endif %}
   {% if page.right-aside-bottom == false %}
   {% else %}
   <div class="paper" uk-scrollspy="cls:uk-animation-slide-bottom; delay:500">
-        {% include aside/right-aside-cta.html %}
+        {% include aside/content/right-aside-cta.html %}
     </div>
     {% endif %}
 </div>
+{% endif %}

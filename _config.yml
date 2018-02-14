@@ -3,7 +3,6 @@
 title: Aim4Strength Fitness
 description: Personalized Fitness Training
 url: http://localhost:3000
-blog_url: /blog
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist
@@ -80,8 +79,6 @@ defaults:
       type: services
     values:
       layout: default
-      left-aside: true
-      right-aside-top: true
       right-aside-bottom: false
   -
     scope:
@@ -89,8 +86,6 @@ defaults:
       type: pages   # limit to posts
     values:
       layout: default
-      left-aside: true
-      right-aside-top: true
       right-aside-bottom: false
   -
     scope:
@@ -98,9 +93,6 @@ defaults:
       type: posts   # limit to posts
     values:
       is-post: true
-      left-aside: true
-      right-aside-top: true
-      right-aside-bottom: true
       cta: "Thank you for reading."
   -
     scope:
@@ -117,20 +109,8 @@ autopages:
   # Site-wide kill switch, disable here and it doesn't run at all
   enabled: true
 
-  collections:
-    layouts:
-      - 'autopage.html'
-    title: 'Posts in collection :coll'
-    permalink: '/collection/:coll'
-
   categories:
     layouts:
       - 'autopage.html'
     title: 'Posts in category :cat'
     permalink: '/blog/category/:cat'
-
-  tags:
-    layouts:
-      - 'autopage.html'
-    title: 'Posts tagged with :tag'
-    permalink: '/blog/tag/:tag'

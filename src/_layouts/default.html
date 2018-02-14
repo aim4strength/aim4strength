@@ -14,15 +14,13 @@
   {% include header/nav.html %}
   {% endif %}
 
-
-
   <div class="uk-container uk-container-expand">
     <div class="uk-child-width-expand@s uk-grid-large uk-flex" uk-grid>
 
       <main class="uk-width-2-5@xl uk-width-2-3@m uk-width-2-3@l">
         <div class="paper">
           {% if page.blog or page.auto-page %}
-          {% include list-of-all-posts.html %}
+          {% include post-lists/list-of-all-posts.html %}
           {% elsif page.is-post %}
           {{ content }}
           {% elsif page.image %}
@@ -34,12 +32,18 @@
           {{ content }}
           {% endif %}
           {% if page.is-post %}
-          {% include related-posts.html %}
+          {% include post-lists/related-posts.html %}
           {% endif %}
         </div>
       </main>
-      {% include aside/right-aside.html %}
+      {% if page.right-aside == false %}
+      {% else %}
+        {% include aside/right-aside.html %}
+      {% endif %}
+      {% if page.left-aside == false %}
+      {% else %}
       {% include aside/left-aside.html %}
+      {% endif %}
     </div>
     {% include footer.html %}
   </div>
