@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: new-home-clean # Branch to update (master by default)
+  branch: comments # Branch to update (master by default)
 
 publish_mode: editorial_workflow
 
@@ -21,7 +21,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Featured Image Alt Text", name: "image-alt", widget: "string", required: false}
       - {label: "Categories", name: categories, widget: list, required: false}
       - {label: "Tags", name: tags, widget: list, required: false}
-      - {label: "Allow Comments", name: "comments", widget: "boolean", default: false}      
+      - {label: "Allow Comments", name: "comments", widget: "boolean", default: false}
       - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true}
       - {label: "Include First Right Aside", name: "right-aside-top", widget: "boolean", default: true}
       - {label: "Include Second Right Aside (CTA)", name: "right-aside-bottom", widget: "boolean", default: true}
