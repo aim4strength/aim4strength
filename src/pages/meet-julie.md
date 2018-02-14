@@ -1,7 +1,9 @@
 ---
 title: Meet Julie
 permalink: /meet-julie/
-right-aside-top: false
+left-aside: false
+right-aside-top: true
+right-aside-bottom: false
 ---
 <div class='embed-container'><iframe src='https://www.youtube.com/embed/Aw6g3swRYOo?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></div>
 
