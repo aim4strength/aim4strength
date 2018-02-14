@@ -45,7 +45,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-paginate-v2
-  - jekyll-algolia
 
 # Pagination Settings
 pagination:
