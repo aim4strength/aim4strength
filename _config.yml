@@ -10,6 +10,10 @@ destination: .tmp/dist
 include: [_redirects, google0f065b426978137f.html,BingSiteAuth.xml]
 exclude: ['assets']
 
+algolia:
+  application_id: 'ORE1OKWCML'
+  index_name:     'aim4strength_index'
+  search_only_api_key: '2960adbde57968159b658bea3b728be8'
 
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on
@@ -42,6 +46,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-paginate-v2
+  - jekyll-algolia
 
 # Pagination Settings
 pagination:

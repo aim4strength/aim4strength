@@ -40,6 +40,7 @@
   font-family: $sans-serif;
   font-size: 1.25em;
   color: $black;
+  justify-content: flex-start;
 }
 
 .nav-logo-mini {
@@ -103,7 +104,7 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-stripes
   text-transform: none;
 }
 
-.uk-navbar .uk-icon {
+.uk-navbar .uk-offcanvas-content .uk-icon {
     top: 8px;
 }
 
@@ -117,9 +118,7 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-stripes
   }
 }
 
-.uk-offcanvas-bar {
-  background: transparent;
-}
+
 .uk-offcanvas-bar .uk-navbar-item {
   height: 50px;
 }
