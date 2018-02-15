@@ -126,3 +126,4 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Email, name: email, widget: string}
               - {label: Picture, name: picture, widget: string}
               - {label: URL, name: url, widget: string}
+          - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "string"}

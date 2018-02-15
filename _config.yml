@@ -14,6 +14,7 @@ author:
     https://res.cloudinary.com/aim4strength/image/upload/v1514757369/julie-smith.png
   url: 'https://aim4strength.com/meet-julie/'
 
+default-right-aside-cta: 'Thank you for reading. If you have found this article helpful please comment, share, subscribe. It means so much! :heart:'
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
@@ -113,7 +114,6 @@ defaults:
       is-post: true
       comments: true
       comment-locked: false
-      cta: "Thank you for reading."
   -
     scope:
       path: ""      # empty string for all files

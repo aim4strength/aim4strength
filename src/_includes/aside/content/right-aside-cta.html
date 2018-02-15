@@ -1,5 +1,12 @@
 <div class="right-aside-wrap">
-Thank you / Call to Action
+{% if page.cta %}
+{{ page.cta }}
+{% else %}
+<p class="uk-margin-bottom">
+{{ site.default-right-aside-cta }}  
+</p>
+
+{% endif %}
 <hr>
 {% include aside/content/list-of-categories.html %}
 </div>
