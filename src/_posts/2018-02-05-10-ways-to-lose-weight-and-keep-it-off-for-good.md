@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 10 Ways to Lose Weight and Keep It Off For Good
-date: 02/05/2018 12:00 AM
+date: 2018-02-05T18:00:00-08:00
 image: 'http://b.vimeocdn.com/ts/536/672/53667267_640.jpg'
 image-alt: man on rock holding arms up
 categories:
