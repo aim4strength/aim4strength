@@ -36,12 +36,12 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "hidden"}
+      - {label: "id", name: "_id", widget: "hidden"}
+      - {label: "email", name: "email", widget: "hidden"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Approved", name: "approved", widget: "boolean"}
       - {label: "Message", name: "message", widget: "markdown"}
-      - {label: "id", name: "_id", widget: "hidden"}
-      - {label: "email", name: "email", widget: "hidden"}
-      - {label: "date", name: "date", widget: "hidden"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - name: "services" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Services" # Used in the UI, ie.: "New Post"
     folder: "src/my_collections/_services" # The path to the folder where the documents are stored
