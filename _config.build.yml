@@ -1,12 +1,6 @@
-# Run during the 'gulp build' command
-# Overrides these options in _config.yml
-title: Aim4Strength Fitness
-description: Personalized Fitness Training
-url: https://aim4strength-v2.netlify.com
-
-# NOTE: Don't use @ in front of your Twitter username
 author:
-  name: Julie Smith
   email: julie@aim4strength.com
-  picture: https://res.cloudinary.com/aim4strength/image/upload/v1514757369/julie-smith.png
-  url: https://aim4strength.com/meet-julie/
+  name: Julie Smith
+  picture: >-
+    https://res.cloudinary.com/aim4strength/image/upload/v1514757369/julie-smith.png
+  url: 'https://aim4strength.com/meet-julie/'
