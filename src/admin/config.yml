@@ -126,8 +126,8 @@ collections: # A list of collections the CMS should be able to edit
   - label: "Default Content and Settings"
     name: "defaults"
     files:
-      - label: "Config"
-        name: "config"
+      - label: "Default Content and Settings"
+        name: "defaults"
         file: "_config.build.yml"
         fields:
           - name: author
