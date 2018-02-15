@@ -2,7 +2,11 @@
 
 # Allow crawling of all content
 User-agent: *
+<<<<<<< HEAD
 Sitemap: {{ site.url }}/sitemap.xml
 Disallow: /admin/index.html
 Disallow: /admin/config.yml
 Disallow: /thank-you/
+=======
+Disallow: /admin/*
+>>>>>>> current
