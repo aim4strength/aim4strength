@@ -82,7 +82,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - name: "classes" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Classes" # Used in the UI, ie.: "New Post"
-    folder: "src/my_collections/classes" # The path to the folder where the documents are stored
+    folder: "src/my_collections/_classes" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
