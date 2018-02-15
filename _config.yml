@@ -77,12 +77,21 @@ collections:
     output: false
   comments:
     output: false
+  classes:
+    output: false
 
 defaults:
   -
     scope:
       path: ""
       type: services
+    values:
+      layout: default
+      right-aside-bottom: false
+  -
+    scope:
+      path: ""
+      type: classes
     values:
       layout: default
       right-aside-bottom: false

@@ -80,6 +80,24 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - name: "classes" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Classes" # Used in the UI, ie.: "New Post"
+    folder: "src/my_collections/classes" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Location Name", name: "location", widget: "string"}
+      - {label: "Google Map Link", name: "google-map-link", widget: "string"}
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        field:
+          - {label: Dates, name: dates, widget: datetime}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - label: "Home-Page"
     name: "Home-Page"
     files:
