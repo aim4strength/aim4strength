@@ -40,10 +40,12 @@
       {% else %}
         {% include aside/right-aside.html %}
       {% endif %}
+      <div class="uk-width-1-1@s uk-width-1-3@m uk-flex-first@m uk-width-1-3@l uk-width-1-5@xl">
       {% if page.left-aside == false %}
       {% else %}
       {% include aside/left-aside.html %}
       {% endif %}
+    </div>
     </div>
     {% include footer.html %}
   </div>
