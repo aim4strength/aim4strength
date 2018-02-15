@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: new-clean-home # Branch to update (master by default)
+  branch: new-home-clean # Branch to update (master by default)
 
 publish_mode: editorial_workflow
 
@@ -9,7 +9,7 @@ public_folder: "assets/images"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Posts" # Used in the UI, ie.: "New Post"
+    label: "Blog Posts" # Used in the UI, ie.: "New Post"
     folder: "src/my_collections/_posts" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
@@ -63,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - name: "pages" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Page" # Used in the UI, ie.: "New Post"
+    label: "Pages" # Used in the UI, ie.: "New Post"
     folder: "src/pages" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
