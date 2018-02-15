@@ -4,3 +4,4 @@
 User-agent: *
 Disallow: /admin/index.html
 Disallow: /admin/config.yml
+Disallow: /thank-you/
