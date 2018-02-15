@@ -1,5 +1,5 @@
 comments:
-  allowedFields     : ['name', 'email', 'message', 'slug', 'title']
+  allowedFields     : ['name', 'email', 'message', 'slug']
   branch            : "comments"
   commitMessage     : "New comment."
   filename          : "comment-{@timestamp}"
@@ -16,3 +16,4 @@ comments:
       options:
         format      : "iso8601"
     approved        : false
+    title:          : Comment
