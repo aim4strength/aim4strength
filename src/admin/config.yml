@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
+      - {label: "Publish Date/Time", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
       - {label: "Featured Image", name: "image", widget: "string", required: false}
       - {label: "Featured Image Alt Text", name: "image-alt", widget: "string", required: false}
       - {label: "Categories", name: categories, widget: list, required: false}
