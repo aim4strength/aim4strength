@@ -62,6 +62,7 @@ pagination:
 collections_dir: my_collections
 
 collections:
+  comments:
   services:
     output: true
     permalink: /:collection/:title/
