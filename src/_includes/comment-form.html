@@ -1,7 +1,8 @@
-<form method="POST" action="https://api.staticman.net/v2/entry/aim4strength/aim4strength/comments/comments">
+<form method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.branch }}/comments">
   <input name="options[redirect]" type="hidden" value="{{ site.url }}/thank-you">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="fields[slug]" type="hidden" value="{{ page.slug }}">
+  <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
   <div class="uk-margin-medium-top">
       <label for="name" class="uk-form-label">Name:</label>
       <div class="uk-form-controls">

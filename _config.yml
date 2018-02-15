@@ -3,6 +3,9 @@
 title: Aim4Strength Fitness
 description: Personalized Fitness Training
 url: http://localhost:3000
+repository: aim4strength/aim4strength
+branch: comments
+
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist

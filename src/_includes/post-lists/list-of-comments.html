@@ -1,4 +1,5 @@
-{% for comment in site.comments %}
+{% assign comments = site.comments | where:"slug", page.slug %}
+{% for comment in comments %}
   {% if comment.approved == true %}
     <article class="uk-comment">
         <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
