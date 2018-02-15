@@ -88,6 +88,7 @@ defaults:
     values:
       layout: default
       comments: false
+      comment-locked: true
       right-aside-bottom: false
   -
     scope:
@@ -96,7 +97,8 @@ defaults:
     values:
       layout: post
       is-post: true
-      comments: false
+      comments: true
+      comment-locked: false
       cta: "Thank you for reading."
   -
     scope:

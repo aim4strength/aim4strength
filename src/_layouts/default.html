@@ -35,8 +35,14 @@
           {% include post-lists/related-posts.html %}
           {% endif %}
           {% if page.comments == true %}
-            {% include comment-form.html %}
             {% include post-lists/list-of-comments.html %}
+          {% endif %}
+          {% if page.comment-locked == false %}
+            {% include comment-form.html %}
+          {% else %}
+          <p>
+            Comments are locked at this time.
+          </p>
           {% endif %}
         </div>
       </main>

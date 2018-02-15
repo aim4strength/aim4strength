@@ -1,13 +1,16 @@
 {% assign comments = site.comments | where:"slug", page.slug %}
+<hr />
+<ul class="uk-list uk-list-divider">
 {% for comment in comments %}
   {% if comment.approved == true %}
+  <li>
     <article class="uk-comment">
         <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
-                <img class="uk-comment-avatar" src="../docs/images/avatar.jpg" width="80" height="80" alt="">
+                <img class="uk-comment-avatar" src="https://res.cloudinary.com/aim4strength/image/upload/v1514757369/julie-smith.png" width="80" height="80" alt="">
             </div>
             <div class="uk-width-expand">
-                <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">{{ comment.name | capitalize }}</a></h4>
+                <h4 class="uk-comment-title uk-margin-remove">{{ comment.name | capitalize }}</h4>
                 <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
                     <li>{{ comment.date | date: "%B %-d, %Y" }}</li>
                     <li><a href="#">Reply</a></li>
@@ -18,5 +21,7 @@
             <p>{{ comment.message }}</p>
         </div>
     </article>
+  </li>
+</ul>
   {% endif %}
 {% endfor %}
