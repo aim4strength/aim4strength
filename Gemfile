@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem 'jekyll-algolia'
   gem 'jekyll-compose'
   gem 'jemoji'
+  gem 'jekyll-gravatar'
 end

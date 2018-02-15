@@ -1,8 +1,19 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
+title: Aim4Strength Fitness
+description: Personalized Fitness Training
 url: http://localhost:3000
 repository: aim4strength/aim4strength
 branch: comments
+
+
+author:
+  email: julie@aim4strength.com
+  name: Julie Smith
+  picture: >-
+    https://res.cloudinary.com/aim4strength/image/upload/v1514757369/julie-smith.png
+  url: 'https://aim4strength.com/meet-julie/'
+
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
@@ -42,6 +53,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate-v2
   - jemoji
+  - jekyll-gravatar
 # Pagination Settings
 pagination:
   enabled: true

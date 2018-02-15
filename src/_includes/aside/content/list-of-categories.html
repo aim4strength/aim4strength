@@ -3,7 +3,7 @@
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
       <li><a href="/blog/category/{{ category | first | slugify }}/">
-              {{ category[0] | replace:'-', ' ' | replace:'<p>', '' | replace:'</p>', '' | replace:"Julie's", "Julie&rsquo;s" }}
+              {{ category[0] | capitalize_all | replace:'-', ' ' | replace:'<p>', '' | replace:'</p>', '' | replace:"Julie's", "Julie&rsquo;s" | replace:'And', 'and' | replace:'Or', 'or' }}
       </a></li>
   {% endfor %}
 </ul>
