@@ -1,8 +1,8 @@
 ---
 layout: default
 homepage: true
-left-aside: false
-right-aside-top: false
+left-aside: true
+right-aside-top: true
 right-aside-bottom: false
 ---
 <div class='embed-container'><iframe src='https://www.youtube.com/embed/1r54FM41ptc?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></div>
