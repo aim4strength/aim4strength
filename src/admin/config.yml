@@ -36,7 +36,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "hidden"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Approved", name: "approved", widget: "boolean"}
       - {label: "Message", name: "message", widget: "markdown"}
