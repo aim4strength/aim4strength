@@ -1,0 +1,19 @@
+comments:
+  allowedFields     : ['name', 'email', 'message', 'slug', "replying_to"]
+  branch            : "comments"
+  commitMessage     : "New comment."
+  filename          : "comment-{@timestamp}"
+  format            : "frontmatter"
+  path              : "src/my_collections/_comments"
+  moderation        : false
+  slug              : "{fields.slug}"
+  requiredFields    : ['name', 'email', 'message']
+  transforms:
+    email           : md5
+  generatedFields:
+    date:
+      type          : "date"
+      options:
+        format      : "iso8601"
+    approved        : false
+    title           : Comment

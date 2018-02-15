@@ -87,5 +87,5 @@ It is Aim4Strength Fitness's policy to respect your privacy regarding any inform
 </li>
 </ul>
 <hr>
-The Aim4Strength Fitness website is set in <a href="https://fonts.google.com/specimen/Merriweather">Merriweather</a> and <a href="https://fonts.google.com/specimen/Assistant">Assistant</a>. Built with love with <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://getuikit.com/">UIKit</a>, and <a href="https://www.netlify.com/">Netlify.</a><br>
-Copyright © 2017 by Aim 4 Strength Fitness. All rights reserved.
+The Aim4Strength Fitness website is set in <a href="https://fonts.google.com/specimen/Merriweather">Merriweather</a> and <a href="https://fonts.google.com/specimen/Assistant">Assistant</a>. Built with :heart: with <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://getuikit.com/">UIKit</a>, and <a href="https://www.netlify.com/">Netlify.</a><br>
+Copyright © {{ site.time | date: '%y' }} by Aim4Strength Fitness. All rights reserved.

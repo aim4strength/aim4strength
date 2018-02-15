@@ -1,6 +1,9 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
 url: http://localhost:3000
+repository: aim4strength/aim4strength
+branch: comments
+
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist
@@ -38,7 +41,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-paginate-v2
-
+  - jemoji
 # Pagination Settings
 pagination:
   enabled: true
@@ -60,6 +63,8 @@ collections:
     permalink: /:collection/:title/
   testimonials:
     output: false
+  comments:
+    output: false
 
 defaults:
   -
@@ -75,6 +80,8 @@ defaults:
       type: pages   # limit to posts
     values:
       layout: default
+      comments: false
+      comment-locked: true
       right-aside-bottom: false
   -
     scope:
@@ -83,6 +90,8 @@ defaults:
     values:
       layout: post
       is-post: true
+      comments: true
+      comment-locked: false
       cta: "Thank you for reading."
   -
     scope:
