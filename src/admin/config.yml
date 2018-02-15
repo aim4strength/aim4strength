@@ -112,7 +112,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Include Second Right Aside (CTA)", name: "right-aside-bottom", widget: "boolean", default: true}
           - {label: "Body", name: "body", widget: "markdown"}
   - label: "Defaults"
-    name: "Default Content and Settings"
+    name: "defaults"
     files:
       - label: "Config"
         name: "config"
@@ -127,3 +127,12 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Picture, name: picture, widget: string}
               - {label: URL, name: url, widget: string}
           - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "string"}
+  - label: "author-bio"
+    name: "Author-Bio"
+    files:
+      - label: "Author-Bio"
+        name: "Author-Bio"
+        file: "src/_includes/aside/content/author-bio.md"
+        fields:
+          - {label: "Title", name: "title", widget: "hidden"}
+          - {label: "Body", name: "body", widget: "markdown"}

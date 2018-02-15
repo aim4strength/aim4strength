@@ -1,4 +1,5 @@
 <div class="clearfix">
 <img class="uk-border-circle headshot" src="{{ site.author.picture }}" alt="Julie Smith headshot">
-<p class="bio">Hello, my friends! My name is Julie Smith. If you would have told me that I was going to become a personal trainer, I would have told you that you were crazy! I have been heavy all of my life—I do mean since age 5. <a href="{{ site.url }}/meet-julie">This is my story.</a></p>
+<p class="bio">{% capture my_include %}{% include aside/content/author-bio.md %}{% endcapture %}
+{{ my_include | markdownify | remove: '<p>' | remove: '</p>' }}</p>
 </div>
