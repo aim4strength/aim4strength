@@ -62,11 +62,12 @@ pagination:
 collections_dir: my_collections
 
 collections:
-  comments:
   services:
     output: true
     permalink: /:collection/:title/
   testimonials:
+    output: false
+  comments:
     output: false
 
 defaults:
