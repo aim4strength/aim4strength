@@ -1,9 +1,14 @@
 <p class="uk-text-center uk-margin-small"><i class="far fa-folder-open"></i>&ensp;Categories</p>
 <ul class="uk-subnav categories uk-margin-remove" uk-margin>
-  {% assign categories = site.categories | sort %}
+  {% capture c %}{% for c in site.categories %}{{c[0]}}{{','}}{% endfor %}{% endcapture %}
+	{% assign categories = c | downcase | split:"," | sort %}
   {% for category in categories %}
-      <li><a href="/blog/category/{{ category | first | slugify }}/">
-              {{ category[0] | capitalize_all | replace:'-', ' ' | replace:'<p>', '' | replace:'</p>', '' | replace:"Julie's", "Julie&rsquo;s" | replace:'And', 'and' | replace:'Or', 'or' }}
-      </a></li>
+      <li><a href="/blog/category/{{ category | first | slugify }}/"> {{ category | capitalize_all | replace:'-', ' ' | replace:'<p>', '' | replace:'</p>', '' | replace:"Julie's", "Julie&rsquo;s" | replace:'And', 'and' | replace:'Or', 'or' }}</a></li>
+      {% if forloop.last %}
+      {% else %}
+      <li>
+        &middot;
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>

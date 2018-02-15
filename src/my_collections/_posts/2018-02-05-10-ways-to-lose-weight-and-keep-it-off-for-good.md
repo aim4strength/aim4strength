@@ -1,7 +1,6 @@
 ---
-layout: post
 title: 10 Ways to Lose Weight and Keep It Off For Good
-date: 02/05/2018 12:00 AM
+date: 2018-02-05T08:00:00.000Z
 image: 'http://b.vimeocdn.com/ts/536/672/53667267_640.jpg'
 image-alt: man on rock holding arms up
 categories:
@@ -41,7 +40,7 @@ But I digress.  I am no different from anyone else.  Seriously, it wasn’t that
 
 
 
-Believe me, its nothing earth shattering.  It’s not anything that you haven’t heard before.  I didn’t re-invent the wheel and if you think I have some crazy, earth shattering knowledge bombs, just stop….I don’t. 
+Believe me, its nothing earth shattering.  It’s not anything that you haven’t heard before.  I didn’t re-invent the wheel and if you think I have some crazy, earth shattering knowledge bombs, just stop….I don’t.
 
 
 
@@ -49,7 +48,7 @@ Believe me, its nothing earth shattering.  It’s not anything that you haven’
 
 
 
-I have a hard head, and did a lot of stuff wrong.  I used to think that was a bad thing, but failure is the best teacher for me personally, although it would have been nice to have tips from a former fat person who kinda got the whole fat thing, like lifting up her stomach to pee and worrying about where she could park her plus size behind in a restaurant. 
+I have a hard head, and did a lot of stuff wrong.  I used to think that was a bad thing, but failure is the best teacher for me personally, although it would have been nice to have tips from a former fat person who kinda got the whole fat thing, like lifting up her stomach to pee and worrying about where she could park her plus size behind in a restaurant.
 
 
 
@@ -75,7 +74,7 @@ Recognizing triggers was key to help me decrease my bingeing.  Most people say e
 
 Don’t hate what you are doing.  I didn’t even know I didn’t hate it until a while after I got started.  I wanted to win money in a 6 month contest to lose weight, so I had to do stuff that would help me win the money over the long haul.  In doing so, I found that I really didn’t hate what I was doing.  Like, at all.  It was kind of exciting and fun.  I only recognized this about a month in.  I still whine about stuff I do, but on the inside, I love every single bit of it.  I left my good paying job and became a personal trainer…at 48.  I absolutely love the life I have now and who knew I would love exercise?  
 
-Ok, the last one is a fake out.  Love yourself and forgive yourself.  It's the beginning and the end because it's the hardest one to do.  Loving yourself daily can be hard, and some of you will persist in the angst that self hatred brings.  I am here to tell you that it is a journey.   Love who you are, on the inside.  That means way more than just losing weight or fitting into cute clothes that you can get off the rack.  Look at your flaws and look at your strengths.  Take an account of what you stand for and what is lacking.  Work on things you know you need to, but do it in a loving way. 
+Ok, the last one is a fake out.  Love yourself and forgive yourself.  It's the beginning and the end because it's the hardest one to do.  Loving yourself daily can be hard, and some of you will persist in the angst that self hatred brings.  I am here to tell you that it is a journey.   Love who you are, on the inside.  That means way more than just losing weight or fitting into cute clothes that you can get off the rack.  Look at your flaws and look at your strengths.  Take an account of what you stand for and what is lacking.  Work on things you know you need to, but do it in a loving way.
 
 
 
