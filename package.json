@@ -34,9 +34,5 @@
     "require-dir": "^0.3.0",
     "shelljs": "^0.7.0",
     "yargs": "^4.7.0"
-  },
-  "dependencies": {
-    "browsersync": "0.0.1-security",
-    "uikit": "^3.0.0-beta.38"
   }
 }

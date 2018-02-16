@@ -7,6 +7,18 @@
   flex: 1;
 }
 
+@media screen and (max-width: 640px) {
+  .site {
+      padding: 0;
+  }
+  .paper-mail {
+    margin: 0 15px;
+  }
+  .footer {
+    margin: 0 25px;
+  }
+}
+
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background: transparent;
   border-bottom: 1px solid $black;

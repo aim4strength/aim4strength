@@ -6,11 +6,9 @@
   </div>
   <div class="uk-width-2-3">
     <ul class="uk-iconnav uk-text-center uk-margin-bottom">
-      <li class="uk-width-1-4"><a href="https://www.facebook.com/aim4strength/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-      <li class="uk-width-1-4"><a href="https://www.youtube.com/channel/UCNW6ZMuCwrNfPaup8j_h0bg"><i class="fab fa-youtube fa-lg" aria-hidden="true"></i></a></li>
-      <li class="uk-width-1-4"><a href="https://www.instagram.com/aim4strength2540/"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a></li>
-      <li class="uk-width-1-4"><a href="http://feeds.feedburner.com/Aim4strengthFitness"><i class="fas fa-rss-square fa-lg" aria-hidden="true"></i></a></li>
-
+      {% for social in site.author.social-follow %}
+      <li class="uk-width-1-4"><a href="{{ social[1].url }}"><i class="fab {{ social[1].font-awesome-icon }} fa-lg" aria-hidden="true"></i></a></li>
+      {% endfor %}
     </ul>
   </div>
 </div>
