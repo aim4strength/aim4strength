@@ -1,9 +1,7 @@
 html {
   font-size: 1em;
   background-color: $white;
-  overflow-y: scroll;
 }
-
 
 body {
   font-weight: 500;
@@ -12,106 +10,97 @@ body {
   font-size: 20px;
   line-height: 1.75;
 }
-
 @media all and (max-width: 640px) and (min-width: 320px) {
-    body{
-        font-size: 17px;
-    }
-
+  body {
+    font-size: 17px;
+  }
 }
 
-::-moz-selection {
-  background: $highlight;
-  color: $black;
-}
-::selection {
-  background: $highlight;
-  color: $black;
-}
-
-
-p {
-  margin: 0 0 1.414em 0;
-}
-
-em {
-  color: $black;
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+h1,
+h2,
+h3,
+h4 {
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
 }
 
-h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
-    font-family: $sans-serif;
-    // color: #ff5252;
-    text-transform: uppercase;
-    letter-spacing: .07em;
-}
-
-
-h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+h1,
+h2,
+h3,
+h4 {
   margin: 1.414em 0 0;
-  //font-weight: 700;
   line-height: 1.2;
 }
 
-h1, .uk-h1 {
+.uk-h1,
+h1 {
   margin-top: 0;
   margin-bottom: 1em;
   font-size: 1.999em;
   line-height: 1em;
-  letter-spacing: 0;
-  font-family: $sans-serif;
-  text-transform: uppercase;
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
 }
 
-h2, .uk-h2 {
+.uk-h2,
+h2 {
   font-size: 1.414em;
   font-weight: 700;
 }
+// .content h2, .content .uk-h2 {
+//   margin: 1.414em 0 1.5em;
+// }
 
-.content h2, .content .uk-h2 {
-  margin: 1.414em 0 1.5em;
+p {
+  margin: 0 0 1.414em;
 }
 
-small, .small {
+.small,
+small {
   font-size: 0.85em;
   line-height: 1.4em;
-}
-
-.uk-heading {
-  font-size: 2.5em;
-  font-family: $sans-serif;
-  line-height: 1em;
-  text-indent: -0.5em;
-  color: $blue;
-  margin-top: 2em;
 }
 
 .italic {
   font-style: italic;
 }
 
-u {
-         text-decoration: none;
-         color: $black;
-         background: -webkit-linear-gradient($white, $white), -webkit-linear-gradient($white, $white), -webkit-linear-gradient($black, $black);
-         background: linear-gradient($white, $white), linear-gradient($white, $white), linear-gradient($black, $black);
-         -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-         -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-         background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-         background-repeat: no-repeat, no-repeat, repeat-x;
-         text-shadow: 0.03em 0 $white, -0.03em 0 $white, 0 0.03em $white, 0 -0.03em $white, 0.06em 0 $white, -0.06em 0 $white, 0.09em 0 $white, -0.09em 0 $white, 0.12em 0 $white, -0.12em 0 $white, 0.15em 0 $white, -0.15em 0 $white;
-         background-position: 0% 93%, 100% 93%, 0% 93%; }
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  u { background-position-y: 87%, 87%, 90%; }
+em {
+  color: $black;
 }
 
-u:selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
-                    background: #b4d5fe; }
+u {
+  text-decoration: none;
+  color: $black;
+  background: -webkit-linear-gradient($white, $white), -webkit-linear-gradient($white, $white), -webkit-linear-gradient($black, $black);
+  background: linear-gradient($white, $white), linear-gradient($white, $white), linear-gradient($black, $black);
+  -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  text-shadow: 0.03em 0 $white, -0.03em 0 $white, 0 0.03em $white, 0 -0.03em $white, 0.06em 0 $white, -0.06em 0 $white, 0.09em 0 $white, -0.09em 0 $white, 0.12em 0 $white, -0.12em 0 $white, 0.15em 0 $white, -0.15em 0 $white;
+  background-position: 0 93%, 100% 93%, 0 93%;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  u {
+    background-position-y: 87%, 87%, 90%;
+  }
+}
 
-u::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
-                         background: #b4d5fe; }
+u:selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
+}
 
-.uk-button {
- font-size: 1rem;
+u::-moz-selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
 }

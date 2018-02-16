@@ -3,62 +3,31 @@
   min-height: 100vh;
   flex-direction: column;
 }
+
 .site-content {
   flex: 1;
 }
 
+// .uk-container {
+//   padding-right: 0;
+// }
+
+.uk-container-expand {
+  background: transparent;
+}
 @media screen and (max-width: 640px) {
   .site {
-      padding: 0;
+    padding: 0;
   }
+
   .paper-mail {
     margin: 0 15px;
   }
+
   .footer {
     margin: 0 25px;
   }
 }
-
-.uk-navbar-container:not(.uk-navbar-transparent) {
-  background: transparent;
-  border-bottom: 1px solid $black;
-}
-
-
-
-.logo-list {
-    margin-left: 0;
-}
-
-body {
-  background-color: #faf0e6;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-
-
-.paper, .uk-notification-message, .uk-offcanvas-bar {
-  background: #fffff8;
-    padding: 2em;
-    box-shadow: -1px -1px 34px -13px $black;
-}
-
-@media screen and (max-width: 640px) {
-  .paper {
-    padding: 1em;
-  }
-}
-
-.paper-mail {
-  padding: 1em;
-  position: relative;
-  padding: 1em 1em 0;
-  border-radius: 3px;
-  border: 9px solid transparent;
-  border-image: 9 repeating-linear-gradient(-45deg, $red 0, $red 10.5px, transparent 0, transparent 20.5px,
-                $blue 0, $blue 30.5px, transparent 0, transparent 40.5px);
-}
-
-div {
-  border-radius: 3px;
-}
+// div {
+//   border-radius: 3px;
+// }

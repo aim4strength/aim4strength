@@ -1,9 +1,10 @@
 .uk-pagination {
   font-family: $sans-serif;
 }
-.uk-pagination>*>* {
+
+.uk-pagination > * > * {
   color: $black;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .pagination li {

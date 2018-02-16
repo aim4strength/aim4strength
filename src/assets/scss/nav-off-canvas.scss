@@ -1,0 +1,17 @@
+.uk-offcanvas-bar .uk-navbar-item {
+  height: 50px;
+}
+
+.uk-offcanvas-bar .uk-navbar-item a {
+  font-family: $sans-serif;
+  color: $black;
+}
+
+.uk-offcanvas-bar .uk-close,
+.uk-offcanvas-bar .uk-close:hover {
+  color: $black;
+}
+
+.uk-navbar .uk-offcanvas-content .uk-icon {
+  top: 8px;
+}

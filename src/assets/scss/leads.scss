@@ -1,39 +1,8 @@
-.lead {
-  font-family: $serif;
-  font-weight: 500;
-  border: 6px double $white;
-  padding: 1.5em;
+.paper-mail {
+  padding: 1em;
+  position: relative;
+  padding: 1em 1em 0;
   border-radius: 3px;
-}
-
-.lead p {
-  margin-bottom: .5em;
-}
-
-.top-lead  {
-  font-family: $serif;
-  font-size: .8em;
-  font-weight: 500;
-  color: $red;
-  background: transparent;
-  border-radius: 3px;
-  line-height: 1.2em;
-  padding: 11px 45px 13px 0;
-}
-
-.top-lead form {
-  padding: 0 30px 1px 0;
-}
-
-.top-lead .uk-input {
-  height: 55px;
-  border-color: $red;
-}
-
-.top-lead .uk-alert-close {
-  top: 33px;
-}
-
-.top-lead input::placeholder { /* Chrome/Opera/Safari */
-  color: $red;
+  border: 9px solid transparent;
+  border-image: 9 repeating-linear-gradient(-45deg, $red 0, $red 10.5px, transparent 0, transparent 20.5px, $blue 0, $blue 30.5px, transparent 0, transparent 40.5px);
 }
