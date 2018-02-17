@@ -13,43 +13,85 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   background-color: $background-color;
   background-image: $background-image;
+=======
+  height: 100%;
+  //background: rgba(30, 135, 240,.2);
+  background-color: #FAF0E6;
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzMwMCcgdmlld0JveD0nMCAwIDIwMCAzMDAnPgoJPGZpbHRlciBpZD0nZnV6eicgeD0nMCcgeT0nMCc+CgkJPGZlVHVyYnVsZW5jZSB0eXBlPSd0dXJidWxlbmNlJyBiYXNlRnJlcXVlbmN5PScwLjI4JyBudW1PY3RhdmVzPScxMCcgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPC9maWx0ZXI+Cgk8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWx0ZXI9J3VybCgjZnV6eiknIG9wYWNpdHk9JzAuMjgnLz4KPC9zdmc+);
+  // background-color: #faf0e6;
+  // background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+>>>>>>> future
 }
 
 // rgba(10,34,65,.8)
 // rgba(76,0,0,.8)
 
 .stripes {
-  top: 0;
-  grid: repeat(5,200px)/repeat(10,1fr);
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  align-items: end;
+  grid-auto-rows: 100vh;
+  // min-height: 200px;
+
+  // grid: repeat(5,200px)/repeat(10,1fr);
   // background: linear-gradient($primary,#348AC7 10%,#dde9f5 38%,#eaf2f9 48%,#f6f9fc 62%);
   background:
       linear-gradient(0deg, rgba(30, 135, 240,.8), rgba(255,0,0,0) 70.71%),
       linear-gradient(-12deg, rgba(92, 107, 192, .8), rgba(255,0,0,0) 60%),
       linear-gradient(15deg, rgba(224, 247, 250, .8), rgba(255,255,248, .8) 80%);
+  top: 0;
   position: absolute;
   z-index: -1;
   width: 100%;
-  display: grid;
   transform-origin: 0;
   transform: skewY(-9deg);
 }
 
-.stripes :nth-child(1) {
-  grid-column: span 2;
-  background: linear-gradient(38deg,rgba(30, 135, 240,.4),
-  rgba(243,251,255,.15) 40%,rgba(255,255,248,0));
+.stripes-2 {
+  // display: grid;
+  // // grid-template-columns: repeat(10,1fr);
+  // align-items: end;
+  // grid-auto-rows: 100vh;
+  // display: grid;
+  // grid-template-columns: repeat(3,1fr);
+  // align-items: end;
+  // grid-auto-rows: 100vh;
+  flex: 1;
+  background: rgba(30, 135, 240,.2);
+  // top: 200vh;
+  // position: absolute;
+  // z-index: -1;
+  // width: 100%;
+  // min-height: 100%;
+  // transform-origin: 0;
+  // transform: skewY(-9deg);
+}
+.stripes-2 div {
+  align-self: stretch;
 }
 
-.stripes :nth-child(2) {
-  grid-area: 4 / span 4 / auto / -1;
+.stripes div {
+  align-self: stretch;
 }
 
-.stripes :nth-child(2) {
-    background: linear-gradient(90deg,rgba(0,119,204,0),rgba(0,119,204,.05) 40%,rgba(255,255,248,.35));
-    transform: skewY(20deg);
-}
+// .stripes :nth-child(1) {
+//   grid-column: span 2;
+//   background: linear-gradient(38deg,rgba(30, 135, 240,.4),
+//   rgba(243,251,255,.15) 40%,rgba(255,255,248,0));
+// }
+//
+// .stripes :nth-child(2) {
+//   grid-area: 4 / span 4 / auto / -1;
+// }
+//
+// .stripes :nth-child(2) {
+//     background: linear-gradient(90deg,rgba(0,119,204,0),rgba(0,119,204,.05) 40%,rgba(255,255,248,.35));
+//     transform: skewY(20deg);
+// }
 //
 // .stripes :nth-child(3) {
 //   grid-row: 4;

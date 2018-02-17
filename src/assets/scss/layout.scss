@@ -4,13 +4,23 @@
   flex-direction: column;
 }
 
+.stripe-wrap {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .site-content {
   flex: 1;
 }
 
-// .uk-container {
-//   padding-right: 0;
-// }
+.stripes {
+  flex: 1;
+}
+
+.uk-container {
+  padding-right: 0;
+}
 
 .uk-container-expand {
   background: transparent;
