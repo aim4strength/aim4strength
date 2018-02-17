@@ -1,5 +1,5 @@
 <li class="uk-margin-medium-bottom">
-  <article id="comment{{ include.index }}" class="uk-comment" itemprop="comment" itemscop itemtype="http://schema.org/Comment">
+  <article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% unless include.replying_to == 0 %}child{% endunless %}">
       <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
           <div class="uk-width-auto">
             {% if include.avatar %}
