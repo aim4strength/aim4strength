@@ -7,7 +7,6 @@
   <h1 class="visuallyhidden">{{ page.title }} | {% if page.title != site.title %}
   {{ site.title }} | {% endif %}  Personalized Fitness Training</h1>
   <a id="top"></a>
-
   {% if page.homepage %}
   {% include header/hero.html %}
   {% else %}
@@ -24,9 +23,7 @@
           {% elsif page.is-post %}
           {{ content }}
           {% elsif page.image %}
-          <div class="uk-text-center">
-          <img class="uk-margin-medium-bottom" src="{{ page.image }}" alt="{{ page.image-alt }}" />
-        </div>
+          <img class="featured-image uk-margin-medium-bottom" src="{{ page.image }}" alt="{{ page.image-alt }}" />
           {{ content }}
           {% else %}
           {{ content }}

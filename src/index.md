@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 homepage: true
 left-aside: true
 right-aside-top: true

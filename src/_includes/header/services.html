@@ -1,4 +1,5 @@
 <div class="uk-container uk-container-expand uk-margin-large-bottom">
+  <h2 class="visuallyhidden">Services</h2>
   <div class="uk-grid-large" uk-grid>
     <div class="uk-width-1-5">
     </div>
@@ -12,7 +13,7 @@
             <ul id="component-tab-left" class="uk-switcher">
               {% for service in site.services %}
               <li>
-                <h2 class="uk-h1 uk-margin-remove-top">{{ service.title }}</h2>
+                <h3 class="uk-h1 uk-margin-remove-top">{{ service.title }}</h3>
                 {{ service.content | markdownify }}
               </li>
               {% endfor %}

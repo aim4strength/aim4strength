@@ -6,7 +6,7 @@
     <a class="post-link" href="{{ post.url | relative_url }}">
     <div class="uk-margin-remove-top" uk-grid>
         <div class="uk-width-2-3">
-          <h2 class="uk-h2 uk-margin-remove">{{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</h2>
+          <h3 class="uk-h2 uk-margin-remove">{{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</h3>
           <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
           </p>
         </div>
