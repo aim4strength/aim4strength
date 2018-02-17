@@ -2,7 +2,7 @@
 {% if comments.size >= 1 %}
 <hr />
 <h3>Comments</h3>
-<ul class="uk-list uk-list-divider">
+<ul class="uk-list uk-list-divider uk-margin-medium-bottom">
 {% for comment in comments %}
   {% if comment.approved == true %}
   <li>
@@ -24,7 +24,7 @@
         </div>
     </article>
   </li>
-</ul>
   {% endif %}
 {% endfor %}
+</ul>
 {% endif %}

@@ -1,10 +1,14 @@
 <hr />
 <h3>Share Your Thoughts</h3>
-<form method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.branch }}/comments">
-  <input name="options[redirect]" type="hidden" value="{{ site.url }}/thank-you">
-  <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="fields[slug]" type="hidden" value="{{ page.slug }}">
+<form id="comment-form" method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.branch }}/comments">
+  <input type="hidden" name="options[slug]" value="{{ page.slug }}">
   <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
+  <div class="uk-margin">
+      <label for="message" class="uk-form-label">Message:</label>
+      <div class="uk-form-controls">
+          <textarea class="uk-textarea uk-form-large" name="fields[message]" placeholder="Your Message" required rows="5"></textarea>
+      </div>
+  </div>
   <div class="uk-margin-medium-top">
       <label for="name" class="uk-form-label">Name:</label>
       <div class="uk-form-controls">
@@ -19,18 +23,17 @@
       Must be a valid email address</span>
       </div>
   </div>
-  <div class="uk-margin">
-      <label for="message" class="uk-form-label">Message:</label>
-      <div class="uk-form-controls">
-          <textarea class="uk-textarea uk-form-large" name="fields[message]" placeholder="Your Message" required rows="5"></textarea>
-      </div>
-  </div>
-    <button class="uk-button uk-button-primary">Reply</button>
+    <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary">Submit</button>
+    <hr>
+    <p class="small">
+      {{ site.comment-policy }}
+    </p>
+    <p class="small">
+      {{ site.privacy-policy-short }}
+    </p>
 </form>
-<hr>
-<p class="small">
-  {{ site.comment-policy }}
-</p>
-<p class="small">
-  {{ site.privacy-policy-short }}
-</p>
+
+<div class="js-notice hidden" uk-alert>
+  <a class="uk-alert-close" uk-close></a>
+  <p></p>
+</div>

@@ -41,6 +41,52 @@ $(function() {
   }
 });
 
+// Static comments
+(function ($) {
+  var $comments = $('.js-comments');
+
+  $('#comment-form').submit(function () {
+    var form = this;
+
+    $(form).addClass('disabled');
+    $('#comment-form-submit').html('<div uk-spinner></div> Submitting...');
+
+    $.ajax({
+      type: $(this).attr('method'),
+      url: $(this).attr('action'),
+      data: $(this).serialize(),
+      contentType: 'application/x-www-form-urlencoded',
+      success: function (data) {
+        $('#comment-form-submit').html('Submitted');
+        $('.js-notice').removeClass('uk-alert-danger').addClass('uk-alert-success');
+      showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
+        $('#comment-form').addClass('hidden');
+      },
+      error: function (err) {
+        console.log(err);
+        $('#comment-form-submit').html('Submit Comment');
+        $('.js-notice').removeClass('uk-alert-success').addClass('uk-alert-danger');
+        showAlert('<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.');
+        $(form).removeClass('disabled');
+      }
+    });
+
+    return false;
+  });
+
+  function showAlert(message) {
+    $('.js-notice').removeClass('hidden');
+    $('.js-notice p').html(message);
+  }
+})(jQuery);
+
+
+
+
+
+
+
+
 var input = document.createElement('input');
 
 // A Validity State Polyfill
