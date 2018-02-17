@@ -53,8 +53,13 @@
   text-transform: none;
 }
 
+// .categories {
+//     justify-content: center;
+// }
+
 .categories > * > :first-child {
   color: $black;
+      margin-right: .7em;
 }
 
 .subscribe-bar > .uk-navbar-item {

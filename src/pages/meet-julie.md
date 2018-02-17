@@ -1,6 +1,7 @@
 ---
 title: Meet Julie
 permalink: /meet-julie/
+display-title: false
 comments: false
 left-aside: true
 right-aside-top: false

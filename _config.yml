@@ -104,6 +104,7 @@ defaults:
       type: services
     values:
       layout: default
+      display-title: true
       right-aside-bottom: false
   -
     scope:
@@ -111,6 +112,7 @@ defaults:
       type: classes
     values:
       layout: default
+      display-title: true
       right-aside-bottom: false
   -
     scope:
@@ -118,6 +120,7 @@ defaults:
       type: pages   # limit to posts
     values:
       layout: default
+      display-title: true
       comments: false
       comment-locked: true
       right-aside-bottom: false

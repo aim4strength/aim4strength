@@ -49,9 +49,9 @@
   border-bottom: 2px solid $red;
 }
 
-.nav {
-  background-color: #faf0e6;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
+.nav, .uk-offcanvas-bar {
+  background-color: $background-color;
+  background-image: $background-image;
 }
 
 .nav-transparent {
@@ -83,9 +83,9 @@
 
 .uk-navbar-dropdown {
   width: 261px;
-  // background-color: #faf0e6;
-  // background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
   border: 1px solid $red;
+  background-color: $background-color;
+  background-image: $background-image;
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {

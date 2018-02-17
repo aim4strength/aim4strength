@@ -37,8 +37,16 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 1.414em 0 0;
+  // margin: 1.414em 0 0;
   line-height: 1.2;
+}
+
+.paper > h1, .paper > .uk-h1,
+.paper > h2, .paper > .uk-h2,
+.paper > h3, .paper > .uk-h3,
+.paper > h4, .paper > .uk-h4 {
+  margin-top: 0;
+  text-align: center;
 }
 
 .uk-h1,
@@ -103,4 +111,12 @@ u:selection {
 u::-moz-selection {
   text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
   background: #b4d5fe;
+}
+
+.sans-serif {
+  font-family: $sans-serif;
+}
+
+.grey {
+  color: $grey;
 }

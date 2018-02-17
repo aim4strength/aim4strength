@@ -45,6 +45,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Display Title", name: "display-title", widget: "boolean", default: true}
       - {label: "Location Name", name: "location", widget: "string"}
       - {label: "Google Map Link", name: "google-map-link", widget: "string"}
       - label: "Dates"
@@ -93,6 +94,7 @@ collections: # A list of collections the CMS should be able to edit
         file: "src/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Display Title", name: "display-title", widget: "boolean", default: true}
           - {label: "Homepage", name: "homepage", widget: "hidden", default: "true"}
           - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true}
           - {label: "Include First Right Aside", name: "right-aside-top", widget: "boolean", default: true}
@@ -107,6 +109,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Display Title", name: "display-title", widget: "boolean", default: true}
       - {label: "Featured Image", name: "image", widget: "string", required: false}
       - {label: "Permalink ( /page-url-name/ )", name: "permalink", widget: "string"}
       - {label: "Allow Comments", name: "comments", widget: "boolean", default: false}
@@ -125,6 +128,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Display Title", name: "display-title", widget: "boolean", default: true}
       - {label: "Publish Date/Time", name: "date", widget: "datetime", default: ""}
       - {label: "Featured Image", name: "image", widget: "string", required: false}
       - {label: "Featured Image Alt Text", name: "image-alt", widget: "string", required: false}

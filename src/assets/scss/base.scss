@@ -13,9 +13,8 @@ html {
 }
 
 body {
-  background-color: #faf0e6;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: $background-color;
+  background-image: $background-image;
 }
 
 // rgba(10,34,65,.8)

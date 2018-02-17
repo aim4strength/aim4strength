@@ -1,5 +1,5 @@
 .uk-offcanvas-bar .uk-navbar-item {
-  height: 50px;
+  height: 40px;
 }
 
 .uk-offcanvas-bar .uk-navbar-item a {
@@ -14,4 +14,10 @@
 
 .uk-navbar .uk-offcanvas-content .uk-icon {
   top: 8px;
+}
+
+.uk-offcanvas-bar .underline {
+  border-bottom: 2px solid $red;
+  padding-top: 3px !important;
+  color: $red !important;
 }
