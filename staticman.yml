@@ -1,11 +1,12 @@
 comments:
-  allowedFields     : ['name', 'email', 'message', "replying_to"]
+  allowedFields     : ['name', 'email', 'message', 'slug', "replying_to"]
   branch            : "future-comments"
   commitMessage     : "New comment."
   filename          : "comment-{@timestamp}"
-  format            : "yml"
-  path              : "_data/comments/{options.slug}"
+  format            : "frontmatter"
+  path              : "src/my_collections/_comments"
   moderation        : false
+  slug              : "{fields.slug}"
   requiredFields    : ['name', 'email', 'message']
   transforms:
     email           : md5
