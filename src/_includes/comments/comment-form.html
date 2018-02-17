@@ -1,7 +1,7 @@
-<hr />
-<h3>Share Your Thoughts</h3>
 <form id="comment-form" method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.branch }}/comments">
-  <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+  <hr />
+  <h3>Share Your Thoughts</h3>
+  <input type="hidden" name="fields[slug]" value="{{ page.slug }}">
   <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
   <div class="uk-margin">
       <label for="message" class="uk-form-label">Message:</label>
