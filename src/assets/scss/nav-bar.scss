@@ -44,14 +44,22 @@
   //height: 40px;
   width: 82px;
 }
+//
+
+.nav-wrap {
+  position: relative;
+}
+.nav-wrap * {
+  z-index: 85;
+}
 
 .nav-wrap.uk-sticky-fixed {
   border-bottom: 2px solid $red;
 }
 
 .nav, .uk-offcanvas-bar {
-  background-color: $background-color;
-  background-image: $background-image;
+  // background-color: $background-color;
+  // background-image: $background-image;
 }
 
 .nav-transparent {
@@ -85,7 +93,7 @@
   width: 261px;
   border: 1px solid $red;
   background-color: $background-color;
-  background-image: $background-image;
+  // background-image: $background-image;
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
