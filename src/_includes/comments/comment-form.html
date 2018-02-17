@@ -1,12 +1,17 @@
-<form id="comment-form" method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.branch }}/comments">
+ <div id="respond">
+<form id="comment-form" class="page__form js-form form" method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.branch }}/comments">
   <hr />
-  <h3>Share Your Thoughts</h3>
-  <input type="hidden" name="fields[slug]" value="{{ page.slug }}">
-  <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
+  <h3 class="page__section-label">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel reply</a></small></h3>
+  <fieldset class="hidden" style="display: none;">
+    <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+    <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+    <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
+    <input type="hidden" id="comment-post-id" name="fields[slug]" value="{{ page.slug }}">
+    </fieldset>
   <div class="uk-margin">
-      <label for="message" class="uk-form-label">Message:</label>
+      <label for="message" class="uk-form-label">Message: <small class="grey">(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> and <a href="https://gist.github.com/rxaviers/7360908">:Emojis:</a> are allowed)</small></label>
       <div class="uk-form-controls">
-          <textarea class="uk-textarea uk-form-large" name="fields[message]" placeholder="Your Message" required rows="5"></textarea>
+          <textarea class="uk-textarea uk-form-large" name="fields[message]" placeholder="Your Message" required rows="5" spellcheck="true"></textarea>
       </div>
   </div>
   <div class="uk-margin-medium-top">
@@ -16,14 +21,21 @@
       </div>
   </div>
   <div class="uk-margin">
-      <label for="email" class="uk-form-label">Email:</label>
+      <label for="email" class="uk-form-label">Email: <small class="grey">(used for <a href="http://gravatar.com">Gravatar</a> image and reply notifications)</small></label>
       <div class="uk-form-controls">
             <input name="fields[email]" id="email"  class="uk-input uk-form-large" type="email" placeholder="Email" required="">
          <span id="email-invalid" style="display:none">
       Must be a valid email address</span>
       </div>
   </div>
+  <div class="uk-margin ">
+    <label for="comment-form-reply">
+      <input class="uk-checkbox uk-margin-bottom" type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
+      Notify me of replies by email.
+    </label>
+  </div>
     <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary">Submit</button>
+
     <hr>
     <p class="small">
       {{ site.comment-policy }}
@@ -36,4 +48,5 @@
 <div class="js-notice hidden" uk-alert>
   <a class="uk-alert-close" uk-close></a>
   <p></p>
+</div>
 </div>

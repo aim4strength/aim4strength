@@ -66,6 +66,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Slug", name: "slug", widget: "hidden"}
       - {label: "id", name: "_id", widget: "hidden"}
       - {label: "email", name: "email", widget: "hidden"}
+      - {label: "replying_to", name: "replying_to", widget: "hidden"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Approved", name: "approved", widget: "boolean"}
       - {label: "Message", name: "message", widget: "markdown"}

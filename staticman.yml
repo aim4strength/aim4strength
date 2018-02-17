@@ -16,4 +16,4 @@ comments:
       options:
         format      : "iso8601"
     approved        : false
-    title           : Comment
+    title           : "Comment for {fields.slug} at {@timestamp}"
