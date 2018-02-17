@@ -1,30 +1,15 @@
-{% assign comments = site.comments | where:"slug", page.slug %}
+{% assign comments = site.comments | where:"slug", page.slug | where:"approved", true %}
 {% if comments.size >= 1 %}
 <hr />
 <h3>Comments</h3>
 <ul class="uk-list uk-list-divider uk-margin-medium-bottom">
 {% for comment in comments %}
-  {% if comment.approved == true %}
-  <li>
-    <article class="uk-comment">
-        <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
-            <div class="uk-width-auto">
-                <img class="uk-comment-avatar" src="" width="80" height="80" alt="comment avatar">
-            </div>
-            <div class="uk-width-expand">
-                <h4 class="uk-comment-title uk-margin-remove">{{ comment.name | capitalize }}</h4>
-                <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-                    <li>{{ comment.date | date: "%B %-d, %Y" }}</li>
-                    <li><a href="#">Reply</a></li>
-                </ul>
-            </div>
-        </header>
-        <div class="uk-comment-body">
-            <p>{{ comment.message }}</p>
-        </div>
-    </article>
-  </li>
-  {% endif %}
+  {% assign avatar = comment.avatar %}
+  {% assign email = comment.email %}
+  {% assign name = comment.name %}
+  {% assign date = comment.date %}
+  {% assign message = comment.message %}
+  {% include comments/comment.html index=forloop.index avatar=avatar email=email name=name date=date message=message %}  
 {% endfor %}
 </ul>
 {% endif %}
