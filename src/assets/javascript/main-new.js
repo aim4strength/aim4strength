@@ -61,6 +61,7 @@ $(function() {
         $('.js-notice').removeClass('uk-alert-danger').addClass('uk-alert-success');
       showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
         $('#comment-form').addClass('hidden');
+        $('.policy').addClass('hidden');
       },
       error: function (err) {
         console.log(err);
@@ -74,9 +75,9 @@ $(function() {
     return false;
   });
 
-  function showAlert(message) {
+  function showAlert(alert) {
     $('.js-notice').removeClass('hidden');
-    $('.js-notice p').html(message);
+    $('.js-notice p').html(alert);
   }
 })(jQuery);
 
