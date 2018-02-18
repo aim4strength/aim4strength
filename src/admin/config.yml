@@ -62,7 +62,7 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "filename", widget: "string"}
       - {label: "Slug", name: "slug", widget: "hidden"}
       - {label: "id", name: "_id", widget: "hidden"}
       - {label: "email", name: "email", widget: "hidden"}
