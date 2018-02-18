@@ -41,6 +41,8 @@ $(function() {
   }
 });
 
+
+
 // Static comments
 (function ($) {
   var $comments = $('.js-comments');
@@ -61,6 +63,7 @@ $(function() {
         $('.js-notice').removeClass('uk-alert-danger').addClass('uk-alert-success');
       showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
         $('#comment-form').addClass('hidden');
+        $('.policy').addClass('hidden');
       },
       error: function (err) {
         console.log(err);

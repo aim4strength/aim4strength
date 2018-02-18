@@ -35,20 +35,20 @@
       Notify me of replies by email.
     </label>
   </div>
-  <div class="g-recaptcha uk-margin-medium-bottom" data-sitekey="6Ldz_EYUAAAAAFl0DiWRpPx2EdAkQV5Ka7Lwlv_2"></div>
-    <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary">Submit</button>
-
-    <hr>
-    <p class="small">
-      {{ site.comment-policy }}
-    </p>
-    <p class="small">
-      {{ site.privacy-policy-short }}
-    </p>
+    <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" data-callback='onSubmit'>Submit</button>
 </form>
-
 <div class="js-notice hidden" uk-alert>
   <a class="uk-alert-close" uk-close></a>
   <p></p>
 </div>
+</div>
+
+<hr>
+<div class="policy"
+<p class="small">
+  {{ site.comment-policy }}
+</p>
+<p class="small">
+  {{ site.privacy-policy-short }}
+</p>
 </div>
