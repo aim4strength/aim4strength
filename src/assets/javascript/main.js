@@ -41,11 +41,9 @@ $(function() {
   }
 });
 
-
-
 // Static comments
 (function ($) {
-  // var $comments = $('.js-comments');
+  var $comments = $('.js-comments');
 
   $('#comment-form').submit(function () {
     var form = this;
@@ -77,9 +75,9 @@ $(function() {
     return false;
   });
 
-  function showAlert(message) {
+  function showAlert(alert) {
     $('.js-notice').removeClass('hidden');
-    $('.js-notice p').html(message);
+    $('.js-notice p').html(alert);
   }
 })(jQuery);
 
