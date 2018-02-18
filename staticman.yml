@@ -1,5 +1,5 @@
 comments:
-  allowedFields     : ['name', 'email', 'message', 'slug', 'title', "replying_to"]
+  allowedFields     : ['name', 'email', 'message', 'slug', 'titleView', "replying_to"]
   branch            : "future-comments"
   commitMessage     : "New comment."
   filename          : "comment-{@timestamp}"
@@ -16,7 +16,7 @@ comments:
       options:
         format      : "iso8601"
     approved        : false
-    title           : "{fields.title}"
+    title           : "{fields.titleView}"
   allowedOrigins: ["aim4strength-comments.com"]
   name: "Aim4Strength.com"
 
