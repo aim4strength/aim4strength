@@ -1,7 +1,7 @@
 comments:
   allowedFields     : ['name', 'email', 'message', 'slug', 'titleView', "replying_to"]
   branch            : "future-comments"
-  commitMessage     : "New comment for {fields.slug} - {@timestamp}."
+  commitMessage     : "New comment for {fields.slug}"
   filename          : "comment-{fields.slug}-{@timestamp}"
   format            : "frontmatter"
   path              : "src/my_collections/_comments"
