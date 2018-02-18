@@ -32,19 +32,20 @@
       </div>
   </div>
   <div class="uk-margin ">
+     <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" data-badge="inline"></div>
     <label for="comment-form-reply">
       <input class="uk-checkbox uk-margin-bottom" type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
       Notify me of replies by email.
     </label>
   </div>
-    <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" data-callback='onSubmit' data-badge="inline">Submit</button>
+    <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary">Submit</button>
 </form>
 <div class="js-notice hidden" uk-alert>
   <a class="uk-alert-close" uk-close></a>
   <p></p>
 </div>
 </div>
-
+<script async src="https://www.google.com/recaptcha/api.js"></script>
 <hr>
 <div class="policy">
 <p class="small">
