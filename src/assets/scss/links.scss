@@ -7,8 +7,10 @@ a:visited {
 
 }
 
+
 p,
-ul.related-posts {
+ul.related-posts,
+#respond {
   a:hover,
   a:link,
   a:visited {
@@ -37,6 +39,11 @@ ul.related-posts {
     text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
     background: #b4d5fe;
   }
+}
+
+.comment a[itemprop*="url"],
+#respond a {
+  color: $grey !important;
 }
 
 .all-posts > li > a {

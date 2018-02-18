@@ -49,6 +49,14 @@ h4 {
   text-align: center;
 }
 
+.uk-comment-body > h1, .uk-comment-body > .uk-h1,
+.uk-comment-body > h2, .uk-comment-body > .uk-h2,
+.uk-comment-body > h3, .uk-comment-body > .uk-h3,
+.uk-comment-body > h4, .uk-comment-body > .uk-h4 {
+  margin-top: 0;
+}
+
+
 .uk-h1,
 h1 {
   margin-top: 0;

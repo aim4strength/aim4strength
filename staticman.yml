@@ -1,5 +1,5 @@
 comments:
-  allowedFields     : ['name', 'email', 'message', 'slug', "replying_to"]
+  allowedFields     : ['name', 'email', 'message', 'slug', 'title', "replying_to"]
   branch            : "future-comments"
   commitMessage     : "New comment."
   filename          : "comment-{@timestamp}"
@@ -16,4 +16,12 @@ comments:
       options:
         format      : "iso8601"
     approved        : false
-    title           : "Comment for {fields.slug} at {@timestamp}"
+    title           : "{fields.title}"
+  allowedOrigins: ["aim4strength-comments.com"]
+  name: "Aim4Strength.com"
+
+# reCaptcha
+  reCaptcha:
+    enabled: true
+    siteKey: 6Ldz_EYUAAAAAFl0DiWRpPx2EdAkQV5Ka7Lwlv_2
+    secret: VLlcisrCWw1R2fEEmzdbNvH5HoaGi8r0yZ105IqxcXKfBE/QHF6ozTsKScBZhZ1tqnfXh4zN1tx8f64TF6jYAuv3fnCL66iB7axyQsRfksmgwyv/3cHoVv7xjRc/4r2Qc3KLozY8VA9jPY7aMhlWdjNoA7G1hJWuMNmjeXBZjFQ=

@@ -7,9 +7,10 @@
     <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
     <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
     <input type="hidden" id="comment-post-id" name="fields[slug]" value="{{ page.slug }}">
+      <input type="hidden" id="comment-title" name="fields[title]" value="New Comment for {{ page.slug }} at {{ site.time | date: "%m/%d/%Y" }}">
     </fieldset>
   <div class="uk-margin">
-      <label for="message" class="uk-form-label">Message: <small class="grey">(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> and <a href="https://gist.github.com/rxaviers/7360908">:Emojis:</a> are allowed)</small></label>
+      <label for="message" class="uk-form-label">Message: <small class="grey">(<a href="https://kramdown.gettalong.org/quickref.html" target="_blank">Markdown</a> and <a href="https://gist.github.com/rxaviers/7360908" target="_blank">:Emojis:</a> are allowed)</small></label>
       <div class="uk-form-controls">
           <textarea class="uk-textarea uk-form-large" name="fields[message]" placeholder="Your Message" required rows="5" spellcheck="true"></textarea>
       </div>
@@ -21,7 +22,7 @@
       </div>
   </div>
   <div class="uk-margin">
-      <label for="email" class="uk-form-label">Email: <small class="grey">(used for <a href="http://gravatar.com">Gravatar</a> image and reply notifications)</small></label>
+      <label for="email" class="uk-form-label">Email: <small class="grey">(used for <a href="http://gravatar.com" target="_blank">Gravatar</a> image and reply notifications)</small></label>
       <div class="uk-form-controls">
             <input name="fields[email]" id="email"  class="uk-input uk-form-large" type="email" placeholder="Email" required="">
          <span id="email-invalid" style="display:none">
@@ -34,6 +35,7 @@
       Notify me of replies by email.
     </label>
   </div>
+  <div class="g-recaptcha uk-margin-medium-bottom" data-sitekey="6Ldz_EYUAAAAAFl0DiWRpPx2EdAkQV5Ka7Lwlv_2"></div>
     <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary">Submit</button>
 
     <hr>
