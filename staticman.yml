@@ -16,7 +16,7 @@ comments:
       options:
         format      : "iso8601"
     approved        : false
-    title           : "{fields.titleView}"
+    title           : "comment-{@timestamp}"
   allowedOrigins: ["aim4strength-comments.com"]
   name: "Aim4Strength.com"
 
