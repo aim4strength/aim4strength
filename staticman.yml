@@ -7,7 +7,7 @@ comments:
   path              : "src/my_collections/_comments"
   moderation        : false
   slug              : "{fields.slug}"
-  requiredFields    : ['name', 'email', 'message', 'hello']
+  requiredFields    : ['name', 'email', 'message']
   transforms:
     email           : md5
   generatedFields:
