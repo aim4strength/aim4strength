@@ -57,9 +57,14 @@
   border-bottom: 2px solid $red;
 }
 
-.nav, .uk-offcanvas-bar {
+// .nav, .uk-offcanvas-bar {
   // background-color: $background-color;
   // background-image: $background-image;
+// }
+
+.granite-bg {
+  background-color: $background-color;
+  background-image: $background-image;
 }
 
 .nav-transparent {

@@ -12,6 +12,19 @@ author:
   url: 'https://aim4strength.com/meet-julie/'
   bio: >-
     Hello, my friends! My name is Julie Smith. If you would have told me that I was going to become a personal trainer, I would have told you that you were crazy! I have been heavy all of my life—I do mean since age 5. [This is my story.](https://aim4strength.com/meet-julie/)
+  social-follow:
+    facebook:
+      url: https://www.facebook.com/aim4strength/
+      font-awesome-icon: fab fa-facebook
+    youtube:
+      url: https://www.youtube.com/channel/UCNW6ZMuCwrNfPaup8j_h0bg
+      font-awesome-icon: fab fa-youtube
+    instagram:
+      url: https://www.instagram.com/aim4strength2540/
+      font-awesome-icon: fab fa-instagram
+    feedburner:
+      url: http://feeds.feedburner.com/Aim4strengthFitness
+      font-awesome-icon: fas fa-rss-square
 
 default-right-aside-cta: 'Thank you for reading. If you have found this article helpful please comment, share, subscribe. It means so much! :heart:'
 
