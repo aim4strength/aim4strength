@@ -15,6 +15,7 @@ tags:
   - resting metabolic rate
   - VO2 max
 lead-id: cw-free-2018-single-sun
+lead-name: Printable Calendar
 cta: My CTA
 comments: true
 left-aside: true
