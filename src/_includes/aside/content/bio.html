@@ -1,5 +1,4 @@
 <div class="clearfix">
 <img class="uk-border-circle headshot" src="{{ site.author.picture }}" alt="Julie Smith headshot">
-<p class="bio">{% capture my_include %}{% include aside/content/author-bio.md %}{% endcapture %}
-{{ my_include | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+<p class="bio">{{ site.author.bio | markdownify | remove: '<p>' | remove: '</p>' }}</p>
 </div>

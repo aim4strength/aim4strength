@@ -8,14 +8,6 @@ media_folder: "src/assets/images" # Folder where user uploaded files should go
 public_folder: "assets/images"
 
 collections: # A list of collections the CMS should be able to edit
-  - label: "Author Bio"
-    name: "author-Bio"
-    files:
-      - label: "Author Bio"
-        name: "author-Bio"
-        file: "src/_includes/aside/content/author-bio.md"
-        fields:
-          - {label: "Body", name: "body", widget: "markdown"}
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Blog Posts" # Used in the UI, ie.: "New Post"
     folder: "src/my_collections/_posts" # The path to the folder where the documents are stored
@@ -85,6 +77,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Email, name: email, widget: string}
               - {label: Picture, name: picture, widget: string}
               - {label: URL, name: url, widget: string}
+              - {label: Bio, name: bio, widget: markdown}
           - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "string"}
   - label: "Home Page"
     name: "Home-Page"
