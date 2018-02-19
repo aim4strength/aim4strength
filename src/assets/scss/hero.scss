@@ -7,18 +7,48 @@
   margin-top: 2em;
 }
 
-.testimonial-image {
-  float: left;
-  margin: 0 1em 6em 0;
-}
+
 //
 // .uk-slider-container {
 //   box-shadow: -1px -1px 34px -13px $black;
 // }
 
+[class*=uk-transition-scale] {
+  opacity: 1;
+}
+
 .testimonial-wrap {
   margin: 4em 0;
 }
+
+@media screen and (max-width: 640px) {
+.services .paper {
+  padding: 3em;
+}
+.hero-heading {
+  font-size: 1.5em;
+  padding-left: .5em;
+}
+.testimonial-wrap {
+  margin: 1em 0;
+}
+}
+@media screen and (min-width: 640px) {
+  .testimonial-wrap .uk-slider {
+    margin: 88px 0;
+  }
+  .testimonial-image {
+    float: left;
+    margin: 0 1em 6em 0;
+  }
+}
+
+.testimonial-image {
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 .testimonial-bg {
   top: 60px;
@@ -35,9 +65,7 @@ display: grid;
 transform: skewY(-3deg);
 }
 
-.testimonial-wrap .uk-slider {
-  margin: 88px 0;
-}
+
 
 .uk-tab li a {
   font-family: $sans-serif;

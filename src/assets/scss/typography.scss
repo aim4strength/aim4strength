@@ -44,7 +44,11 @@ h4 {
 .paper > h1, .paper > .uk-h1,
 .paper > h2, .paper > .uk-h2,
 .paper > h3, .paper > .uk-h3,
-.paper > h4, .paper > .uk-h4 {
+.paper > h4, .paper > .uk-h4
+.paper a > h1, .paper a > .uk-h1,
+.paper a > h2, .paper a > .uk-h2,
+.paper a > h3, .paper a > .uk-h3,
+.paper a > h4, .paper a > .uk-h4 {
   margin-top: 0;
   text-align: center;
 }
