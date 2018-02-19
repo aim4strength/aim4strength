@@ -14,30 +14,34 @@
      <label for="message" class="uk-form-label">Message: <small class="grey">(<a href="https://kramdown.gettalong.org/quickref.html" target="_blank">Markdown</a> and <a href="https://gist.github.com/rxaviers/7360908" target="_blank">:Emojis:</a> are allowed)</small></label>
      <div class="uk-form-controls">
          <textarea class="uk-textarea uk-form-large" name="fields[message]" placeholder="Your Message" required rows="5" spellcheck="true"></textarea>
+         <p class="small uk-margin-top">
+          {{ site.comment-policy }}
+         </p>
      </div>
  </div>
  <div class="uk-margin-medium-top">
      <label for="name" class="uk-form-label">Name:</label>
      <div class="uk-form-controls">
-         <input name="fields[name]" class="uk-input uk-form-large" type="text" placeholder="Name" required="">
+         <input name="fields[name]" class="uk-input uk-form-large" type="text" placeholder="Your Name" required="">
      </div>
  </div>
  <div class="uk-margin">
      <label for="email" class="uk-form-label">Email: <small class="grey">(used for <a href="http://gravatar.com" target="_blank">Gravatar</a> image and reply notifications)</small></label>
      <div class="uk-form-controls">
-           <input name="fields[email]" id="email"  class="uk-input uk-form-large" type="email" placeholder="Email" required="">
-        <span id="email-invalid" style="display:none">
-     Must be a valid email address</span>
+           <input name="fields[email]" id="email"  class="uk-input uk-form-large" type="email" placeholder="Your Email Address" required="">
+           <p class="small uk-margin-top">
+            {{ site.privacy-policy-short }}
+           </p>
      </div>
  </div>
- <div class="uk-margin ">
+ <div class="uk-margin-medium-top">
     <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" data-badge="inline"></div>
    <!-- <label for="comment-form-reply">
      <input class="uk-checkbox uk-margin-bottom" type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
      Notify me of replies by email.
    </label> -->
  </div>
-   <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary">Submit</button>
+   <button type="submit" id="comment-form-submit" class="uk-button uk-button-primary uk-margin-medium-bottom">Submit</button>
 </form>
 <div class="js-notice hidden" uk-alert>
  <a class="uk-alert-close" uk-close></a>
@@ -45,12 +49,3 @@
 </div>
 </div>
 <script async src="https://www.google.com/recaptcha/api.js"></script>
-<div class="policy">
-  <hr>
-<p class="small">
- {{ site.comment-policy }}
-</p>
-<p class="small">
- {{ site.privacy-policy-short }}
-</p>
-</div>
