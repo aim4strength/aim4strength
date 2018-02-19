@@ -888,7 +888,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     xhr.onreadystatechange = function() {
         console.log( xhr.status, xhr.statusText )
         console.log(xhr.responseText);
-        window.location.href = 'https://cbtelemann.netlify.com/thank-you/';
+        window.location.href = 'https://aim4strength-comments.netlify.com/thank-you/';
         // document.getElementById('gform').style.display = 'none'; // hide form
         // document.getElementById('thankyou_message').style.display = 'block';
         return;
