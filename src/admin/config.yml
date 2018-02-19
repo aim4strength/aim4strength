@@ -10,7 +10,7 @@ public_folder: "assets/images"
 collections: # A list of collections the CMS should be able to edit
   - label: "Author Bio"
     name: "author-Bio"
-    file:
+    files:
       - label: "Author Bio"
         name: "author-Bio"
         file: "src/_includes/aside/content/author-bio.md"
