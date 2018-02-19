@@ -1,6 +1,6 @@
 comments:
   allowedFields     : ['name', 'email', 'message', 'slug', "replying_to"]
-  branch            : "comments"
+  branch            : "new-home-clean"
   commitMessage     : "New comment."
   filename          : "comment-{@timestamp}"
   format            : "frontmatter"
