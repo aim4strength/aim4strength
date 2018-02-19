@@ -11,9 +11,32 @@
   float: left;
   margin: 0 1em 6em 0;
 }
+//
+// .uk-slider-container {
+//   box-shadow: -1px -1px 34px -13px $black;
+// }
 
-.uk-slider-container {
-  box-shadow: -1px -1px 34px -13px $black;
+.testimonial-wrap {
+  margin: 4em 0;
+}
+
+.testimonial-bg {
+  top: 60px;
+grid: repeat(6,100px)/repeat(7,1fr);
+transform-origin: 0;
+background: linear-gradient(-166deg,rgba(30, 135, 240,.4),
+rgba(243,251,255,.15) 40%,rgba(255,255,248,0)),
+linear-gradient(38deg,rgba(30, 135, 240,.4),
+rgba(243,251,255,.15) 40%,rgba(255,255,248,0)),;
+position: absolute;
+z-index: -1;
+width: 100%;
+display: grid;
+transform: skewY(-3deg);
+}
+
+.testimonial-wrap .uk-slider {
+  margin: 88px 0;
 }
 
 .uk-tab li a {
