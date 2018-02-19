@@ -83,9 +83,9 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - {label: Platform, name: platform, widget: object}
-                fields:
-                  - {label: URL, name: url, widget: string}
-                  - {label: Font Awesome Icon, name: font-awesome-icon, widget: string}
+              fields:
+                - {label: URL, name: url, widget: string}
+                - {label: Font Awesome Icon, name: font-awesome-icon, widget: string}
           - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "string"}
           - {label: "Privacy Policy (Short Version)", name: "privacy-policy-short", widget: "text"}
           - {label: "Comment Policy", name: "comment-policy", widget: "text"}
