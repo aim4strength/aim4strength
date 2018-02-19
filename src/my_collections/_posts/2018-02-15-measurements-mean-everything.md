@@ -1,6 +1,6 @@
 ---
 title: Measurements Mean Everything
-date: 2018-02-15T08:30:00-08:00
+date: 2018-02-15T16:30:00.000Z
 image: >-
   https://thumbs.dreamstime.com/z/healthy-young-woman-holding-tape-measure-over-mouth-dslr-royalty-free-image-fit-green-across-her-both-hands-looking-away-53358909.jpg
 image-alt: Tape measure over girls mouth
@@ -14,6 +14,12 @@ tags:
   - body fat
   - resting metabolic rate
   - VO2 max
+lead-id: test-id
+cta: My CTA
+comments: true
+left-aside: true
+right-aside-top: true
+right-aside-bottom: true
 ---
 All you need is the scale when you are losing weight, right?  I know thats all I focused on when I was losing weight.  I was so damn focused on it, that when it went up, my day was crappy and when it went down, I felt like a rock star.
 
