@@ -1,9 +1,13 @@
 ---
 title: Class Schedule
+display-title: false
 image: >-
   https://res.cloudinary.com/aim4strength/image/upload/v1514574377/Aim4Strength-Boot-Camp.jpg
 permalink: /class-schedule/
-display-title: false
+comments: false
+left-aside: true
+right-aside-top: true
+right-aside-bottom: false
 ---
 ## Group Fitness Classes
 
