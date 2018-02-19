@@ -18,9 +18,3 @@ default-right-aside-cta: 'Thank you for reading. If you have found this article 
 privacy-policy-short: 'Privacy: Policy: Your email address will not be published or shared.'
 
 comment-policy: 'Comment Policy: We do our best to respond particularly on new articles, but don’t have the ability to respond to every comment. Insults and disrespectful comments are not accepted. Please do not include links not pertinent to the discussion. Thank you.'
-
-affiliates:
-  name: Tiger Fitness
-    logo: https://tigerfitness-tigerfitness.netdna-ssl.com/pub/static/version1514955845/frontend/Tigerfitness/tiger/en_US/images/logo.png
-    url: http://www.tigerfitness.com/?a_aid=5a25916a3cb47
-    description: TigerFitness.com for the best priced nutritional supplements and customer service in the industry.
