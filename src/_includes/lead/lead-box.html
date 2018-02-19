@@ -1,9 +1,10 @@
-{% assign lead-type = lead.categories[0] | append: "." | remove_first: "s." %}
+{% assign lead-type = page.lead-name %}
 
-<div id="leadBox" class="uk-margin-large-top">
+
+<div id="leadBox" class="uk-margin-large-top uk-margin-large-bottom">
 <p class="uk-h3 uk-margin-remove">Get Your New {{ lead-type }}</p>
 <p class="uk-margin-top">You will receive an email with a secure link to your {{ lead-type }} and subscribe to my private email list.</p>
-  <form id="gform" method="POST" class="uk-form-stacked" action="">
+  <form id="gform" method="POST" class="uk-form-stacked" action="https://script.google.com/macros/s/AKfycbw6cmfNIKg8D_adxxReKSpnkzi9qMF6pyZgvnC2AHgMxQ2w5gA/exec">
       <div class="uk-margin-medium-top">
           <label for="name" class="uk-form-label">First Name:</label>
           <div class="uk-form-controls">
@@ -20,10 +21,12 @@
       </div>
       <input type="hidden" name="subject" id="subject" value="{{ page.lead-id }}">
       <input type="hidden" name="next" id="next" value="{{ site.url}}/thank-you">
-
+      <div class="uk-margin-medium-top">
+         <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" data-badge="inline"></div>
+      </div>
       <button class="uk-button uk-button-primary">Send it to me</button>
   </form>
-<p class="small uk-margin-medium-top">Privacy Policy: <br /> We hate spam and promise to keep your email address safe.</p>
+<p class="small uk-margin-medium-top">{{ site.privacy-policy-lead }}</p>
 <div class="uk-margin uk-width-1-1" style="display:none;" id="thankyou_message">
   <hr class="uk-divider-small">
   <div >

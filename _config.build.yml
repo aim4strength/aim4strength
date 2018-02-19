@@ -15,6 +15,8 @@ author:
 
 default-right-aside-cta: 'Thank you for reading. If you have found this article helpful please comment, share, subscribe. It means so much! :heart:'
 
-privacy-policy-short: 'Privacy: Policy: Your email address will not be published or shared.'
+privacy-policy-comment: 'Privacy Policy: Your email address will not be published or shared.'
+
+privacy-policy-lead: 'Privacy Policy: We hate spam and promise to keep your email address safe.'
 
 comment-policy: 'Comment Policy: We do our best to respond particularly on new articles, but don’t have the ability to respond to every comment. Insults and disrespectful comments are not accepted. Please do not include links not pertinent to the discussion. Thank you.'

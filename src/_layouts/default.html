@@ -54,6 +54,9 @@
             {% endif %}
           {{ content }}
           {% endif %}
+          {% if page.lead-id != "" %}
+          {% include lead/lead-box.html %}
+          {% endif %}
           {% if page.is-post %}
           {% include post-lists/related-posts.html %}
           {% endif %}
