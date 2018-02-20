@@ -105,8 +105,8 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "Subscribe Postback", name: post, widget: string}
               - {label: "Hidden Value", name: hidden, widget: string}
-          - name: recaptcha
-            label: Recaptcha
+          - name: reCaptcha
+            label: reCaptcha
             widget: object
             fields:
               - {label: "Site Key", name: siteKey, widget: string}
