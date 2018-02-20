@@ -16,7 +16,8 @@ tags:
   - VO2 max
 lead-id: cw-free-2018-single-sun
 lead-name: Printable Calendar
-cta: My CTA
+cta: My custom article CTA
+right-aside-cta: My custom right aside CTA.
 comments: true
 left-aside: true
 right-aside-top: true
