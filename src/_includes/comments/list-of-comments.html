@@ -13,7 +13,7 @@
   {% assign email = comment.email %}
   {% assign name = comment.name %}
   {% assign date = comment.date %}
-  {% assign message = comment.message %}
+  {% assign message = comment.content %}
   {% include comments/comment.html index=forloop.index avatar=avatar replying_to=replying_to  email=email name=name date=date message=message %}
   {% endif %}
 {% endfor %}
