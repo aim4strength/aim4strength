@@ -5,3 +5,4 @@ User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
 Disallow: /admin/*
 Disallow: /thank-you/
+Disallow: /tags/
