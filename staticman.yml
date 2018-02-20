@@ -1,5 +1,5 @@
 comments:
-  allowedFields     : ['name', 'email', 'message', 'slug', 'replying_to']
+  allowedFields     : ['name', 'email2', 'message', 'slug', 'replying_to']
   branch            : "future-comments"
   commitMessage     : "New comment."
   filename          : "comment-{@timestamp}"
@@ -7,9 +7,9 @@ comments:
   path              : "src/my_collections/_comments"
   moderation        : false
   slug              : "{fields.slug}"
-  requiredFields    : ['name', 'email', 'message']
+  requiredFields    : ['name', 'email2', 'message']
   transforms:
-    email: md5
+    email2: md5
   generatedFields:
     date:
       type          : "date"
