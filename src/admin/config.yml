@@ -110,7 +110,7 @@ collections: # A list of collections the CMS should be able to edit
             label: Recaptcha
             widget: object
             fields:
-              - {label: "Site Key", name: "siteKey, widget: string}
+              - {label: "Site Key", name: siteKey, widget: string}
               - {label: Secret, name: secret, widget: string}
           - {label: "Lead Google Post Script", name: "lead-post-script", widget: "string"}
           - {label: "Cloudinary Name"", name: "cloudinary-name", widget: "string"}
