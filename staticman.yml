@@ -3,7 +3,7 @@ comments:
   branch: "future-comments"
   commitMessage: "New comment."
   filename: "comment-{@timestamp}"
-  format: "yml"
+  format: "frontmatter"
   path: "src/my_collections/_comments"
   moderation: false
   slug: "{fields.slug}"
