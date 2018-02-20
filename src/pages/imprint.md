@@ -1,4 +1,4 @@
-{{ site.company.location }}---
+---
 title: Imprint
 permalink: /imprint/
 display-title: false
