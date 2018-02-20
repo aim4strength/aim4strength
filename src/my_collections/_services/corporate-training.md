@@ -7,4 +7,4 @@ Julie Smith, and her team at Aim4Strength, can help your organization become ene
 
 Schools and Universities also benefit from Corporate Training. Whether it is a group of Teachers, Professors, or Students, everyone is healthier and more attentive after a workout session.
 
-To discuss creating a corporate fitness program for your company, please call me today at (909) 289-1065.
+To discuss creating a corporate fitness program for your company, please call me today at {{ site.company.phone }}.

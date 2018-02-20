@@ -2,7 +2,7 @@
     <div class="paper-mail uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
 
         <button class="uk-modal-close-default" type="button" uk-close></button>
-        <form action="https://aim4strength.us13.list-manage.com/subscribe/post?u=e8ec144fea18639007973900c&amp;id=526fa3ebf5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate uk-form-stacked uk-margin-top uk-margin-medium-bottom" target="_blank" novalidate>
+        <form action="{{ site.mailchimp.post }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate uk-form-stacked uk-margin-top uk-margin-medium-bottom" target="_blank" novalidate>
           <p id="progress-text"class="uk-text-center uk-margin-remove">
           50% Complete
           </p>
@@ -26,13 +26,13 @@
               <div class="response" id="mce-success-response" style="display:none"></div>
             </div>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e8ec144fea18639007973900c_526fa3ebf5" tabindex="-1" value=""></div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="{{ site.mailchimp.hidden }}" tabindex="-1" value=""></div>
 
 
             <div class="mc-status uk-text-center"></div>
             <div class="uk-margin-top"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="uk-button uk-button-primary uk-width-1-1"></div>
             <p class="uk-margin-top small">
-            Privacy Policy: We hate spam and promise to keep your email address safe.
+            {{ site.privacy-policy-lead }}
           </p>
           </form>
 

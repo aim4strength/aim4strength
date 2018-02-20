@@ -3,7 +3,7 @@
     <div class="uk-grid uk-grid-large">
       <div class="uk-width-1-5@xl uk-width-1-3@l uk-width-1-3@m uk-visible@m uk-text-right">
         <div class="uk-navbar-item logo-wrap">
-          <a href="/"><img class="nav-logo"  src="https://res.cloudinary.com/aim4strength/image/upload/c_scale,w_142/v1514574376/aim4strength-logo.png" alt="aim4strength logo"/>
+          <a href="/"><img class="nav-logo"  src="https://res.cloudinary.com/aim4strength/image/upload/c_scale,w_142/v1514574376/aim4strength-logo.png" alt="{{ site.company.name }} logo"/>
           </a>
         </div>
 
@@ -19,13 +19,13 @@
               <li class="uk-navbar-item"><a href="/class-schedule/">Class Schedule</a></li>
             </ul>
             <a class="uk-hidden@m" href="{{ site.url }}">
-              <img class="nav-logo-mini"  src="https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png" srcset="https://res.cloudinary.com/aim4strength/image/upload/c_scale,w_82/v1514574376/aim4strength-logo.png 640w, https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png 960w" sizes="(min-width: 50rem) 50rem, 90vw" alt="aim4strength logo" width="1100" height="732" />
+              <img class="nav-logo-mini"  src="https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png" srcset="https://res.cloudinary.com/aim4strength/image/upload/c_scale,w_82/v1514574376/aim4strength-logo.png 640w, https://res.cloudinary.com/aim4strength/image/upload/v1514574376/aim4strength-logo.png 960w" sizes="(min-width: 50rem) 50rem, 90vw" alt="{{ site.company.name }} logo" width="1100" height="732" />
             </a>
           </div>
           <div class="uk-navbar-right uk-navbar-right-short">
           <div class="uk-navbar-item call  uk-visible@xl">
                 Get Started Today.
-                Call (909) 289-1065
+                Call {{ site.company.phone }}
               </div>
               {% include header/mobile-nav.html %}
           </div>

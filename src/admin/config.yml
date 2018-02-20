@@ -82,6 +82,38 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Picture, name: picture, widget: string}
               - {label: URL, name: url, widget: string}
               - {label: Bio, name: bio, widget: markdown}
+          - name: company
+            label: Company
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Location, name: location, widget: string}
+              - {label: Logo, name: logo, widget: string}
+              - {label: Phone, name: phone, widget: string}
+          - {label: "Touch Icon", name: "touch-icon", widget: "string"}
+          - {label: "Fav Icon", name: "fav-icon", widget: "string"}
+          - name: analytics
+            label: Analytics
+            widget: object
+            fields:
+              - {label: Google, name: google, widget: string}
+              - {label: Hotjar, name: hotjar, widget: string}
+              - {label: Momently, name: momently, widget: string}
+          - name: mailchimp
+            label: Mailchimp
+            widget: object
+            fields:
+              - {label: "Subscribe Postback", name: google, widget: string}
+              - {label: "Hidden Value", name: hidden, widget: string}
+              - {label: Momently, name: momently, widget: string}
+          - name: recaptcha
+            label: Recaptcha
+            widget: object
+            fields:
+              - {label: "Site Key", name: "siteKey, widget: string}
+              - {label: Secret, name: secret, widget: string}
+          - {label: "Lead Google Post Script", name: "lead-post-script", widget: "string"}
+          - {label: "Cloudinary Name"", name: "cloudinary-name", widget: "string"}
           - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "string"}
           - {label: "Privacy Policy (Short Version)", name: "privacy-policy-comment", widget: "text"}
           - {label: "Comment Policy", name: "comment-policy", widget: "text"}

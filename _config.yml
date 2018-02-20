@@ -12,29 +12,14 @@ author:
   url: 'https://aim4strength.com/meet-julie/'
   bio: Hello, my friends! My name is Julie Smith. If you would have told me that I was going to become a personal trainer, I would have told you that you were crazy! I have been heavy all of my life—I do mean since age 5. [This is my story.](https://aim4strength.com/meet-julie/)
 
-social-follow:
-  facebook:
-    url: https://www.facebook.com/aim4strength/
-    font-awesome-icon: fab fa-facebook
-  youtube:
-    url: https://www.youtube.com/channel/UCNW6ZMuCwrNfPaup8j_h0bg
-    font-awesome-icon: fab fa-youtube
-  instagram:
-    url: https://www.instagram.com/aim4strength2540/
-    font-awesome-icon: fab fa-instagram
-  feedburner:
-    url: http://feeds.feedburner.com/Aim4strengthFitness
-    font-awesome-icon: fas fa-rss-square
-
 company:
   name: Aim4Strength Fitness
   location: San Bernardino, CA
-  logo:
-  phone:
+  logo: https://res.cloudinary.com/aim4strength/image/upload/v1517244653/aim4strength-logotext.svg
+  phone: (909) 289-1065
 
-icons:
-  touch: https://res.cloudinary.com/aim4strength/image/upload/v1516983981/aim4strength.png
-  fav: https://res.cloudinary.com/aim4strength/image/upload/v1514842715/favicon.ico
+touch-icon: https://res.cloudinary.com/aim4strength/image/upload/v1516983981/aim4strength.png
+fav-icon: https://res.cloudinary.com/aim4strength/image/upload/v1514842715/favicon.ico
 
 cloudinary-name: aim4strength
 
@@ -44,8 +29,8 @@ analytics:
   momently: vWa9OAAAAQY
 
 mailchimp:
-  post:
-  hidden:
+  post: https://aim4strength.us13.list-manage.com/subscribe/post?u=e8ec144fea18639007973900c&amp;id=526fa3ebf5
+  hidden: b_e8ec144fea18639007973900c_526fa3ebf5
 
 lead-post-script: https://script.google.com/macros/s/AKfycbw6cmfNIKg8D_adxxReKSpnkzi9qMF6pyZgvnC2AHgMxQ2w5gA/exec
 
