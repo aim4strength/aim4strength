@@ -119,6 +119,8 @@ collections:
   services:
     output: true
     permalink: /:collection/:title/
+  social:
+    output: false
   testimonials:
     output: false
   comments:
