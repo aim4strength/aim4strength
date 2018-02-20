@@ -143,6 +143,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "social" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Social Share and Follow" # Used in the UI, ie.: "New Post"
     folder: "src/my_collections/_social" # The path to the folder where the documents are stored
+    extension: "yml"
     sort: "title:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
