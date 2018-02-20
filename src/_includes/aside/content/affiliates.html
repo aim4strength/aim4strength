@@ -1,7 +1,9 @@
 <p class="uk-text-center uk-margin-small"><i class="fas fa-users"></i>&ensp;Affiliates</p>
-<p class="tiger-fitness-text">
-<a href="http://www.tigerfitness.com/?a_aid=5a25916a3cb47">
-<img class="tiger-fitness-logo" src="https://tigerfitness-tigerfitness.netdna-ssl.com/pub/static/version1514955845/frontend/Tigerfitness/tiger/en_US/images/logo.png" alt="Tiger Fitness logo" />
-TigerFitness.com for the best priced nutritional supplements and customer service in the industry.</p>
-</p>
+{% for affiliate in site.affiliates %}
+<p class="affiliate-text">
+<a href="{{ affiliate.link }}">
+<img class="affiliate-logo" src="{{ affiliate.logo }}" alt="{{ affiliate.name }} logo" />
+{{ affiliate.description}}</p>
 </a>
+</p>
+{% endfor %}

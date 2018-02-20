@@ -8,6 +8,16 @@ media_folder: "src/assets/images" # Folder where user uploaded files should go
 public_folder: "assets/images"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "affiliates" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Affiliates" # Used in the UI, ie.: "New Post"
+    folder: "src/my_collections/_affiliates" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Blog Posts" # Used in the UI, ie.: "New Post"
     folder: "src/my_collections/_posts" # The path to the folder where the documents are stored
