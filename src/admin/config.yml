@@ -103,9 +103,8 @@ collections: # A list of collections the CMS should be able to edit
             label: Mailchimp
             widget: object
             fields:
-              - {label: "Subscribe Postback", name: google, widget: string}
+              - {label: "Subscribe Postback", name: post, widget: string}
               - {label: "Hidden Value", name: hidden, widget: string}
-              - {label: Momently, name: momently, widget: string}
           - name: recaptcha
             label: Recaptcha
             widget: object
