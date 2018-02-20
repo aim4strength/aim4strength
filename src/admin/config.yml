@@ -82,17 +82,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Picture, name: picture, widget: string}
               - {label: URL, name: url, widget: string}
               - {label: Bio, name: bio, widget: markdown}
-          - name: social-follow
-            label: Social Follow
-            widget: list
-            fields:
-              - name: platform
-                label: platform
-                widget: object
-                fields:
-                  - {label: Platform, name: platform, widget: string}
-                  - {label: URL, name: url, widget: string}
-                  - {label: Font Awesome Icon, name: font-awesome-icon, widget: string}
           - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "string"}
           - {label: "Privacy Policy (Short Version)", name: "privacy-policy-comment", widget: "text"}
           - {label: "Comment Policy", name: "comment-policy", widget: "text"}
@@ -151,6 +140,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - name: "social" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Social Share and Follow" # Used in the UI, ie.: "New Post"
+    folder: "src/my_collections/_social" # The path to the folder where the documents are stored
+    sort: "title:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: URL, name: url, widget: string}
+      - {label: Font Awesome Icon, name: font-awesome-icon, widget: string}
   - name: "testimonials" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Testimonials" # Used in the UI, ie.: "New Post"
     folder: "src/my_collections/_testimonials" # The path to the folder where the documents are stored
