@@ -1,11 +1,9 @@
-# Title, decription, tagline and URL for your site
-# Can be used in your theme by calling 'site.title' and so on
 title: Aim4Strength Fitness
 description: Personalized Fitness Training
+
 url: http://localhost:3000
 repository: aim4strength/aim4strength
 branch: future-comments
-
 author:
   email: julie@aim4strength.com
   name: Julie Smith
@@ -27,6 +25,34 @@ author:
       url: http://feeds.feedburner.com/Aim4strengthFitness
       font-awesome-icon: fas fa-rss-square
 
+company:
+  name: Aim4Strength Fitness
+  location: San Bernardino, CA
+  logo:
+  phone:
+
+icons:
+  touch: https://res.cloudinary.com/aim4strength/image/upload/v1516983981/aim4strength.png
+  fav: https://res.cloudinary.com/aim4strength/image/upload/v1514842715/favicon.ico
+
+cloudinary-name: aim4strength
+
+analytics:
+  google: UA-112408949-1
+  hotjar: 733987
+  momently: vWa9OAAAAQY
+
+mailchimp:
+  post:
+  hidden:
+
+lead-post-script: https://script.google.com/macros/s/AKfycbw6cmfNIKg8D_adxxReKSpnkzi9qMF6pyZgvnC2AHgMxQ2w5gA/exec
+
+
+reCaptcha:
+  siteKey: 6Ld1_EYUAAAAAA3WrBQS-Mo1rVrE7cjL6BsK8yS3
+  secret: gvhNfr+5kEpyeydh4128QcTW0gEd/3qrc0H9GV86p4z7mqhjMJhfC5eBX+KL1ov3x3MSqr6PrHaJKxzvRey4pqAPwCakL2pNGx9lY/ldc1HbnSqFsfXAY0kJIsbEC3RKVRrTWx/ey5hRWpapVWoeImyxYYJLJoNlfT4UuX1u+Xs=
+
 privacy-policy-comment: 'Privacy: Policy: Your email address will not be published or shared.'
 
 privacy-policy-lead: 'Privacy Policy: We hate spam and promise to keep your email address safe.'
@@ -35,9 +61,8 @@ comment-policy: 'Comment Policy: We do our best to respond particularly on new a
 
 default-right-aside-cta: 'Thank you for reading. If you have found this article helpful please comment, share, subscribe. It means so much! :heart:'
 
-reCaptcha:
-  siteKey: 6Ld1_EYUAAAAAA3WrBQS-Mo1rVrE7cjL6BsK8yS3
-  secret: gvhNfr+5kEpyeydh4128QcTW0gEd/3qrc0H9GV86p4z7mqhjMJhfC5eBX+KL1ov3x3MSqr6PrHaJKxzvRey4pqAPwCakL2pNGx9lY/ldc1HbnSqFsfXAY0kJIsbEC3RKVRrTWx/ey5hRWpapVWoeImyxYYJLJoNlfT4UuX1u+Xs=
+
+
 
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
@@ -51,11 +76,7 @@ algolia:
   index_name:     'aim4strength_index'
   search_only_api_key: '2960adbde57968159b658bea3b728be8'
 
-# Same as the title etc for your site but can instead be
-# called by using 'site.author.name' and so on
 
-
-# _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts
 future: true
 show_drafts: false
