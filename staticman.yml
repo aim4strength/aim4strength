@@ -1,22 +1,22 @@
 comments:
-  allowedFields     : ['name', 'email2', 'message', 'slug', 'replying_to']
-  branch            : "future-comments"
-  commitMessage     : "New comment."
-  filename          : "comment-{@timestamp}"
-  format            : "frontmatter"
-  path              : "src/my_collections/_comments"
-  moderation        : false
-  slug              : "{fields.slug}"
-  requiredFields    : ['name', 'email2', 'message']
+  allowedFields: ['name', 'email', 'message', 'slug', 'replying_to']
+  branch: "future-comments"
+  commitMessage: "New comment."
+  filename: "comment-{@timestamp}"
+  format: "frontmatter"
+  path: "src/my_collections/_comments"
+  moderation: false
+  slug: "{fields.slug}"
+  requiredFields: ['name', 'email', 'message']
   transforms:
-    email2: md5
+    email: md5
   generatedFields:
     date:
-      type          : "date"
+      type: "date"
       options:
-        format      : "iso8601"
-    approved        : false
-    title           : "Comment"
+        format: "iso8601"
+    approved: false
+    title: "Comment"
   reCaptcha:
     enabled: true
     siteKey: "6Ld1_EYUAAAAAA3WrBQS-Mo1rVrE7cjL6BsK8yS3"
