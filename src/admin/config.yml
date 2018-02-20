@@ -90,8 +90,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Location, name: location, widget: string}
               - {label: Logo, name: logo, widget: string}
               - {label: Phone, name: phone, widget: string}
-          - {label: "Touch Icon", name: "touch-icon", widget: "string"}
-          - {label: "Fav Icon", name: "fav-icon", widget: "string"}
           - name: analytics
             label: Analytics
             widget: object
@@ -111,6 +109,8 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "Site Key", name: siteKey, widget: string}
               - {label: Secret, name: secret, widget: string}
+          - {label: "Touch Icon", name: "touch-icon", widget: "string"}
+          - {label: "Fav Icon", name: "fav-icon", widget: "string"}
           - {label: "Lead Google Post Script", name: "lead-post-script", widget: "string"}
           - {label: "Cloudinary Name", name: "cloudinary-name", widget: "string"}
           - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "text"}
