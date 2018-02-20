@@ -11,9 +11,12 @@
   padding: 2em;
 }
 
-#leadBox *:not(.uk-button) {
+#leadBox *:not(.uk-button){
   color: $primary;
 }
 #leadBox input, #leadBox input:hover {
 background: $white;
+}
+#leadBox input {
+  color: $black !important;
 }
