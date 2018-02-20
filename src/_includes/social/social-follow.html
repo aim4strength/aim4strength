@@ -6,8 +6,8 @@
   </div>
   <div class="uk-width-2-3">
     <ul class="uk-iconnav uk-text-center uk-margin-bottom">
-      {% for social in site.author.social-follow %}
-      <li class="uk-width-1-4"><a href="{{ social[1].url }}"><i class="fab {{ social[1].font-awesome-icon }} fa-lg" aria-hidden="true"></i></a></li>
+      {% for social in site.social %}
+      <li class="uk-width-1-4"><a href="{{ social.platform-url }}"><i class="{{ social.font-awesome-icon }} fa-lg" aria-hidden="true"></i></a></li>
       {% endfor %}
     </ul>
   </div>
