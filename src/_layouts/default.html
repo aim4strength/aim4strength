@@ -32,6 +32,8 @@
           {% include post-lists/list-of-all-posts.html %}
           {% elsif page.is-post %}
           {{ content }}
+          <hr class="uk-divider-small uk-text-center" />
+          <p>  {{ page.cta }}</p>
           {% elsif page.image %}
             <img class="
             {% if page.url contains "service" %}
