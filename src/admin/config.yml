@@ -113,7 +113,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Site Key", name: siteKey, widget: string}
               - {label: Secret, name: secret, widget: string}
           - {label: "Lead Google Post Script", name: "lead-post-script", widget: "string"}
-          - {label: "Cloudinary Name"", name: "cloudinary-name", widget: "string"}
+          - {label: "Cloudinary Name", name: "cloudinary-name", widget: "string"}
           - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "string"}
           - {label: "Privacy Policy (Short Version)", name: "privacy-policy-comment", widget: "text"}
           - {label: "Comment Policy", name: "comment-policy", widget: "text"}
