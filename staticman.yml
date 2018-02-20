@@ -3,14 +3,14 @@ comments:
   branch: "future-comments"
   commitMessage: "New comment."
   filename: "comment-{@timestamp}"
-  format: "yml"
-  extension: "md"
+  format: "frontmatter"
   path: "src/my_collections/_comments"
   moderation: false
   slug: "{fields.slug}"
   requiredFields: ['name', 'email', 'message']
   transforms:
     email: "md5"
+    message: "frontmatterContent"
   generatedFields:
     date:
       type: "date"
