@@ -143,14 +143,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "social" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Social Share and Follow" # Used in the UI, ie.: "New Post"
     folder: "src/my_collections/_social" # The path to the folder where the documents are stored
-    extension: "yml"
-    sort: "title:desc" # Default is title:asc
+    sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: URL, name: url, widget: string}
-      - {label: Font Awesome Icon, name: font-awesome-icon, widget: string}
+      - {label: "URL", name: "url", widget: "string"}
+      - {label: "Font Awesome Icon", name: "font-awesome-icon", "widget: string"}
   - name: "testimonials" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Testimonials" # Used in the UI, ie.: "New Post"
     folder: "src/my_collections/_testimonials" # The path to the folder where the documents are stored
