@@ -58,6 +58,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .main-paper {
+    margin-right: 40px;
+  }
+}
+
 .main-paper {
   padding: 3.5em !important;
 }
