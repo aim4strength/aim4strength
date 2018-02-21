@@ -4,7 +4,8 @@
   padding: 1em 1em 0;
   border-radius: 3px;
   border: 9px solid transparent;
-  border-image: 9 repeating-linear-gradient(-45deg, $red 0, $red 10.5px, transparent 0, transparent 20.5px, $blue 0, $blue 30.5px, transparent 0, transparent 40.5px);
+  border-image: 9 repeating-linear-gradient(-45deg, red 0, red 10.5px, transparent 0, transparent 20.5px,
+                #58a 0, #58a 30.5px, transparent 0, transparent 40.5px);
 }
 
 #leadBox {
