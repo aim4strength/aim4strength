@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: future-comments # Branch to update (master by default)
+  branch: new-grid # Branch to update (master by default)
 
 publish_mode: editorial_workflow
 
