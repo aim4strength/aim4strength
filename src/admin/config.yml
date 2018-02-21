@@ -74,7 +74,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "replying_to", name: "replying_to", widget: "hidden"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Approved", name: "approved", widget: "boolean"}
-      - {label: "Message", name: "message", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "hidden"}
   - label: "Default Content and Settings"
     name: "defaults"
