@@ -5,85 +5,55 @@
 
 <body>
   <div class="wrap">
-  <h1 class="visuallyhidden">{{ page.title }} | {% if page.title != site.title %}
+    <h1 class="visuallyhidden">{{ page.title }} | {% if page.title != site.title %}
   {{ site.title }} | {% endif %}  Personalized Fitness Training</h1>
-  <a id="top"></a>
-
-  {% if page.homepage %}
-  <div class="stripes">
+    <a id="top"></a> {% if page.homepage %}
+    <div class="stripes">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       <span></span>
     </div>
-  {% include header/hero.html %}
-  {% else %}
-  {% include header/nav.html %}
-  {% endif %}
-
-
-
-  <div class="uk-container uk-container-expand site">
-    <div class="uk-child-width-expand@s uk-grid-large uk-flex site-content" uk-grid>
-      <main class="uk-width-2-5@xl uk-width-2-3@m uk-width-2-3@l">
-        <div class="paper">
-          {% if page.blog or page.auto-page %}
-          {% include post-lists/list-of-all-posts.html %}
-          {% elsif page.is-post %}
-          {{ content }}
-          <hr class="uk-divider-small uk-text-center" />
-          <p>{{ page.cta }}</p>
-          {% elsif page.image %}
-            <img class="
-            {% if page.url contains "service" %}
-            service-icon
-            {% else %}
-            featured-image
-            {% endif %}
-            uk-margin-medium-bottom" src="{{ page.image }}" alt="{{ page.image-alt }}" />
-            {% if page.display-title == true %}
-            <p class="uk-h1">
-              {{ page.title }}
-            </p>
-            {% endif %}
-            {{ content }}
-            {{ page.cta }}
-          {% else %}
-            {% if page.display-title == true %}
-            <p class="uk-h1">
-              {{ page.title }}
-            </p>
-            {% endif %}
-          {{ content }}
-          {{ page.cta }}
-          {% endif %}
-          {% if page.lead-id %}
-          {% include lead/lead-box.html %}
-          {% endif %}
-          {% if page.is-post %}
-          {% include post-lists/related-posts.html %}
-          {% endif %}
-          {% if page.comments == true %}
-            {% include comments/list-of-comments.html %}
-          {% endif %}
+    {% include header/hero.html %} {% else %} {% include header/nav.html %} {% endif %}
+    <div class="uk-container uk-container-expand site">
+      <div class="uk-child-width-expand@s uk-grid-large uk-flex site-content" uk-grid>
+        <div class="uk-width-1-1@s uk-width-1-3@m uk-width-1-3@l uk-width-1-5@xl">
+          {% unless page.left-aside == false %}
+          {% include aside/left-aside.html %}
+          {% endunless %}
         </div>
-      </main>
-        {% include aside/right-aside.html %}
-      <div class="uk-width-1-1@s uk-width-1-3@m uk-flex-first@m uk-width-1-3@l uk-width-1-5@xl">
-      {% if page.left-aside == false %}
-      {% else %}
-      {% include aside/left-aside.html %}
-      {% endif %}
-    </div>
-    </div>
-    {% include footer.html %}
-  </div>
+        <div class="uk-width-4-5@xl" uk-grid>
+          <main class="uk-width-3-5@xl uk-width-2-3@m uk-width-2-3@l">
+            <div class="paper main-paper">
+              {% include main-content.html %}
+              <hr class="uk-margin-large-top uk-divider-small uk-text-center" />
+            </div>
+          </main>
+          {% unless page.right-aside-top == false %}
+          {% include aside/right-aside.html %}
+          {% endunless %}
+          <div class="uk-width-3-5">
+            {% if page.is-post %}
+            <div class="paper">
+              {% unless page.cta == "" %}
+              <p>{{ page.cta }}</p>
+              {% endunless %} {% if page.lead-id %} {% include lead/lead-box.html %} {% endif %}  {% if page.comments == true %} {% include comments/list-of-comments.html %} {% endif %}
+            </div>
+            {% endif %}
+          </div>
+          {% unless page.right-aside-top == false %}
+          {% include aside/right-aside-bottom.html %}
+          {% endunless %}
 
-{% include scripts.html %}
+      </div>
+      {% include footer.html %}
+    </div>
+
+    {% include scripts.html %}
     <!-- JS -->
-  <!-- inject:js -->
-  <!-- endinject -->
+    <!-- inject:js -->
+    <!-- endinject -->
   </div>
 </body>
 

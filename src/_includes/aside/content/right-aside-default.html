@@ -4,12 +4,11 @@
 {% include aside/content/bio.html %}
 {% endif %}
 {% if page.blog or page.auto-page or page.is-post %}
-<hr>
-{% include aside/content/list-of-categories.html %}
+{% include aside/content/list-of-cat-and-tags.html %}
 {% endif %}
 {% if page.homepage %}
 {% else %}
-<hr>
+<hr class="uk-divider-small uk-text-center" />
 {% include aside/content/affiliates.html %}
 {% endif %}
 <div class="uk-text-center">

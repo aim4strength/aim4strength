@@ -150,12 +150,6 @@ defaults:
       is-post: true
       comments: true
       comment-locked: false
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: categories   # limit to posts
-    values:
-      category: :category
 
 ############################################################
 # Site configuration for the Auto-Pages feature
@@ -167,7 +161,10 @@ autopages:
   collections:
     enabled: false
   tags:
-    enabled: false
+    layouts:
+      - 'autopage.html'
+    title: 'Posts Tagged With :tag'
+    permalink: '/blog/tag/:tag'
   categories:
     layouts:
       - 'autopage.html'

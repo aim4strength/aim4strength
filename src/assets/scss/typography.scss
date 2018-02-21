@@ -57,6 +57,16 @@ h4 {
   text-align: center;
 }
 
+main section h1:first-of-type,
+main section h2:first-of-type,
+main section h3:first-of-type,
+main section h4:first-of-type,
+ {
+  margin-top: 0;
+  text-align: center;
+}
+
+
 .uk-comment-body > h1, .uk-comment-body > .uk-h1,
 .uk-comment-body > h2, .uk-comment-body > .uk-h2,
 .uk-comment-body > h3, .uk-comment-body > .uk-h3,

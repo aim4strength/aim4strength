@@ -11,6 +11,8 @@
   justify-content: center;
 }
 
+
+
 .affiliate-logo {
   width: 100px;
   float: left;
@@ -25,7 +27,7 @@
 }
 
 .bio {
-  margin-top: 0.15em;
+  margin: 0.15em 0 0;
   font-size: 0.8em;
   line-height: 1.4em;
 }
@@ -46,7 +48,30 @@
   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
 }
 
+.uk-tab {
+  justify-content: center;
+}
 
+.tags {
+  list-style: none;
+  font-size: .8em;
+  font-style: italic;
+    justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+}
+.tags li {
+  display: inline;
+  float: left;
+}
+
+.tags li a {
+  color: $black;
+}
+
+.tags li a:hover {
+  color: #666;
+}
 .uk-subnav {
   font-family: $sans-serif;
   line-height: 1.2rem;
@@ -56,8 +81,15 @@
   padding-left: 10px;
 }
 
-.uk-subnav > * > :first-child {
-  font-family: $sans-serif;
+// .uk-subnav > * > :first-child {
+//   font-family: $sans-serif;
+//   font-size: 0.9em;
+//   text-transform: none;
+// }
+
+.categories.uk-subnav > * > :first-child {
+  font-family: $serif;
+  font-style: italic;
   font-size: 0.9em;
   text-transform: none;
 }
