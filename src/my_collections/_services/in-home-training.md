@@ -3,7 +3,7 @@ title: Personal In-Home Training
 image: https://res.cloudinary.com/aim4strength/image/upload/v1514574379/service-icon-personal-in-home.png
 summary: Personal In-Home Training is offered by Julie Smith to clients who want to exercise in the comfort and privacy of their own home. Many clients find the gym intimidating and embarrassing. But with Julie at your home you can have train with confidence, knowing you are making strides toward a healthier version of you. Julie pays special attention to your individual goals and benchmarks while helping you find ways to work around any pre-existing injuries or conditions
 ---
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/1r54FM41ptc?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></div>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/1r54FM41ptc?rel=0&amp;showinfo=0'  allowfullscreen></iframe></div>
 
 At Aim4Strength Fitness we offer [personalized in-home fitness training]({{ site.url }}/services/in-home-training/) for clients who are looking to transform their lives. Our programs are tailored to each client’s specific goals and objectives and workouts are modified to accommodate any existing medical conditions.
 
