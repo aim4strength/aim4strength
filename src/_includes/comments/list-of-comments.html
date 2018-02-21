@@ -1,6 +1,7 @@
 {% assign pageComments = site.comments | where:"slug", page.slug %}
 {% assign comments = pageComments | where_exp:"item", "item.replying_to == blank" %}
 {% if comments.size >= 1 %}
+<section>
 <hr />
 <h3>Comments</h3>
 <ul class="comments uk-list uk-list-divider uk-margin-medium-bottom">
@@ -19,3 +20,7 @@
 {% endfor %}
 </ul>
 {% endif %}
+{% if page.comment-locked == false %}
+  {% include comments/comment-form.html %}
+{% endif %}
+</section>

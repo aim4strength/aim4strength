@@ -33,7 +33,7 @@
           {% elsif page.is-post %}
           {{ content }}
           <hr class="uk-divider-small uk-text-center" />
-          <p>  {{ page.cta }}</p>
+          <p>{{ page.cta }}</p>
           {% elsif page.image %}
             <img class="
             {% if page.url contains "service" %}
@@ -66,9 +66,6 @@
           {% endif %}
           {% if page.comments == true %}
             {% include comments/list-of-comments.html %}
-          {% endif %}
-          {% if page.comment-locked == false %}
-            {% include comments/comment-form.html %}
           {% endif %}
         </div>
       </main>

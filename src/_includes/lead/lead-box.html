@@ -1,7 +1,7 @@
 {% assign lead-type = page.lead-name %}
 
-<div id="leadBox" class="uk-margin-large-top uk-margin-large-bottom uk-alert-primary" uk-alert>
-<p class="uk-h3 uk-margin-remove">Get Your New {{ lead-type }}</p>
+<section id="leadBox" class="uk-margin-large-top uk-margin-large-bottom uk-alert-primary" uk-alert>
+<h3 class="uk-h3 uk-margin-remove">Get Your New {{ lead-type }}</h3>
 <p class="uk-margin-top">You will receive an email with a secure link to your {{ lead-type | downcase }} and subscribe to my private email list.</p>
   <form id="gform" method="POST" class="uk-form-stacked" action="{{ site.lead-post-script }}">
       <div class="uk-margin-medium-top">
@@ -33,4 +33,4 @@
   </div>
 </div>
 
-</div>
+</section>
