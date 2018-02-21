@@ -9,11 +9,11 @@
             {% endif %}
           </div>
           <div class="uk-width-expand">
-              <h4 class="uk-comment-title uk-margin-remove" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ comment.name | capitalize }}</span></h4>
+              <h4 class="uk-comment-title uk-margin-remove" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ include.name | capitalize }}</span></h4>
               <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
                   <li>  {% if include.date %}
                       {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
-                      <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+                      <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %k:%M %P" }}</time>
                       {% if include.index %}</a>{% endif %}
                     {% endif %}</li>
                       {% unless include.replying_to != 0 or page.comments_locked == true %}
@@ -28,6 +28,7 @@
           <p>{{ include.message | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</p>
       </div>
   </article>
+  {% assign include.name = "" %}
   {% capture i %}{{ include.index }}{% endcapture %}
 {% assign replies = site.comments | where_exp: 'item', 'item.replying_to == i' %}
 {% for reply in replies %}
@@ -38,7 +39,7 @@
   {% assign email       = reply.email %}
   {% assign name        = reply.name %}
   {% assign date        = reply.date %}
-  {% assign message     = reply.message %}
+  {% assign message     = reply.content %}
   {% include comments/comment.html index=index replying_to=replying_to avatar=avatar email=email name=name date=date message=message %}
 {% endfor %}
 </li>
