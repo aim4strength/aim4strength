@@ -1,188 +1,3 @@
-'use strict';
-
-function setCookie(name,value,days) {
-    var expires = "";
-    if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days*24*60*60*1000));
-        expires = "; expires=" + date.toUTCString();
-    }
-    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
-}
-function getCookie(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1,c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-    }
-    return null;
-}
-function eraseCookie(name) {
-    document.cookie = name+'=; Max-Age=-99999999;';
-}
-
-var visited = getCookie('visited');
-if (!visited) {
-    setCookie('visited','true',30);
-    UIkit.notification({
-        message: 'This website uses cookies to ensure you get the best experience on our website. <br> <a class="uk-button uk-button-small uk-button-default uk-margin-top" href="/imprint">Read more</a>',
-        status: 'primary',
-        pos: 'bottom-left'
-    });
-}
-
-
-
-$(function() {
-  if (location.pathname !== '/') {
-    $('.uk-navbar-item > a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('underline');
-  }
-});
-
-// Static comments
-(function ($) {
-  var $comments = $('.js-comments');
-
-  $('#comment-form').submit(function () {
-    var form = this;
-
-    $(form).addClass('disabled');
-    $('#comment-form-submit').html('<div uk-spinner></div> Submitting...');
-
-    $.ajax({
-      type: $(this).attr('method'),
-      url: $(this).attr('action'),
-      data: $(this).serialize(),
-      contentType: 'application/x-www-form-urlencoded',
-      success: function (data) {
-        $('#comment-form-submit').html('Submitted');
-        $('.js-notice').removeClass('uk-alert-danger').addClass('uk-alert-success');
-      showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
-        $('#comment-form').addClass('hidden');
-      },
-      error: function (err) {
-        console.log(err);
-        $('#comment-form-submit').html('Submit Comment');
-        $('.js-notice').removeClass('uk-alert-success').addClass('uk-alert-danger');
-        showAlert('<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.');
-        $(form).removeClass('disabled');
-      }
-    });
-
-    return false;
-  });
-
-  function showAlert(alert) {
-    $('.js-notice').removeClass('hidden');
-    $('.js-notice p').html(alert);
-  }
-})(jQuery);
-
-// Staticman comment replies
-// modified from Wordpress https://core.svn.wordpress.org/trunk/wp-includes/js/comment-reply.js
-var addComment = {
-  moveForm: function( commId, parentId, respondId, postId ) {
-    var div, element, style, cssHidden,
-      t           = this,
-      comm        = t.I( commId ),
-      respond     = t.I( respondId ),
-      cancel      = t.I( 'cancel-comment-reply-link' ),
-      parent      = t.I( 'comment-parent' ),
-      post        = t.I( 'comment-post-id' ),
-      commentForm = respond.getElementsByTagName( 'form' )[0];
-
-    if ( ! comm || ! respond || ! cancel || ! parent || ! commentForm ) {
-      return;
-    }
-
-    t.respondId = respondId;
-    postId = postId || false;
-
-    if ( ! t.I( 'sm-temp-form-div' ) ) {
-      div = document.createElement( 'div' );
-      div.id = 'sm-temp-form-div';
-      div.style.display = 'none';
-      respond.parentNode.insertBefore( div, respond );
-    }
-
-    comm.parentNode.insertBefore( respond, comm.nextSibling );
-    if ( post && postId ) {
-      post.value = postId;
-    }
-    parent.value = parentId;
-    cancel.style.display = '';
-
-    cancel.onclick = function() {
-      var t       = addComment,
-        temp    = t.I( 'sm-temp-form-div' ),
-        respond = t.I( t.respondId );
-
-      if ( ! temp || ! respond ) {
-        return;
-      }
-
-      t.I( 'comment-parent' ).value = '0';
-      temp.parentNode.insertBefore( respond, temp );
-      temp.parentNode.removeChild( temp );
-      this.style.display = 'none';
-      this.onclick = null;
-      return false;
-    };
-
-    /*
-     * Set initial focus to the first form focusable element.
-     * Try/catch used just to avoid errors in IE 7- which return visibility
-     * 'inherit' when the visibility value is inherited from an ancestor.
-     */
-    try {
-      for ( var i = 0; i < commentForm.elements.length; i++ ) {
-        element = commentForm.elements[i];
-        cssHidden = false;
-
-        // Modern browsers.
-        if ( 'getComputedStyle' in window ) {
-          style = window.getComputedStyle( element );
-        // IE 8.
-        } else if ( document.documentElement.currentStyle ) {
-          style = element.currentStyle;
-        }
-
-        /*
-         * For display none, do the same thing jQuery does. For visibility,
-         * check the element computed style since browsers are already doing
-         * the job for us. In fact, the visibility computed style is the actual
-         * computed value and already takes into account the element ancestors.
-         */
-        if ( ( element.offsetWidth <= 0 && element.offsetHeight <= 0 ) || style.visibility === 'hidden' ) {
-          cssHidden = true;
-        }
-
-        // Skip form elements that are hidden or disabled.
-        if ( 'hidden' === element.type || element.disabled || cssHidden ) {
-          continue;
-        }
-
-        element.focus();
-        // Stop after the first focusable element.
-        break;
-      }
-
-    } catch( er ) {}
-
-    return false;
-  },
-
-  I: function( id ) {
-    return document.getElementById( id );
-  }
-};
-
-
-
-var input = document.createElement('input');
-
 // A Validity State Polyfill
 ;(function (window, document, undefined) {
 
@@ -190,6 +5,7 @@ var input = document.createElement('input');
 
 	// Make sure that ValidityState is supported in full (all features)
 	var supported = function () {
+		var input = document.createElement('input');
 		return ('validity' in input && 'badInput' in input.validity && 'patternMismatch' in input.validity && 'rangeOverflow' in input.validity && 'rangeUnderflow' in input.validity && 'stepMismatch' in input.validity && 'tooLong' in input.validity && 'tooShort' in input.validity && 'typeMismatch' in input.validity && 'valid' in input.validity && 'valueMissing' in input.validity);
 	};
 
@@ -578,14 +394,14 @@ var hasError = function (field) {
 var showError = function (field, error) {
 
 	// Add error class to field
-	field.classList.add('uk-form-danger');;
+	field.classList.add('error');
 
 	// If the field is a radio button and part of a group, error all and get the last item in the group
 	if (field.type === 'radio' && field.name) {
 		var group = field.form.querySelectorAll('[name="' + field.name + '"]');
 		if (group.length > 0) {
 			for (var i = 0; i < group.length; i++) {
-				group[i].classList.add('uk-form-danger');;
+				group[i].classList.add('error');
 			}
 			field = group[group.length - 1];
 		}
@@ -717,9 +533,6 @@ window.displayMailChimpStatus = function (data) {
   nameContainer.classList.add('visuallyhidden');
   emailContainer.classList.add('visuallyhidden');
   emailPitch.classList.add('visuallyhidden');
-  firstProgress.classList.add('visuallyhidden');
-  complete.classList.remove('visuallyhidden');
-  document.getElementById("progress-text").innerHTML = '100% Complete';
 };
 
 // Submit the form
@@ -743,8 +556,6 @@ var submitMailChimpForm = function (form) {
   window.nameContainer = form.querySelector('.name-wrap');
   window.emailContainer = form.querySelector('.email-wrap');
   window.emailPitch = form.querySelector('.email-pitch');
-  window.firstProgress = form.querySelector('.first-progress');
-  window.complete = form.querySelector('.complete');
 
 	// Insert script tag into the DOM (append to <head>)
 	ref.parentNode.insertBefore( script, ref );
@@ -812,100 +623,3 @@ document.addEventListener('submit', function (event) {
 	submitMailChimpForm(event.target);
 
 }, false);
-
-
-
-
-function validEmail(email) { // see:
-  var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-  return re.test(email);
-}
-
-function validateHuman(honeypot) {
-  if (honeypot) {  //if hidden form filled up
-    console.log("Robot Detected!");
-    return true;
-  } else {
-    console.log("Welcome Human!");
-  }
-}
-
-// get all data in form and return object
-function getFormData() {
-  var elements = document.getElementById("gform").elements; // all form elements
-  var fields = Object.keys(elements).map(function(k) {
-    if(elements[k].name !== undefined) {
-      return elements[k].name;
-    // special case for Edge's html collection
-    }else if(elements[k].length > 0){
-      return elements[k].item(0).name;
-    }
-  }).filter(function(item, pos, self) {
-    return self.indexOf(item) == pos && item;
-  });
-  var data = {};
-  fields.forEach(function(k){
-    data[k] = elements[k].value;
-    var str = ""; // declare empty string outside of loop to allow
-                  // it to be appended to for each item in the loop
-    if(elements[k].type === "checkbox"){ // special case for Edge's html collection
-      str = str + elements[k].checked + ", "; // take the string and append
-                                              // the current checked value to
-                                              // the end of it, along with
-                                              // a comma and a space
-      data[k] = str.slice(0, -2); // remove the last comma and space
-                                  // from the  string to make the output
-                                  // prettier in the spreadsheet
-    }else if(elements[k].length){
-      for(var i = 0; i < elements[k].length; i++){
-        if(elements[k].item(i).checked){
-          str = str + elements[k].item(i).value + ", "; // same as above
-          data[k] = str.slice(0, -2);
-        }
-      }
-    }
-  });
-  console.log(data);
-  return data;
-}
-
-function handleFormSubmit(event) {  // handles form submit withtout any jquery
-  event.preventDefault();           // we are submitting via xhr below
-  var data = getFormData();         // get the values submitted in the form
-
-
-  if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
-    return false;
-  }
-
-  if( !validEmail(data.email) ) {   // if email is not valid show error
-    document.getElementById('email-invalid').style.display = 'block';
-    return false;
-  } else {
-    var url = event.target.action;  //
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', url);
-    // xhr.withCredentials = true;
-    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.onreadystatechange = function() {
-        console.log( xhr.status, xhr.statusText )
-        console.log(xhr.responseText);
-        window.location.href = 'https://aim4strength-new.netlify.com/thank-you/';
-        // document.getElementById('gform').style.display = 'none'; // hide form
-        // document.getElementById('thankyou_message').style.display = 'block';
-        return;
-    };
-    // url encode form data for sending as post data
-    var encoded = Object.keys(data).map(function(k) {
-        return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
-    }).join('&')
-    xhr.send(encoded);
-  }
-}
-function loaded() {
-  console.log('contact form submission handler loaded successfully');
-  // bind to the submit event of our form
-  var form = document.getElementById('gform');
-  form.addEventListener("submit", handleFormSubmit, false);
-};
-document.addEventListener('DOMContentLoaded', loaded, false);
