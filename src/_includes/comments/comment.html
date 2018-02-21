@@ -13,7 +13,7 @@
               <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
                   <li>  {% if include.date %}
                       {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
-                      <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %k:%M %P" }}</time>
+                      <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %-I:%M %P" }}</time>
                       {% if include.index %}</a>{% endif %}
                     {% endif %}</li>
                       {% unless include.replying_to != 0 or page.comments_locked == true %}
