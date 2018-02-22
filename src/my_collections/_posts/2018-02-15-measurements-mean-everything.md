@@ -19,9 +19,9 @@ lead-name: Printable Calendar
 cta: My custom article CTA
 right-aside-cta: My custom right aside CTA.
 comments: true
-left-aside: false
+left-aside: true
 right-aside-top: true
-right-aside-bottom: false
+right-aside-bottom: true
 ---
 All you need is the scale when you are losing weight, right?  I know thats all I focused on when I was losing weight.  I was so damn focused on it, that when it went up, my day was crappy and when it went down, I felt like a rock star.
 
