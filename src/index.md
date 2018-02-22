@@ -11,4 +11,4 @@ right-aside-bottom: false
 
 ## Personalized Fitness Training
 
-At Aim4Strength Fitness we offer [personalized in-home fitness training]({{ site.url }}/services/in-home-training/) for clients who are looking to transform their lives. Our programs are tailored to each client’s specific goals and objectives and workouts are modified to accommodate any existing medical conditions.
+At Aim4Strength Fitness we offer [personalized in-home fitness training]({{ site.url }}/services/in-home-training/) for clients who are looking to transform their lives. Our programs are tailored to each client’s specific goals and objectives and workouts are modified to accommodate any existing medical conditions.&ensp;<a href="{{ site.url }}/services/in-home-training/" class="button-in-text uk-button uk-button-default uk-button-small" uk-icon="icon: arrow-right">Learn More</a>

@@ -747,6 +747,9 @@ var submitMailChimpForm = function (form) {
   window.firstProgress = form.querySelector('.first-progress');
   window.complete = form.querySelector('.complete');
   window.privacy = form.querySelector('.privacy-policy');
+  window.privacy = form.querySelector('.privacy-policy');
+
+  $('#mc-embedded-subscribe').html('<div uk-spinner></div> Submitting...');
 
 	// Insert script tag into the DOM (append to <head>)
 	ref.parentNode.insertBefore( script, ref );
