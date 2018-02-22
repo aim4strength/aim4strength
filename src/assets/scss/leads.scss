@@ -6,7 +6,18 @@
   border: 6px solid transparent;
   // border-image: 9 repeating-linear-gradient(-45deg, red 0, red 10.5px, transparent 0, transparent 20.5px,
   //               #58a 0, #58a 30.5px, transparent 0, transparent 40.5px);
-  border-image: 6 linear-gradient(45deg, $primary, #81D4FA);
+  border-image: 6 linear-gradient(45deg, $primary, $light-blue);
+}
+.subscribe-button {
+  background: linear-gradient(45deg, $primary, $light-blue);
+}
+.subscribe-button, .subscribe-button:hover {
+  color: white;
+  background-color: $white;
+}
+
+.subscribe-button:hover {
+  background: linear-gradient(45deg, $light-blue, $primary);
 }
 
 // #F8E185
@@ -15,11 +26,11 @@
   border-radius: 3px;
   // border-top: 6px solid transparent;
   // border-bottom: 6px solid transparent;
-  // border-image: 6 linear-gradient(45deg, $primary, #81D4FA);
+  // border-image: 6 linear-gradient(45deg, $primary, $light-blue);
   border-top: 9px solid transparent;
   border-bottom: 9px solid transparent;
   // border-image: 9 repeating-linear-gradient(-45deg, $primary 0, $primary 10.5px, transparent 0, transparent 20.5px,
-  //               #81D4FA 0, #81D4FA 30.5px, transparent 0, transparent 40.5px);
+  //               $light-blue 0, $light-blue 30.5px, transparent 0, transparent 40.5px);
 }
 
 #leadBox *:not(.uk-button){

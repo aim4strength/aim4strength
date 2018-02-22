@@ -41,6 +41,12 @@ body {
   // box-shadow: -1px -1px 34px -13px $black;
 }
 
+.uk-offcanvas-bar {
+  background: #fffff8;
+  padding: 2em;
+  box-shadow: -1px -1px 34px -13px $black;
+}
+
 // .uk-notification-message,
 // .uk-offcanvas-bar {
 //   padding: 2em;
@@ -58,15 +64,15 @@ body {
   }
 }
 
-@media screen and (min-width: 1600px) {
-  .main-paper {
-    margin-right: 40px;
-  }
-}
-
-.main-paper {
-  padding: 3.5em !important;
-}
+// @media screen and (min-width: 1600px) {
+//   .main-paper {
+//     margin-right: 40px;
+//   }
+// }
+//
+// .main-paper {
+//   padding: 3.5em !important;
+// }
 
 .uk-divider-small {
   margin: 1.25em 0;

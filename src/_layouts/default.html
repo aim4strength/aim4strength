@@ -7,29 +7,29 @@
   <div class="wrap">
     <h1 class="visuallyhidden">{{ page.title }} | {% if page.title != site.title %}
   {{ site.title }} | {% endif %}  Personalized Fitness Training</h1>
-    <a id="top"></a> {% if page.homepage %}
-    <div class="stripes">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+    <a id="top"></a>    <div class="stripes">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> {% if page.homepage %}
+
     {% include header/hero.html %} {% else %} {% include header/nav.html %} {% endif %}
     <div class="uk-container uk-container-expand site">
       <div class="uk-child-width-expand@s uk-grid-large uk-flex site-content" uk-grid>
         <div>
-          <div uk-grid>
-            <main class="uk-width-3-5@xl uk-width-1-1@l uk-width-1-1@m uk-width-1-1@s">
+          <div class="uk-grid-large" uk-grid>
+            <main class="uk-width-1-2@xl uk-width-1-1@l uk-width-1-1@m uk-width-1-1@s">
               <div class="paper main-paper">
                 {% include main-content.html %}
-                <hr class="uk-margin-large-top uk-divider-small uk-text-center" />
               </div>
             </main>
             {% unless page.right-aside-top == false %}
             {% include aside/right-aside.html %}
             {% endunless %}
-            <div class="uk-width-3-5@xl uk-width-1-1@l uk-width-1-1@m uk-width-1-1@s">
+            <div class="uk-width-1-2@xl uk-width-1-1@l uk-width-1-1@m uk-width-1-1@s uk-margin-remove">
               {% if page.is-post %}
               <div class="paper main-paper">
                 {% unless page.cta == "" %}
