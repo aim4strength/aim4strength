@@ -18,7 +18,7 @@ lead-id: ''
 lead-name: ''
 cta: My custom article CTA
 right-aside-cta: My custom right aside CTA.
-comments: false
+comments: true
 left-aside: true
 right-aside-top: true
 right-aside-bottom: true
