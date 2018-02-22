@@ -14,8 +14,8 @@ tags:
   - body fat
   - resting metabolic rate
   - VO2 max
-lead-id: ''
-lead-name: ''
+lead-id: cw-free-2018-single-sun
+lead-name: Printable Calendar
 cta: My custom article CTA
 right-aside-cta: My custom right aside CTA.
 comments: true
