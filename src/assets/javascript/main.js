@@ -718,6 +718,7 @@ window.displayMailChimpStatus = function (data) {
   emailContainer.classList.add('visuallyhidden');
   emailPitch.classList.add('visuallyhidden');
   firstProgress.classList.add('visuallyhidden');
+  privacy.classList.add('visuallyhidden');
   complete.classList.remove('visuallyhidden');
   document.getElementById("progress-text").innerHTML = '100% Complete';
 };
@@ -745,6 +746,7 @@ var submitMailChimpForm = function (form) {
   window.emailPitch = form.querySelector('.email-pitch');
   window.firstProgress = form.querySelector('.first-progress');
   window.complete = form.querySelector('.complete');
+  window.privacy = form.querySelector('.privacy-policy');
 
 	// Insert script tag into the DOM (append to <head>)
 	ref.parentNode.insertBefore( script, ref );
