@@ -84,6 +84,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate-v2
   - jemoji
+  - jekyll-typogrify
+  
 # Pagination Settings
 pagination:
   enabled: true

@@ -7,7 +7,7 @@ layout: default
 
   <header class="post-header uk-text-center">
     {% include post-image.html %}
-    <h1 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom" itemprop="name headline">{{ page.title | markdownify | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</h1>
+    <h1 class="uk-h1 uk-margin-medium-top uk-margin-remove-bottom" itemprop="name headline">{{ page.title | markdownify | markdownify | replace: '<p>', '' | replace: '</p>', '' | widont }}</h1>
     <hr class="uk-divider-small" />
     <p class="post-meta uk-margin-remove">
       <i>by</i>

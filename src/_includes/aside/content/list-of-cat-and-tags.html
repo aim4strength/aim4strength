@@ -1,7 +1,14 @@
 <section class="uk-margin-medium-top">
   <ul class="uk-tab" uk-switcher="animation: uk-animation-fade">
-    <li><a href="#"><i class="far fa-folder-open"></i>&ensp;Categories</a></li>
-    <li><a href="#"><i class="fas fa-tag"></i>&ensp;Tags</a></li>
+    <li
+    {% if page.url contains "category" %}
+    class="active" aria-expanded="true"
+    {% endif %}
+    ><a href="#"><i class="far fa-folder-open"></i>&ensp;Categories</a></li>
+    <li
+    {% if page.url contains "blog/tag/" %}
+    class="active" aria-expanded="true"
+    {% endif %}><a href="#"><i class="fas fa-tag"></i>&ensp;Tags</a></li>
   </ul>
   <ul class="uk-switcher" uk-margin>
     <li>
