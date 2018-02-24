@@ -145,7 +145,6 @@ defaults:
   -
     scope:
       path: "_posts"      # empty string for all files
-      type: posts   # limit to posts
     values:
       layout: post
       is-post: true
