@@ -10,7 +10,6 @@ comments:
   requiredFields:  ['name', 'email', 'message']
   transforms:
     email:         "md5"
-    message:       "frontmatterContent"
   generatedFields:
     date:
       type:        "date"
