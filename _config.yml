@@ -144,7 +144,7 @@ defaults:
       right-aside-bottom: false
   -
     scope:
-      path: "my_collections/_posts/"      # empty string for all files
+      path: "_posts"      # empty string for all files
       type: posts   # limit to posts
     values:
       layout: post
