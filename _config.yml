@@ -10,7 +10,7 @@ author:
   picture: >-
     https://res.cloudinary.com/aim4strength/image/upload/v1514757369/julie-smith.png
   url: 'https://aim4strength.com/meet-julie/'
-  bio: Hello, my friends! My name is Julie Smith. If you would have told me that I was going to become a personal trainer, I would have told you that you were crazy! I have been heavy all of my life—I do mean since age 5. [This is my story.](https://aim4strength.com/meet-julie/)
+  bio: Hello, my friends! My name is Julie Smith. If you would have told me that I was going to become a personal trainer, I would have told you that you were crazy! I have been heavy all of my life—I do mean since age 5. [This is my story.](https://aim4strength-new.netlify.com/meet-julie/)
 
 company:
   name: Aim4Strength Fitness
@@ -85,7 +85,7 @@ plugins:
   - jekyll-paginate-v2
   - jemoji
   - jekyll-typogrify
-
+  
 # Pagination Settings
 pagination:
   enabled: true
@@ -131,6 +131,7 @@ defaults:
       type: classes
     values:
       layout: default
+      display-title: true
       right-aside-bottom: false
   -
     scope:
@@ -140,7 +141,7 @@ defaults:
       layout: default
       display-title: true
       comments: false
-      comments-locked: true
+      comment-locked: true
       right-aside-bottom: false
   -
     scope:
@@ -150,7 +151,7 @@ defaults:
       layout: post
       is-post: true
       comments: true
-      comments-locked: false
+      comment-locked: false
 
 ############################################################
 # Site configuration for the Auto-Pages feature
