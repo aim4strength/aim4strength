@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Article Call to Action", name: "cta", widget: "text", required: false}
       - {label: "Right Aside Call to Action", name: "right-aside-cta", widget: "text", required: false}
       - {label: "Display Comments", name: "comments", widget: "boolean", default: false}
-      - {label: "Allow New Comments", name: "comments-locked", widget: "boolean", default: false}
+      - {label: "Lock Comments (Hide New Comment Form)", name: "comments-locked", widget: "boolean", default: false}
       - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true}
       - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true}
       - {label: "Include Bottom Right Aside", name: "right-aside-bottom", widget: "boolean", default: true}
@@ -155,7 +155,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Featured Image", name: "image", widget: "string", required: false}
       - {label: "Permalink ( /page-url-name/ )", name: "permalink", widget: "string"}
       - {label: "Display Comments", name: "comments", widget: "boolean", default: false}
-      - {label: "Allow New Comments", name: "comments-locked", widget: "boolean", default: false}
+      - {label: "Lock Comments (Hide New Comment Form)", name: "comments-locked", widget: "boolean", default: false}
       - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true}
       - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true}
       - {label: "Include Bottom Right Aside", name: "right-aside-bottom", widget: "boolean", default: true}

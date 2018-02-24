@@ -43,8 +43,9 @@
                 <div class="uk-hidden@xl">
                   {% include post-lists/related-posts.html %}
                 </div>
-
-                {% if page.comments == true %} {% include comments/list-of-comments.html %} {% endif %}
+                {% if page.comments == true %}
+                {% include comments/list-of-comments.html %}
+                {% endif %}
               </div>
               {% endif %}
             </div>

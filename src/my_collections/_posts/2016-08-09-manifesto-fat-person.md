@@ -11,7 +11,7 @@ categories:
   - Weightloss
   - Weightloss Setbacks
 comments: true
-comments-locked: true
+comments-locked: false
 left-aside: true
 right-aside-top: true
 right-aside-bottom: true
