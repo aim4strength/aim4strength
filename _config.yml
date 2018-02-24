@@ -113,11 +113,15 @@ collections:
     output: false
   comments:
     output: false
-    layout: null
   classes:
     output: false
 
 defaults:
+  -
+    scope:
+      path: ""
+      type: comments
+    values:
   -
     scope:
       path: ""
