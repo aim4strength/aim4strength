@@ -148,8 +148,8 @@ defaults:
     values:
       layout: post
       is-post: true
-      comments: true
-      comments-locked: false
+      comments: false
+      comments-locked: true
 
 ############################################################
 # Site configuration for the Auto-Pages feature
