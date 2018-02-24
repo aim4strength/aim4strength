@@ -36,7 +36,10 @@
               <div class="paper main-paper">
                 {% unless page.cta == "" %}
                 <p>{{ page.cta }}</p>
-                {% endunless %} {% if page.lead-id %} {% include lead/lead-box.html %} {% endif %}
+                {% endunless %}
+                {% if page.lead-id %}
+                {% include lead/lead-box.html %}
+                {% endif %}
                 <div class="uk-hidden@xl">
                   {% include post-lists/related-posts.html %}
                 </div>

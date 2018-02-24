@@ -51,7 +51,6 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Display Title", name: "display-title", widget: "boolean", default: true}
       - {label: "Location Name", name: "location", widget: "string"}
       - {label: "Google Map Link", name: "google-map-link", widget: "string"}
       - label: "Dates"
@@ -125,8 +124,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Lead Google Post Script", name: "lead-post-script", widget: "string"}
           - {label: "Cloudinary Name", name: "cloudinary-name", widget: "string"}
           - {label: "Default Right-Aside CTA", name: "default-right-aside-cta", widget: "text"}
-          - {label: "Privacy Policy (Short Version)", name: "privacy-policy-comment", widget: "text"}
-          - {label: "Comment Policy", name: "comment-policy", widget: "text"}
+          - {label: "Privacy Policy for Comments", name: "privacy-policy-comment", widget: "text"}
+          - {label: "Privacy Policy for Leads", name: "privacy-policy-lead", widget: "text"}
           - {label: "Comment Policy", name: "comment-policy", widget: "text"}
   - label: "Home Page"
     name: "Home-Page"
@@ -154,7 +153,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Display Title", name: "display-title", widget: "boolean", default: true}
       - {label: "Featured Image", name: "image", widget: "string", required: false}
       - {label: "Permalink ( /page-url-name/ )", name: "permalink", widget: "string"}
-      - {label: "Allow Comments", name: "comments", widget: "boolean", default: false}
+      - {label: "Display Comments", name: "comments", widget: "boolean", default: false}
+      - {label: "Allow New Comments", name: "comments-locked", widget: "boolean", default: false}
       - {label: "Include Left Aside", name: "left-aside", widget: "boolean", default: true}
       - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true}
       - {label: "Include Bottom Right Aside", name: "right-aside-bottom", widget: "boolean", default: true}

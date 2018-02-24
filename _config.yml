@@ -85,7 +85,7 @@ plugins:
   - jekyll-paginate-v2
   - jemoji
   - jekyll-typogrify
-  
+
 # Pagination Settings
 pagination:
   enabled: true
@@ -141,7 +141,7 @@ defaults:
       layout: default
       display-title: true
       comments: false
-      comment-locked: true
+      comments-locked: true
       right-aside-bottom: false
   -
     scope:
@@ -150,8 +150,8 @@ defaults:
     values:
       layout: post
       is-post: true
-      comments: true
-      comment-locked: false
+      comments: false
+      comments-locked: true
 
 ############################################################
 # Site configuration for the Auto-Pages feature
