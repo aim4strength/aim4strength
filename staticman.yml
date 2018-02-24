@@ -25,19 +25,7 @@ comments:
      Name of the site. Used in notification emails.
   name: "aim4strength.com"
   allowedOrigins: ["aim4strength.com"]
-  # Notification settings. When enabled, users can choose to receive notifications
-  # via email when someone adds a reply or a new comment. This requires an account
-  # with Mailgun, which you can get for free at http://mailgun.com.
   notifications:
-    # Enable notifications
     enabled: true
-
-    # (!) ENCRYPTED
-    #
-    # Mailgun API key
     apiKey: "LwGh5Qw8IWZfI5wPKfSqu4Y1kInpg5do+uede2llzERQ1j2VhfXR7Uxhqx692qRIEX/SIX4qsuiQp6YuCPQwxpY60iY6YbX2G9Jk+Eb6lqkhEQBLaHrzp2+MJKqBMofNg+wCmmG3yj5Jm6xCqkG9ThCJbNDU2WuK1gg7Qss2vRc="
-
-    # (!) ENCRYPTED
-    #
-    # Mailgun domain (encrypted)
     domain: "IA19wlAqLOJr6zJQejZf9LzsCMKUWxCZj0vJpJzGVoeF6SmaUFaf64WUBKrq1Bw7lSMfP/vPF6UFUZa3SoDgTiEHe68VCS26buvgtdubdo1NZPfNDVTkRNbZm3z8qMO9cNaPsFdwJZ4x4rgsvQqIdybjQzTxy6H3JBIqInjq05w="
