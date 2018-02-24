@@ -113,6 +113,7 @@ collections:
     output: false
   comments:
     output: false
+    published: false
   classes:
     output: false
 
