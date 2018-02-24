@@ -11,7 +11,7 @@ categories:
 tags:
   - Weight Loss
   - Richard Simmons
-comments: true
+comments: false
 left-aside: true
 right-aside-top: true
 right-aside-bottom: true
