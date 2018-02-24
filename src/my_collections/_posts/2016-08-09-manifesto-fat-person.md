@@ -10,7 +10,7 @@ categories:
   - Opinion
   - Weightloss
   - Weightloss Setbacks
-comments: true
+comments: false
 comments-locked: false
 left-aside: true
 right-aside-top: true
