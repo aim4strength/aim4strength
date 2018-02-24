@@ -131,7 +131,6 @@ defaults:
       type: classes
     values:
       layout: default
-      display-title: true
       right-aside-bottom: false
   -
     scope:
@@ -150,8 +149,8 @@ defaults:
     values:
       layout: post
       is-post: true
-      comments: false
-      comments-locked: true
+      comments: true
+      comments-locked: false
 
 ############################################################
 # Site configuration for the Auto-Pages feature
