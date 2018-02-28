@@ -39,7 +39,7 @@
   {% assign email       = reply.email %}
   {% assign name        = reply.name %}
   {% assign date        = reply.date %}
-  {% assign message     = reply.content %}
+  {% assign message     = reply.message %}
   {% include comments/comment.html index=index replying_to=replying_to avatar=avatar email=email name=name date=date message=message %}
 {% endfor %}
 </li>
