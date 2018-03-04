@@ -1,10 +1,9 @@
 ---
 layout: post
 title: How to Take Back Your Life
-date: 2018-03-03T00:00:00-08:00
-image: >-
-  https://www.istockphoto.com/photo/female-boxer-in-an-abandoned-warehouse-gm475912236-66084231
-image-alt: Girl in gym with chalk on her hands
+date: 2018-03-03T08:00:00.000Z
+image: 'https://images.freeimages.com/images/large-previews/2c3/happy-guys-1631148.jpg'
+image-alt: Happy guys jumping
 categories:
   - Motivation
   - How to Take Back Your Life
