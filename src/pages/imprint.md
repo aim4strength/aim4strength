@@ -88,5 +88,5 @@ It is {{ site.company.name }}'s policy to respect your privacy regarding any inf
 </li>
 </ul>
 <hr>
-The {{ site.company.name }} website is set in <a href="https://fonts.google.com/specimen/Merriweather">Merriweather</a> and <a href="https://fonts.google.com/specimen/Assistant">Assistant</a>. Built with :heart: with <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://getuikit.com/">UIKit</a>, and <a href="https://www.netlify.com/">Netlify.</a><br>
+The {{ site.company.name }} website is set in <a href="https://fonts.google.com/specimen/Merriweather">Merriweather</a> and <a href="https://fonts.google.com/specimen/Merriweather+Sans">Merriweather Sans</a>. Built with :heart: with <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://getuikit.com/">UIKit</a>, and <a href="https://www.netlify.com/">Netlify.</a><br>
 Copyright © {{ 'now' | date: "%Y" }} by {{ site.company.name }}. <br>All rights reserved.
