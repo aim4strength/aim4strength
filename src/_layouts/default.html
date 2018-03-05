@@ -7,16 +7,8 @@
   <div class="wrap">
     <h1 class="visuallyhidden">{{ page.title }} | {% if page.title != site.title %}
   {{ site.title }} | {% endif %}  Personalized Fitness Training</h1>
-    <a id="top"></a> {% if page.homepage %}
-    <div class="stripes">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    {% include header/hero.html %} {% else %} {% include header/nav.html %} {% endif %}
+    <a id="top"></a>
+  {% include header/nav.html %}
     <div class="uk-container uk-container-expand site">
       <div class="uk-child-width-expand@s uk-grid-large uk-flex site-content" uk-grid>
         <div>
