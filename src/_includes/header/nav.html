@@ -23,6 +23,7 @@
             <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
           {% endfor %}
           </ul>
+        </div>
         </li>
       {% else %}
         <li class="uk-navbar-item">
@@ -30,17 +31,6 @@
         </li>
       {% endif %}
     {% endfor %}
-              <!-- <li class="uk-navbar-item"><a href="/meet-julie/">Meet Julie</a></li>
-              <li class="uk-navbar-item"><a href="/blog/">Blog</a></li>
-              <li class="uk-navbar-item"><a href="/services/">Services</a>
-                  <div class="uk-navbar-dropdown">
-                      <ul class="uk-nav uk-navbar-dropdown-nav">
-                        {% for service in site.services %}
-                          <li><a href="{{ service.url }}">{{ service.title }}</a></li>
-                          {% endfor %}
-                      </ul>
-                  </div></li>
-              <li class="uk-navbar-item"><a href="/class-schedule/">Class Schedule</a></li> -->
             </ul>
             <a class="uk-hidden@m" href="{{ site.url }}">
               <img class="nav-logo-mini"  src="{{ site.company.logo }}" alt="{{ site.company.name }} logo"/>

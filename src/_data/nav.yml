@@ -19,3 +19,6 @@
       subhref: "/services/one-on-one-coaching/"
 - title: "Class Schedule"
   href: "/class-schedule/"
+
+- title: "Recipes"
+  href: "/recipes/"
