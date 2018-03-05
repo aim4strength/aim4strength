@@ -142,16 +142,16 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Include Top Right Aside", name: "right-aside-top", widget: "boolean", default: true}
           - {label: "Include Bottom Right Aside", name: "right-aside-bottom", widget: "boolean", default: true}
           - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Navigation"
-    name: "Navigation"
-    files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "src/_data/nav.yml"
-        extension: "yml"
-        format: "yml"
-        fields:
-          - {label: "Body", name: "body", widget: "text"}
+  # - label: "Navigation"
+  #   name: "Navigation"
+  #   files:
+  #     - label: "Navigation"
+  #       name: "navigation"
+  #       file: "src/_data/nav.yml"
+  #       extension: "yml"
+  #       format: "yml"
+  #       fields:
+  #         - {label: "Body", name: "body", widget: "text"}
   - name: "pages" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Pages" # Used in the UI, ie.: "New Post"
     folder: "src/pages" # The path to the folder where the documents are stored
