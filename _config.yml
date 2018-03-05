@@ -115,6 +115,9 @@ collections:
     output: false
   classes:
     output: false
+  recipes:
+    output: true
+    permalink: /:collection/:title/
 
 defaults:
   -
