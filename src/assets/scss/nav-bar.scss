@@ -8,9 +8,9 @@
   font-size: 1.75em;
 }
 
-.nav {
-    border-bottom: 3px solid #b90005;
-  }
+// .nav {
+//     border-bottom: 3px solid #b90005;
+//   }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background: transparent;
@@ -55,8 +55,8 @@
   z-index: 85;
 }
 
-.nav-wrap.uk-sticky-fixed {
-  border-bottom: 2px solid $red;
+.nav-wrap {
+  border-bottom: 3px solid $red;
 }
 
 // .nav, .uk-offcanvas-bar {
