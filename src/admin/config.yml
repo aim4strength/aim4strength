@@ -148,6 +148,8 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Navigation"
         name: "navigation"
         file: "src/_data/nav.yml"
+        extension: "yml"
+        format: "yml"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages" # Used in routes, ie.: /admin/collections/:slug/edit
