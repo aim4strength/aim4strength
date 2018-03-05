@@ -1,0 +1,21 @@
+- title: "Meet Julie"
+  href: "/meet-julie/"
+
+- title: "Blog"
+  href: "/blog/"
+
+- title: "Services"
+  href: "/services/"
+  subcategories:
+    - subtitle: "The Aim4Strength Story"
+      subhref: "/services/about/"
+    - subtitle: "Corporate Training Programs"
+      subhref: "/services/corporate-training/"
+    - subtitle: "Group Exercise Classes"
+      subhref: "/services/group-exercise/"
+    - subtitle: "Personal In-Home Training"
+      subhref: "/services/in-home-training/"
+    - subtitle: "1:1 Coaching"
+      subhref: "/services/one-on-one-coaching/"
+- title: "Class Schedule"
+  href: "/class-schedule/"

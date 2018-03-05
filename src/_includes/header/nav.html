@@ -13,7 +13,24 @@
           <h1 class="visuallyhidden">Main Navigation</h1>
           <div class="uk-navbar-left">
             <ul class="uk-navbar-nav uk-visible@m">
-              <li class="uk-navbar-item"><a href="/meet-julie/">Meet Julie</a></li>
+              {% for nav in site.data.nav %}
+      {% if nav.subcategories != null %}
+        <li class="uk-navbar-item">
+          <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}&ensp;<i class="fas fa-caret-down"></i></a>
+          <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+          {% for subcategory in nav.subcategories %}
+            <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+          {% endfor %}
+          </ul>
+        </li>
+      {% else %}
+        <li class="uk-navbar-item">
+          <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+              <!-- <li class="uk-navbar-item"><a href="/meet-julie/">Meet Julie</a></li>
               <li class="uk-navbar-item"><a href="/blog/">Blog</a></li>
               <li class="uk-navbar-item"><a href="/services/">Services</a>
                   <div class="uk-navbar-dropdown">
@@ -23,7 +40,7 @@
                           {% endfor %}
                       </ul>
                   </div></li>
-              <li class="uk-navbar-item"><a href="/class-schedule/">Class Schedule</a></li>
+              <li class="uk-navbar-item"><a href="/class-schedule/">Class Schedule</a></li> -->
             </ul>
             <a class="uk-hidden@m" href="{{ site.url }}">
               <img class="nav-logo-mini"  src="{{ site.company.logo }}" alt="{{ site.company.name }} logo"/>
