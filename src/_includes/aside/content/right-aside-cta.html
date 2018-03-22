@@ -6,8 +6,9 @@
 {{ site.default-right-aside-cta }}
 </p>
 {% endif %}
-<hr class="uk-divider-small uk-text-center" />
-{% include aside/content/list-of-categories.html %}
+
 {% if page.is-post %}
 {% include post-lists/related-posts.html %} {% endif %}
+<hr class="uk-divider-small uk-text-center" />
+{% include aside/content/list-of-categories.html %}
 </div>

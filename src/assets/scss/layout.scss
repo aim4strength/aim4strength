@@ -15,7 +15,9 @@
 .uk-container-expand {
   background: transparent;
 }
-
+[class*=uk-align] {
+  margin-bottom: 0;
+}
 
 @media screen and (max-width: 640px) {
   .site, .services {

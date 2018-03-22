@@ -5,7 +5,7 @@
 }
 
 .uk-navbar-nav > .uk-navbar-item > a {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 // .nav {
@@ -21,6 +21,13 @@
     margin-left: 2em;
   }
 }
+@media screen and (max-width: 1120px) {
+  .uk-navbar-nav > .uk-navbar-item > a {
+    font-size: 1em;
+  }
+}
+
+
 
 .nav-logo {
   height: 61px;
