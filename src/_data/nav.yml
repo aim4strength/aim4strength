@@ -17,6 +17,11 @@
       subhref: "/services/in-home-training/"
     - subtitle: "1:1 Coaching"
       subhref: "/services/one-on-one-coaching/"
+
+
+- title: "Testimonials"
+  href: "/testimonials/"
+
 - title: "Class Schedule"
   href: "/class-schedule/"
 

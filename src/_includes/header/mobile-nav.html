@@ -13,14 +13,14 @@
         {% for nav in site.data.nav %}
 {% if nav.subcategories != null %}
 <li class="uk-navbar-item">
-  <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}&ensp;<i class="fas fa-caret-down"></i></a>
+  <a href="{{ nav.href }}">{{ nav.title }}&ensp;<i class="fas fa-caret-down"></i></a>
 </li>
 {% for subcategory in nav.subcategories %}
-  <li class="uk-navbar-item small"><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+  <li class="uk-navbar-item small"><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
 {% endfor %}
 {% else %}
   <li class="uk-navbar-item">
-    <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+    <a href="{{ nav.href }}">{{ nav.title }}</a>
   </li>
 {% endif %}
 {% endfor %}
