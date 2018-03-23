@@ -3,7 +3,7 @@ description: Personalized Fitness Training
 
 url: http://localhost:3000
 repository: aim4strength/aim4strength
-branch: new-grid-old-styles
+branch: master
 author:
   email: julie@aim4strength.com
   name: Julie Smith

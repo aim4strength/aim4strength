@@ -1,6 +1,6 @@
 comments:
   allowedFields:   ['name', 'email', 'message', 'slug', 'replying_to']
-  branch:          "new-grid-old-styles"
+  branch:          "master"
   commitMessage:   "New comment."
   filename:        "comment-{@timestamp}"
   format:          "frontmatter"
