@@ -1,29 +1,19 @@
-<div class="uk-container-expand uk-position-relative testimonial-wrap">
-  <div class="testimonial-bg">
-    </div>
-  <div class="uk-container uk-container-large@s uk-margin-large-bottom">
-
-    <div uk-slider="center:true; infinite:true; autoplay:true; pause-on-hover:true;">
-<h2 class="uk-h2 uk-text-center">Testimonials</h2>
-      <div class="uk-position-relative uk-visible-toggle">
-
-        <ul class="uk-slider-items uk-child-width-1-2@m">
-          {% for testimonial in site.testimonials %}
-          <li>
-            <div class="paper uk-margin-right">
-              <img class="uk-border-circle testimonial-image " src="{{ testimonial.image }}" /> {{ testimonial.content | markdownify }}
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
-
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-      </div>
-
-      <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-
-    </div>
-  </div>
-</div>
+<ul class="uk-list uk-list-blockquoteider">
+  {% for testimonial in site.testimonials %}
+  <li>
+    {% if testimonal.image == nil %}
+    {% else %}
+    <img class="small-image uk-border-rounded testimonial-image" src="{{ testimonial.image }}" />
+    {% endif %}
+    <h3>{{ testimonial.title }}</h3>
+    <blockquote class="testimonial-full-text-{{ forloop.index }}">
+      {{ testimonial.content | truncatewords: 50 | markdownify }}
+    </blockquote>
+    <button class="uk-margin-top button-in-text uk-button uk-button-default uk-button-small testimonial-full-text-{{ forloop.index }}" uk-icon="icon: arrow-right" type="button" uk-toggle="target: .testimonial-full-text-{{ forloop.index }}; animation: uk-animation-fade; queued: true; duration: 300">More&ensp;</button>
+    <blockquote class="testimonial-full-text-{{ forloop.index }}" hidden>
+      {{ testimonial.content | markdownify }}
+    </blockquote>
+    <button class="button-in-text uk-button uk-button-default uk-button-small testimonial-full-text-{{ forloop.index }}" hidden uk-icon="icon: close" type="button" uk-toggle="target: .testimonial-full-text-{{ forloop.index }}; animation: uk-animation-fade; queued: true; duration: 300">Minimize&ensp;</button>
+  </li>
+  {% endfor %}
+</ul>

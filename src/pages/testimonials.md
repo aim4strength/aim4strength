@@ -6,7 +6,8 @@ comments: false
 left-aside: true
 right-aside-top: true
 right-aside-bottom: false
-pagination:
-  enabled: true
-  collection: testimonials
 ---
+
+# Testimonials
+<hr class="uk-divider-small uk-text-center">
+{% include list-of-testimonials.html %}
